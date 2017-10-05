@@ -1,0 +1,91 @@
+
+{% include directory ~ '/templates/header.html.twig' %}
+
+<section id="content-3-3" class="content-block-nopad content-3-3">
+  <div class="overlay overlay-blue">
+    <div class="container text-center">
+          {{ page.banner }}
+      {#<h2></h2>#}
+      {#<h1>Welcome to Chess9ja</h1>#}
+      {#<p class="text">Africa's largest online chess platform. Welcome to a world of strategic thinking.</p>#}
+      {#<p class="text1">Chess9ja is essentially an online community of chess players who are either playing for fun or for cash.</p>#}
+
+      {#<div class="col-md-6 col-md-offset-3 text-center">#}
+        {#<div class="col-md-6">#}
+          {#<a href="#" class="btn btn-block btn-outline btn-outline-lg outline-light">Learn More</a>#}
+        {#</div>#}
+        {#<div class="col-md-6">#}
+          {#<a href="#" class="btn btn-block btn-outline btn-outline-lg outline-light">Play a Game</a>#}
+        {#</div>#}
+      {#</div>#}
+    </div>
+    <!-- /.container -->
+  </div>
+
+</section>
+
+<section>
+  <div class="container-fluid">
+    <div class="row">
+
+
+      <!-- Featured News -->
+      <div class="col-sm-6 featured-news">
+        {{ page.main }}
+          </div>
+      <!-- End Featured News -->
+      <!-- Latest News -->
+
+      <div class="col-sm-3 latest-news">
+        {{ page.sidebar_first }}
+      </div>
+      <div class="col-sm-3 latest-news">
+        {{ page.sidebar_second }}
+      </div>
+    </div>
+</div>
+</section>
+
+<section id="content-2-2" class="content-block content-2-2 bg-pomegranate">
+  {#<div class="col-md-12" style="color: #fff;"><h2 class="text-center">Recent Blog Post</h2></div>#}
+  <div class="container">
+    <div class="row">
+      {{ page. featured }}
+      {#<div class="col-sm-4 col-xs-12 text-center">#}
+
+        <div class="img-circle blog">
+        </div>
+        {#<h3>Make your ideas happen</h3>#}
+        {#<p>Etsy ethnic actually hella Odd Future meggings shabby chic leggings salvia master cleanse stumptown.</p>#}
+        {#<a class="text-center btn btn-primary" href="#">Read More</a>#}
+
+      {#</div>#}
+      {#<div class="col-sm-4 col-xs-12 text-center">#}
+          {#{{ page. featured_second }}#}
+        {#<div>#}
+          {#<img class="img-circle blog" src="http://localhost/chess/themes/chess9ja/images/chess-blog.png" />#}
+        {#</div>#}
+        {#<h3>Hands-on customer support</h3>#}
+        {#<p>Etsy ethnic actually hella Odd Future meggings shabby chic leggings salvia master cleanse stumptown.</p>#}
+        {#<a class="btn btn-primary" href="#">Read More</a>#}
+
+      {#</div>#}
+      {#<div class="col-sm-4 col-xs-12 text-center">#}
+                {#{{ page. featured_third }}#}
+        {#<div>#}
+          {#<img class="img-circle blog" src="http://localhost/chess/themes/chess9ja/images/chess-blog.png" />#}
+        {#</div>#}
+        {#<h3>Hand crafted, quality code</h3>#}
+        {#<p>Etsy ethnic actually hella Odd Future meggings shabby chic leggings salvia master cleanse stumptown.</p>#}
+        {#<a class="btn btn-primary" href="#">Read More</a>#}
+      {#</div>#}
+
+    </div>
+    <!--// END Row -->
+  </div>
+</section>
+
+{% include directory ~ '/templates/footer.html.twig' %}
+
+
+

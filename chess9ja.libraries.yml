@@ -1,0 +1,24 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/bootstrap.min.css: {}
+      css/dashboard/font-awesome/font-awesome.css: {}
+      css/style-library-1.css: {}
+      css/blocks.css: {}
+      css/custom.css: {}
+      css/mainpage.css: {}
+  js:
+    js/bootstrap.js: {}
+  dependencies:
+    - core/jquery
+
+dashboard:
+  css:
+    base:
+      css/dashboard/custom/custom.min.css: {}
+
+  js:
+    js/jquery.min.js: {}
+    js/fastclick/fastclick.js: {}
+    js/fastclick/customcode.js: {}

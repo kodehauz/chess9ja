@@ -1,0 +1,139 @@
+<?php
+
+use Drupal\Core\Menu\MenuTreeParameters;
+use Drupal\Core\Url;
+use Drupal\system\Entity\Menu;
+
+function chess9ja_form_system_theme_settings_alter(array &$form, \Drupal\Core\Form\FormStateInterface $form_state) {
+  $form['chess9ja'] = [
+    '#type' => 'details',
+    '#title' => t('Chess9ja Theme Settings'),
+    '#open' => TRUE,
+
+  ];
+
+  $form['chess9ja']['dashboard_home'] = [
+    '#type' => 'textfield',
+    '#title' => t('Dashboard home page'),
+    '#description' => t('Specify the path to the dashboard home page (must start with a "/").'),
+    '#default_value' => theme_get_setting('dashboard_home'),
+  ];
+
+  $menus = Menu::loadMultiple();
+  $options = array_map(function($menu) {
+    return $menu->label();
+  }, $menus);
+  $form['chess9ja']['dashboard_menu'] = [
+    '#type' => 'select',
+    '#title' => t('Dashboard menu'),
+    '#description' => t('Specify the menu to be used for the dashboard. The menu path and all sub-paths will be themed using the dashboard template.'),
+    '#default_value' => theme_get_setting('dashboard_menu'),
+    '#options' => $options,
+  ];
+
+  $form['chess9ja']['dashboard_paths'] = [
+    '#type' => 'textarea',
+    '#title' => t('Dashboard paths'),
+    '#description' => t('Specify the paths which will be themed using the dashboard template. This is in addition to the paths under the menu specified above.'),
+    '#default_value' => theme_get_setting('dashboard_paths'),
+  ];
+
+}
+
+/**
+ * Implements hook_theme_suggestion_HOOK_alter() for page.html.twig
+ *
+ * Theme suggestions for the dashboard.
+ *
+ * @param array $suggestions
+ * @param array $variables
+ */
+function chess9ja_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+//  // Theme suggestions for the stylized user login pages.
+//  if (!in_array('page__user_branding', $suggestions, TRUE)) {
+//    $route_name = \Drupal::routeMatch()->getRouteName();
+//    if (in_array($route_name, ['user.login', 'user.register','user.pass'], TRUE) && \Drupal::currentUser()->isAnonymous()) {
+//      $suggestions[] = 'page__user_branding';
+//      return;
+//    }
+//  }
+
+  // Theme suggestions for the stylized user login pages.
+  if (!in_array('page__user_branding', $suggestions, TRUE)) {
+    $route_name = \Drupal::routeMatch()->getRouteName();
+    if (in_array($route_name, [
+        'user.login',
+        'user.register',
+        'user.pass'
+      ], TRUE) && \Drupal::currentUser()->isAnonymous()
+    ) {
+      $suggestions[] = 'page__user_branding';
+      return;
+    }
+  }
+
+  // Theme suggestions for the dashboard pages.
+  if (!in_array('page__dashboard', $suggestions, TRUE)) {
+    // If the current path is under one whose menu has been added to the
+    // dashboard, then use the page.dashboard.html.twig template.
+    // This is using a path-based association of current path and the path of the
+    // menu item placed in the dashboard menu.
+    $menu_name = theme_get_setting('dashboard_menu');
+    $current_url = Url::fromRoute('<current>')->toString();
+//    global $base_path;
+//    if (strpos($current_url, $base_path) !== FALSE) {
+//      $current_url = substr($current_url, strlen($base_path) - 1);
+//    }
+    foreach (\Drupal::service('menu.link_tree')
+               ->load($menu_name, new MenuTreeParameters()) as $route_name => $menu_element) {
+      $link_url = $menu_element->link->getUrlObject()->toString();
+      if (strpos($current_url, $link_url) === 0) {
+        $suggestions[] = 'page__dashboard';
+        return;
+      }
+    }
+
+    // Further check on paths specified to be themed by the dashboard template.
+    $paths = theme_get_setting('dashboard_paths');
+    if (!empty($paths)) {
+      $paths = str_replace("\r\n", "\n", $paths);
+      foreach (explode("\n", $paths) as $path) {
+        if (substr($path, 0, 1) !== '/') {
+          $path = '/' . $path;
+        }
+        $url = str_replace('__WILDCARD__', '.*', Url::fromUserInput(str_replace('*', '__WILDCARD__', $path))
+          ->toString());
+        if (preg_match('@^' . $url . '@', $current_url)) {
+          $suggestions[] = 'page__dashboard';
+          return;
+        }
+      }
+    }
+    // Final check on the 'dashboard_home' page.
+    $home = theme_get_setting('dashboard_home');
+    if ($home && $current_url === Url::fromUserInput($home)->toString()) {
+      $suggestions[] = 'page__dashboard';
+      return;
+    }
+  }
+}
+
+function chess9ja_preprocess_menu(&$variables) {
+  // Create a map for the dashboard page menu link icons.
+  if (isset($variables['menu_name']) && $variables['menu_name'] === theme_get_setting('dashboard_menu')) {
+    // Set the likely icon types for the various dashboard menu items.
+    foreach ($variables['items'] as $route_name => $item) {
+      if (stripos($item['title'], (string) t('play')) !== FALSE) {
+        $variables['items'][$route_name]['icon'] = 'play';
+      }
+      elseif (stripos($item['title'], (string) t('account')) !== FALSE) {
+        $variables['items'][$route_name]['icon'] = 'edit';
+      }
+      else {
+        $variables['items'][$route_name]['icon'] = 'desktop';
+      }
+    }
+    // Add the dashboard_home menu link.
+    $variables['dashboard_home'] = Url::fromUserInput(theme_get_setting('dashboard_home'))->toString();
+  }
+}

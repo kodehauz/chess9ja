@@ -1,0 +1,33 @@
+name: chess9ja
+type: theme
+base: classy
+description: Chess9ja Game
+core: 8.x
+libraries:
+  - chess9ja/global
+regions:
+  header: Header
+  nagivation: Nagivation
+  banner: Banner
+  content: Content
+  main: Main
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  site_brand: 'Site brand'
+  top_nav: 'Top nav'
+  dashboard_nav: 'Dashboard nav'
+  dashboard_content: 'Dashboard content'
+  dashboard_right: 'Dashboard right'
+  dashboard_bottom_left: 'Dashboard Bottom Left'
+  dashboard_bottom_right: 'Dashboard Bottom Right'
+  featured: Featured
+  footer: Footer
+
+
+
+
+
+
+
+
+

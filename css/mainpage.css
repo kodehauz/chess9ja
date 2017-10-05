@@ -1,0 +1,62 @@
+
+.featured-news h2 {
+  border-bottom: solid;
+}
+.latest-news h2 {
+  border-bottom: solid;
+}
+.col-sm-12 p {
+  text-align: justify;
+}
+
+.col-sm-12 a {
+  color: white;
+  padding: 40px;
+}
+
+.col-md-12 .text-center {
+  color: white;
+}
+
+.col-sm-4.col-xs-12.text-center a {
+  color: white;
+}
+.container.text-center h2 {
+  font-size: 3.3em;
+}
+.body-content p {
+  color: white;
+  text-align: center;
+  font-family: '.SF UI Text';
+  font-size: 1.6em;
+}
+.container.text-center {
+  margin-top: 60px;
+}
+
+.path-user input#edit-name {
+  padding: 10px;
+  border-radius: 8px;
+  color: #34495e;
+}
+
+
+.path-user input#edit-pass {
+  padding: 10px;
+  border-radius: 8px;
+  color: #34495e;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+input#edit-submit {
+  width: 35%;
+  background: #16a085;
+  border-radius: 8px;
+  padding: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+

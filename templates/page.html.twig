@@ -1,0 +1,94 @@
+
+{% include directory ~ '/templates/header.html.twig' %}
+
+
+{% if page.featured_top %}
+<section id="content-3-3" class="content-block-nopad content-3-3">
+  <div class="overlay overlay-blue">
+    <div class="container text-center">
+      {{ page.featured_top }}
+      <div class="col-md-6 col-md-offset-3 text-center">
+          <div class="col-md-6">
+          </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+  </div>
+
+</section>
+{% endif %}
+
+<div id="wrapper">
+
+  {% if page.messages %}
+    <div class="vc_row wpb_row  in_container ">
+      <div class="wpb_column vc_column_container vc_col-sm-12">
+        <div class="vc_column-inner ">
+          <div class="wpb_wrapper">
+            {{ page.messages }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <!-- container -->
+  <div class="container">
+
+    <span class="heading-t"></span>
+    {{ page.content_title }}
+    <span class="heading-b"></span>
+
+
+    {# set content_classes = ['col-md-9'] #}
+    {%
+    set content_classes = [
+    page.sidebar_first and page.sidebar_second ? 'col-sm-6',
+    page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
+    page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
+    page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-2'
+    ]
+    %}
+
+    <div class="boxed">
+
+      <div id="twocolumns" class="content__wrapper">
+
+        {% if page.sidebar_left %}
+          <aside id="sidebar" class="content__side widget-area">
+            <aside class="widget"><span class="heading-t3"></span>
+              {{ page.sidebar_first }}
+            </aside>
+          </aside>
+        {% endif %}
+
+
+        <div{{ content_attributes.addClass(content_classes) }} id="content">
+          {{ page.content }}
+
+          <div class="pages clear">
+            <div class="alignleft"></div>
+            <div class="alignright"></div>
+          </div>
+        </div>
+
+        {% if page.sidebar_rignt %}
+          <aside id="sidebar" class="content__side widget-area">
+            <aside class="widget"><span class="heading-t3"></span>
+              {{ page.sidebar_second }}
+            </aside>
+          </aside>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include directory ~ '/templates/footer.html.twig' %}
+
+
+
