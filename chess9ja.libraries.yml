@@ -17,8 +17,9 @@ dashboard:
   css:
     base:
       css/dashboard/custom/custom.min.css: {}
-
   js:
-    js/jquery.min.js: {}
     js/fastclick/fastclick.js: {}
     js/fastclick/customcode.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui.progressbar

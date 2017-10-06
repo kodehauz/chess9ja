@@ -1,12 +1,13 @@
+{% include directory ~ '/templates/header.html.twig' %}
 
-{{ attach_library('chess9ja/user-register') }}
-        <div class="row main-content user-branding">
-          {{ page.site_brand }}
-          <div id="main" class="{{ main_grid_class }}">
-            <a id="main-content"></a>
-            {{ page.content }}
-          </div>
-        </div>
+{{ attach_library('chess9ja/user--register') }}
+
+    <div class="form-group">
+      <div id="main">
+        <a id="main-content"></a>
+        {{ page.content }}
+        {{ page.site_brand }}
+      </div>
 
 
 
@@ -14,4 +15,7 @@
       {#<div style="text-align: center; padding: 5px;">#}
       {#<a href="http://www.greenlandtechnology.com/"> A GreenLand Technologies SMS Company </a>#}
       {#</div>#}
+
+    </div>
+
 {% include directory ~ '/templates/footer.html.twig' %}
