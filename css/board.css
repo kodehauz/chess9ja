@@ -16,7 +16,6 @@ table.board-main,
 .board-main {
     border-spacing: 0;
     padding: 0;
-    max-width: 100%;
     margin: 0 auto;
 }
 
