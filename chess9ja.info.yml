@@ -5,6 +5,9 @@ description: Chess9ja Game
 core: 8.x
 libraries:
   - chess9ja/global
+libraries-extend:
+  vchess/board:
+   - chess9ja/board
 regions:
   header: Header
   nagivation: Nagivation

@@ -4,7 +4,7 @@
     <div class="col-md-3 left_col">
       <div class="left_col scroll-view">
         <div class="navbar nav_title" style="border: 0;">
-          <a href="/" class="site_title"><i class="fa fa-paw"></i> <span>Chess9ja</span></a>
+          <a href="/chess" class="site_title"><i class="fa fa-paw"></i> <span>Chess9ja</span></a>
         </div>
 
         <div class="clearfix"></div>
@@ -12,7 +12,7 @@
         <!-- menu profile quick info -->
         <div class="profile clearfix">
           <div class="profile_pic">
-            <img src="../images/img.jpg" alt="..." class="img-circle profile_img">
+            {#<img src="/chess/images/img.jpg" alt="..." class="img-circle profile_img">#}
           </div>
           <div class="profile_info">
             <span>Welcome,</span>
@@ -44,7 +44,7 @@
       </div>
     </div>
 
-    {% include directory ~ '/templates/top-nav.html.twig' %}
+    {% include directory ~'/templates/top-nav.html.twig' %}
 
     <!-- page content -->
     {% include directory ~ '/templates/dashboard-content.html.twig' %}

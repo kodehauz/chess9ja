@@ -23,3 +23,8 @@ dashboard:
   dependencies:
     - core/jquery
     - core/jquery.ui.progressbar
+
+board:
+  css:
+    theme:
+      css/board.css: {}

@@ -50,13 +50,26 @@
 }
 
 input#edit-submit {
-  width: 35%;
+  width: 20%;
   background: #16a085;
   border-radius: 8px;
   padding: 6px;
   color: white;
   font-weight: bold;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
+.option {
+  margin-top: 10px;
+}
 
+#edit-subject-0-value {
+  padding: 7px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.js-form-required.form-required {
+  margin-top: 20px;
+}

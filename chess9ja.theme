@@ -123,7 +123,10 @@ function chess9ja_preprocess_menu(&$variables) {
   if (isset($variables['menu_name']) && $variables['menu_name'] === theme_get_setting('dashboard_menu')) {
     // Set the likely icon types for the various dashboard menu items.
     foreach ($variables['items'] as $route_name => $item) {
-      if (stripos($item['title'], (string) t('play')) !== FALSE) {
+      if (stripos($item['title'], (string) t('home')) !== FALSE) {
+        $variables['items'][$route_name]['icon'] = 'home';
+
+      }elseif (stripos($item['title'], (string) t('Play')) !== FALSE) {
         $variables['items'][$route_name]['icon'] = 'play';
       }
       elseif (stripos($item['title'], (string) t('account')) !== FALSE) {

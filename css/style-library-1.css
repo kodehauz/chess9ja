@@ -1993,3 +1993,37 @@ fieldset[disabled] .form-control
 	
 }
 
+table tr #b1,
+table tr #d1,
+table tr #f1,
+table tr #h1,
+table tr #a2,
+table tr #c2,
+table tr #e2,
+table tr #g2,
+table tr #b3,
+table tr #d3,
+table tr #f3,
+table tr #h3,
+table tr #a4,
+table tr #c4,
+table tr #e4,
+table tr #g4,
+table tr #b5,
+table tr #d5,
+table tr #f5,
+table tr #h5,
+table tr #a6,
+table tr #c6,
+table tr #e6,
+table tr #g6,
+table tr #b7,
+table tr #d7,
+table tr #f7,
+table tr #h7,
+table tr #a8,
+table tr #c8,
+table tr #e8,
+table tr #g8 {
+    background: #cec386;
+}
