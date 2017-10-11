@@ -37,28 +37,18 @@ table.board-main > tbody > tr > td {
     vertical-align: middle;
     border: none;
 }
-@media (min-width: 700px) {
-  /*.board-main .board-square .board-piece {*/
-    /*!*width: 100%;*!*/
-    /*!*height: 100%;*!*/
-    /*background-position-x: 0;*/
-    /*background-position-y: 0;*/
-    /*background-repeat: no-repeat;*/
-    /*width: 40px;*/
-    /*height: 40px;*/
-    /*margin: 0 auto;*/
-  /*}*/
-}
 .board-square.enabled {
     cursor: pointer;
 }
 
 .board-square.white {
     background-color: #F5f8cE;
+    background: url(../images/board/light.png);
 }
 
 .board-square.black {
     background-color: #DACEA9;
+    background: url(../images/board/dark.png);
 }
 
 #board-commands {
@@ -67,4 +57,75 @@ table.board-main > tbody > tr > td {
 
 #board {
 
+}
+
+
+/** Pieces for the board */
+
+/** Pieces for the board */
+@media (min-width: 700px) {
+    table.board-main,
+    .board-main {
+        border-spacing: 0;
+        padding: 0;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .board-main .board-square .board-piece, .board-main .board-square .empty-square {
+        background-position-x: 0;
+        background-position-y: 0;
+        background-repeat: no-repeat;
+        width: 53px;
+        height: 53px;
+        margin: 0 auto;
+    }
+
+    .b-rook.default {
+        background-image: url("../images/board/brook.png");
+    }
+
+    .b-bishop.default {
+        background-image: url("../images/board/bbishop.png");
+    }
+
+    .b-knight.default {
+        background-image: url("../images/board/bknight.png");
+    }
+
+    .b-queen.default {
+        background-image: url("../images/board/bqueen.png");
+    }
+
+    .b-king.default {
+        background-image: url("../images/board/bking.png");
+    }
+
+    .b-pawn.default {
+        background-image: url("../images/board/bpawn.png");
+    }
+
+    .w-rook.default {
+        background-image: url("../images/board/wrook.png");
+    }
+
+    .w-bishop.default {
+        background-image: url("../images/board/wbishop.png");
+    }
+
+    .w-knight.default {
+        background-image: url("../images/board/wknight.png");
+    }
+
+    .w-queen.default {
+        background-image: url("../images/board/wqueen.png");
+    }
+
+    .w-king.default {
+        background-image: url("../images/board/wking.png");
+    }
+
+    .w-pawn.default {
+        background-image: url("../images/board/wpawn.png");
+    }
 }

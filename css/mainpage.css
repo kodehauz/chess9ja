@@ -60,6 +60,12 @@ input#edit-submit {
   margin-bottom: 10px;
 }
 
+#edit-mail {
+  padding: 10px;
+  border-radius: 2px;
+  color: #34495e;
+  border: 1px solid;
+}
 .option {
   margin-top: 10px;
 }
