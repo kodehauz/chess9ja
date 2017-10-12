@@ -68,7 +68,7 @@ p.forgot-password {
 }
 
 .button {
-  width: 15%;
+  /*width: 15%;*/
   padding: 8px;
   border-radius: 8px;
   background-color:  #16a085;
@@ -76,9 +76,8 @@ p.forgot-password {
   color: white;
   font-weight: bold;
   border: none;
-  margin-left: 60px;
+  margin-left:80px;
   margin-bottom: 30px;
-  margin-top: 10px;
 }
 .button:hover{
   background-color:#1abb9c;
