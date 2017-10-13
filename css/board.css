@@ -10,7 +10,13 @@
     height: 5px;
     text-align: center;
     font-weight: bold;
+    font-size: 15px;
+    color: #977059;
+    font-family: SansSerif Sans-Serif, serif;
+    text-transform: capitalize;
 }
+
+
 
 table.board-main,
 .board-main {
@@ -23,11 +29,14 @@ table.board-main > tbody > tr > td {
 }
 
 .board-main .board-coordinate {
-    color: #666666;
+    color: #977059;
     width: 20px;
     height: 40px;
     border: none;
+    font-family: SansSerif Sans-Serif, serif;
+    font-size: 18px;
 }
+
 
 .board-main .board-square {
     padding: 2px;
@@ -71,13 +80,19 @@ table.board-main > tbody > tr > td {
         width: 100%;
     }
 
-    .board-main .board-square .board-piece, .board-main .board-square .empty-square {
+    .board-captured .board-piece,
+    .board-main .board-square .board-piece,
+    .board-main .board-square .empty-square {
         background-position-x: 0;
         background-position-y: 0;
         background-repeat: no-repeat;
         width: 53px;
         height: 53px;
         margin: 0 auto;
+    }
+
+    .board-captured {
+        height: 53px;
     }
 
     .b-rook.default {
@@ -129,8 +144,34 @@ table.board-main > tbody > tr > td {
     }
 }
 
+.board-square.white.highlighted {
+    background-image: url("../images/board/highlightblack.jpg");
+}
+
+.board-square.black.highlighted {
+    background-image: url("../images/board/highlight white.jpg");
+}
 .board-main {
-    background: #542f23;
+    background: #382c25;
     border-radius: 10px;
     margin: 1.5rem auto !important;
+    border: 13px ridge #542f23;
+}
+
+.block-vchess-moves-list .x_content {
+    height: 250px;
+    overflow-y: auto;
+}
+
+.block-vchess-captured-pieces .x_content {
+    height: 250px;
+    overflow-y: auto;
+    display: inline-flex;
+}
+.x_content .board-captured {
+    padding: 2px;
+    width: 10%;
+    height: 40px;
+    vertical-align: middle;
+    border: none;
 }
