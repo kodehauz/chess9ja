@@ -1,27 +1,23 @@
 .board-frame {
     margin-left:auto;
     margin-right:auto;
-    /*    background-color: #DACEA9; */
-    /*	padding: 2; */
-    /*	border-spacing: 2; */
 }
 
 .file-letters {
     height: 5px;
     text-align: center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1em;
     color: #977059;
     font-family: SansSerif Sans-Serif, serif;
     text-transform: capitalize;
 }
 
-
-
 table.board-main,
 .board-main {
     border-spacing: 0;
     padding: 0;
+    width: 100%;
 }
 
 table.board-main > tbody > tr > td {
@@ -30,127 +26,44 @@ table.board-main > tbody > tr > td {
 
 .board-main .board-coordinate {
     color: #977059;
+    vertical-align: middle;
     width: 20px;
-    height: 40px;
     border: none;
     font-family: SansSerif Sans-Serif, serif;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
+.board-captured .board-piece,
+.board-main .board-square .board-piece,
+.board-main .board-square .empty-square {
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
 
-.board-main .board-square {
+.board-captured {
     padding: 2px;
-    width: 40px;
-    height: 40px;
+    width: 100%;
     vertical-align: middle;
     border: none;
 }
+
+.board-frame {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.board-main .board-square {
+    padding: 2px;
+    vertical-align: middle;
+    border: none;
+}
+
 .board-square.enabled {
     cursor: pointer;
 }
 
-.board-square.white {
-    background-color: #F5f8cE;
-    background: url(../images/board/light.png);
-}
-
-.board-square.black {
-    background-color: #DACEA9;
-    background: url(../images/board/dark.png);
-}
-
-#board-commands {
-
-}
-
-#board {
-
-}
-
-
-/** Pieces for the board */
-
-/** Pieces for the board */
-@media (min-width: 700px) {
-    table.board-main,
-    .board-main {
-        border-spacing: 0;
-        padding: 0;
-        /*margin: 0 auto;*/
-        width: 100%;
-    }
-
-    .board-captured .board-piece,
-    .board-main .board-square .board-piece,
-    .board-main .board-square .empty-square {
-        background-position-x: 0;
-        background-position-y: 0;
-        background-repeat: no-repeat;
-        width: 53px;
-        height: 53px;
-        margin: 0 auto;
-    }
-
-    .board-captured {
-        height: 53px;
-    }
-
-    .b-rook.default {
-        background-image: url("../images/board/brook.png");
-    }
-
-    .b-bishop.default {
-        background-image: url("../images/board/bbishop.png");
-    }
-
-    .b-knight.default {
-        background-image: url("../images/board/bknight.png");
-    }
-
-    .b-queen.default {
-        background-image: url("../images/board/bqueen.png");
-    }
-
-    .b-king.default {
-        background-image: url("../images/board/bking.png");
-    }
-
-    .b-pawn.default {
-        background-image: url("../images/board/bpawn.png");
-    }
-
-    .w-rook.default {
-        background-image: url("../images/board/wrook.png");
-    }
-
-    .w-bishop.default {
-        background-image: url("../images/board/wbishop.png");
-    }
-
-    .w-knight.default {
-        background-image: url("../images/board/wknight.png");
-    }
-
-    .w-queen.default {
-        background-image: url("../images/board/wqueen.png");
-    }
-
-    .w-king.default {
-        background-image: url("../images/board/wking.png");
-    }
-
-    .w-pawn.default {
-        background-image: url("../images/board/wpawn.png");
-    }
-}
-
-.board-square.white.highlighted {
-    background-image: url("../images/board/highlightblack.jpg");
-}
-
-.board-square.black.highlighted {
-    background-image: url("../images/board/highlight white.jpg");
-}
 .board-main {
     background: #382c25;
     border-radius: 10px;
@@ -166,12 +79,148 @@ table.board-main > tbody > tr > td {
 .block-vchess-captured-pieces .x_content {
     height: 250px;
     overflow-y: auto;
-    display: inline-flex;
 }
-.x_content .board-captured {
+
+.block-vchess-captured-pieces .x_content .board-captured {
+    height: 120px;
+    vertical-align: middle;
+}
+
+.board-captured {
     padding: 2px;
-    width: 10%;
-    height: 40px;
+    width: 100%;
     vertical-align: middle;
     border: none;
+}
+
+.b-rook.default {
+    background-image: url("../images/board/53x53/brook.png");
+}
+
+.b-bishop.default {
+    background-image: url("../images/board/53x53/bbishop.png");
+}
+
+.b-knight.default {
+    background-image: url("../images/board/53x53/bknight.png");
+}
+
+.b-queen.default {
+    background-image: url("../images/board/53x53/bqueen.png");
+}
+
+.b-king.default {
+    background-image: url("../images/board/53x53/bking.png");
+}
+
+.b-pawn.default {
+    background-image: url("../images/board/53x53/bpawn.png");
+}
+
+.w-rook.default {
+    background-image: url("../images/board/53x53/wrook.png");
+}
+
+.w-bishop.default {
+    background-image: url("../images/board/53x53/wbishop.png");
+}
+
+.w-knight.default {
+    background-image: url("../images/board/53x53/wknight.png");
+}
+
+.w-queen.default {
+    background-image: url("../images/board/53x53/wqueen.png");
+}
+
+.w-king.default {
+    background-image: url("../images/board/53x53/wking.png");
+}
+
+.w-pawn.default {
+    background-image: url("../images/board/53x53/wpawn.png");
+}
+
+.board-square.white {
+    background-color: #F5f8cE;
+    background: url(../images/board/53x53/light.png);
+}
+
+.board-square.black {
+    background-color: #DACEA9;
+    background: url(../images/board/53x53/dark.png);
+}
+
+.board-square.white.highlighted {
+    background-image: url("../images/board/53x53/highlight-black.jpg");
+}
+
+.board-square.black.highlighted {
+    background-image: url("../images/board/53x53/highlight-white.jpg");
+}
+
+@media (min-width: 700px) {
+
+    .board-main .board-coordinate {
+        height: 53px;
+        font-size: 1.1em;
+    }
+
+    .board-captured .board-piece,
+    .board-main .board-square .board-piece,
+    .board-main .board-square .empty-square {
+        width: 53px;
+        height: 53px;
+        -webkit-background-size: 53px 53px;
+        background-size: 53px 53px;
+    }
+
+    .board-captured {
+        height: 53px;
+    }
+
+    .file-letters {
+        font-size: 1em;
+    }
+
+    .board-main .board-square {
+        width: 53px;
+        height: 53px;
+        -webkit-background-size: 57px 57px;
+        background-size: 57px 57px;
+    }
+    
+}
+
+@media (max-width: 699px) {
+
+    .board-main .board-coordinate {
+        height: 40px;
+        font-size: 1em;
+    }
+
+    .board-captured .board-piece,
+    .board-main .board-square .board-piece,
+    .board-main .board-square .empty-square {
+        width: 40px;
+        height: 40px;
+        -webkit-background-size: 40px 40px;
+        background-size: 40px 40px;
+    }
+
+    .board-captured {
+        height: 40px;
+    }
+
+    .file-letters {
+        font-size: .9em;
+    }
+
+    .board-main .board-square {
+        width: 40px;
+        height: 40px;
+        -webkit-background-size: 44px 44px;
+        background-size: 44px 44px;
+    }
+
 }
