@@ -276,5 +276,8 @@ table.board-main > tbody > tr > td {
 }
 
 .js-pager__items {
-    display: inline-flex;
+  display: inline-flex;
+}
+.block-vchess h2 {
+    color: coral;
 }
