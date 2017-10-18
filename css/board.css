@@ -224,3 +224,40 @@ table.board-main > tbody > tr > td {
     }
 
 }
+
+.board-square.white.highlighted {
+    background-image: url("../images/board/highlightblack.jpg");
+}
+
+.board-square.black.highlighted {
+    background-image: url("../images/board/highlight white.jpg");
+}
+.board-main {
+    background: #382c25;
+    border-radius: 10px;
+    margin: 1.5rem auto !important;
+    border: 13px ridge #542f23;
+}
+
+.block-vchess-moves-list .x_content {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.block-vchess-captured-pieces .x_content {
+    max-height: 250px;
+    overflow-y: auto;
+    display: inline-flex;
+}
+.x_content .board-captured {
+    padding: 2px;
+    width: 10%;
+    height: 40px;
+    vertical-align: middle;
+    border: none;
+}
+
+.block-vchess h2 {
+    color: coral;
+}
+>>>>>>> Dashboard Home cards ready
