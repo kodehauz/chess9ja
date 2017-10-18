@@ -1982,14 +1982,24 @@ fieldset[disabled] .form-control
 
 @media only screen and (min-width : 992px){
 	
-	
-	
 }
-
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+}
+.top_player {
+    margin: 15px auto;
+}
+@media (min-width: 560px){
+    .body {
+        font-size: 1.2em;
+    }
+}
+.user_picture {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
 }

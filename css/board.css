@@ -159,12 +159,12 @@ table.board-main > tbody > tr > td {
 }
 
 .block-vchess-moves-list .x_content {
-    height: 250px;
+    max-height: 250px;
     overflow-y: auto;
 }
 
 .block-vchess-captured-pieces .x_content {
-    height: 250px;
+    max-height: 250px;
     overflow-y: auto;
     display: inline-flex;
 }
@@ -174,4 +174,8 @@ table.board-main > tbody > tr > td {
     height: 40px;
     vertical-align: middle;
     border: none;
+}
+
+.block-vchess h2 {
+    color: coral;
 }

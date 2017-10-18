@@ -43,7 +43,13 @@
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    <div{{ content_attributes.addClass('content') }}>
+    {%
+    set classes =[
+      'content',
+      'dashboard_content',
+    ]
+    %}
+    <div{{ content_attributes.addClass(classes) }}>
       {{ content }}
     </div>
   {% endblock %}

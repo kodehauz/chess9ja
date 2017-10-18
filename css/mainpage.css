@@ -1,24 +1,30 @@
 
 .featured-news h2 {
   border-bottom: solid;
+  color: #c0392b;
+  font-family: fa;
+  font-size: 34px;
 }
 .latest-news h2 {
   border-bottom: solid;
+  color: #c0392b;
+  font-family: fa;
+  font-size: 34px;
 }
 .col-sm-12 p {
   text-align: justify;
 }
 
-.col-sm-12 a {
+.path-frontpage .col-sm-12 a {
   color: white;
   padding: 40px;
 }
 
-.col-md-12 .text-center {
+.path-frontpage .col-md-12 .text-center {
   color: white;
 }
 
-.col-sm-4.col-xs-12.text-center a {
+.path-frontpage .col-sm-4.col-xs-12.text-center a {
   color: white;
 }
 .container.text-center h2 {
@@ -93,10 +99,6 @@ ul a {
 }
 
 .block-vchess-moves-list .table{
-  overflow-y: auto !important;
-  overflow-x: hidden;
-  height: 100%;
-  max-height: 400px;
   text-align: center;
 }
 .block-vchess-moves-list th{
@@ -113,3 +115,39 @@ ul a {
 /*.block-vchess-moves-list .table-striped > tbody > tr:nth-child(2n+1) {*/
   /*background-color: #2a3f54;*/
 /*}*/
+.content > ul {
+  display: inline-flex;
+}
+.content.dashboard_content .stats-table,
+.content.dashboard_content .current-games-table,
+.content.dashboard_content .challenges-table {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  column-break-inside: avoid;
+  opacity: 1;
+  transition: all .2s ease;
+}
+
+.content.dashboard_content .stats-table caption,
+.content.dashboard_content .current-games-table caption,
+.content.dashboard_content .challenges-table caption {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+
+  margin: 5px 0 6px;
+  display: block;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #73879C;
+}
+
+.vchess-game-links {
+  padding-bottom: 10px;
+}
