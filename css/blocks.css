@@ -22,9 +22,10 @@ Version: 1.0
 
 #header-1 .main-nav
 {
-    background-color: #193441;
+    background-color: #212023;
     border: 0;
     height: 80px;
+    opacity: .8;
 }
 
 #header-1 .main-nav .navbar-toggle

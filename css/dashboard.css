@@ -149,7 +149,7 @@
 
 @charset "UTF-8";
 .left_col {
-  background: #2A3F54;
+  background: #212027;
 }
 
 .nav-sm .container.body .col-md-3.left_col {
@@ -405,7 +405,7 @@ body .container.body .right_col {
 .nav_title {
   width: 230px;
   float: left;
-  background: #2A3F54;
+  background: #594346;
   border-radius: 0;
   height: 57px;
 }
@@ -571,7 +571,7 @@ body .container.body .right_col {
 
 body {
   color: #73879C;
-  background: #2A3F54;
+  background: #212027;
   font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
@@ -850,7 +850,7 @@ a:hover, a:focus {
 }
 
 .nav.side-menu > li.current-page, .nav.side-menu > li.active {
-  border-right: 5px solid #1ABB9C;
+  /*border-right: 5px solid #1ABB9C;*/
 }
 
 .nav li.current-page {
@@ -865,10 +865,11 @@ a:hover, a:focus {
   color: #fff;
 }
 
-.nav.side-menu > li.active > a {
+.nav.side-menu > li > a {
   text-shadow: rgba(0, 0, 0, 0.25) 0 -1px 0;
-  background: linear-gradient(#334556, #2C4257), #2A3F54;
+  /*background: linear-gradient(#334556, #2C4257), #2A3F54;*/
   box-shadow: rgba(0, 0, 0, 0.25) 0 1px 0, inset rgba(255, 255, 255, 0.16) 0 1px 0;
+  background-color: #594346;
 }
 
 .navbar-brand, .navbar-nav > li > a {
@@ -1175,7 +1176,7 @@ h2 {
   margin-bottom: 10px;
   padding: 10px 17px;
   display: inline-block;
-  background: #fff;
+  background: #ffffff;
   border: 1px solid #E6E9ED;
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
@@ -1918,7 +1919,7 @@ span.right {
   padding: 5px 0 0 0;
   position: fixed;
   width: 230px;
-  background: #2A3F54;
+  background: #fff;
 }
 
 .sidebar-footer a {
@@ -1928,7 +1929,7 @@ span.right {
   font-size: 17px;
   display: block;
   float: left;
-  background: #172D44;
+  background: #594346;
 }
 
 .sidebar-footer a:hover {

@@ -65,7 +65,7 @@ table.board-main > tbody > tr > td {
 }
 
 .board-main {
-    background: #382c25;
+    background: #561e18;
     border-radius: 10px;
     margin: 1.5rem auto !important;
     border: 13px ridge #542f23;
@@ -226,18 +226,18 @@ table.board-main > tbody > tr > td {
 }
 
 .board-square.white.highlighted {
-    background-image: url("../images/board/highlightblack.jpg");
+    background-image: url("../images/board/53x53/highlight-black.jpg");
 }
 
 .board-square.black.highlighted {
-    background-image: url("../images/board/highlight white.jpg");
+    background-image: url("../images/board/53x53/highlight-white.jpg");
 }
-.board-main {
-    background: #382c25;
-    border-radius: 10px;
-    margin: 1.5rem auto !important;
-    border: 13px ridge #542f23;
-}
+/*.board-main {*/
+    /*background: #382c25;*/
+    /*border-radius: 10px;*/
+    /*margin: 1.5rem auto !important;*/
+    /*border: 13px ridge #542f23;*/
+/*}*/
 
 .block-vchess-moves-list .x_content {
     max-height: 250px;
@@ -260,4 +260,7 @@ table.board-main > tbody > tr > td {
 .block-vchess h2 {
     color: coral;
 }
->>>>>>> Dashboard Home cards ready
+
+.table > tbody > tr > td {
+    border-top: none;
+}

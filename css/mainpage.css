@@ -1,13 +1,13 @@
 
 .featured-news h2 {
   border-bottom: solid;
-  color: #c0392b;
+  color: #212023;
   font-family: fa;
   font-size: 34px;
 }
 .latest-news h2 {
   border-bottom: solid;
-  color: #c0392b;
+  color: #212023;
   font-family: fa;
   font-size: 34px;
 }
@@ -41,22 +41,49 @@
 }
 
 .path-user input#edit-name {
+  width: 100%;
   padding: 10px;
-  border-radius: 8px;
-  color: #34495e;
-}
-
-
-.path-user input#edit-pass {
-  padding: 10px;
-  border-radius: 8px;
   color: #34495e;
   margin-bottom: 20px;
   margin-top: 20px;
+  border: 2px solid #ecf0f1;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.467;
+  height: 40px;
+  -webkit-appearance: none;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
+}
+
+.path-user h1 {
+  display: none;
+}
+
+.path-user input#edit-pass {
+  width: 100%;
+  padding: 10px;
+  color: #34495e;
+  margin-bottom: 20px;
+  /*margin-top: 20px;*/
+  border: 2px solid #ecf0f1;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.467;
+  height: 40px;
+  -webkit-appearance: none;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
 }
 
 input#edit-submit {
-  width: 20%;
+  width: 100%;
   background: #16a085;
   border-radius: 8px;
   padding: 6px;
@@ -67,10 +94,22 @@ input#edit-submit {
 }
 
 #edit-mail {
+  width: 100%;
   padding: 10px;
-  border-radius: 2px;
   color: #34495e;
-  border: 1px solid;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid #ecf0f1;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.467;
+  height: 40px;
+  -webkit-appearance: none;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+  transition: border .25s linear, color .25s linear, background-color .25s linear;
 }
 .option {
   margin-top: 10px;
@@ -150,4 +189,10 @@ ul a {
 
 .vchess-game-links {
   padding-bottom: 10px;
+}
+
+.blog_title{
+margin-bottom: 10px;
+font-size: 25px;
+text-transform: capitalize;
 }
