@@ -7,7 +7,7 @@ libraries:
   - chess9ja/global
 libraries-extend:
   vchess/board:
-   - chess9ja/board
+    - chess9ja/board
 regions:
   site_brand: 'Site brand'
   header: Header

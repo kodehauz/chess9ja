@@ -4165,36 +4165,76 @@ a.hiddenanchor {
   padding-top: 10px;
 }
 
-/*.button {*/
-  /*background: #f7f9fa;*/
-  /*background: linear-gradient(top, #f7f9fa 0%, #f0f0f0 100%);*/
-  /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f9fa', endColorstr='#f0f0f0', GradientType=0);*/
-  /*-ms-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;*/
-  /*-o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;*/
-  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;*/
-  /*border-radius: 0 0 5px 5px;*/
-  /*border-top: 1px solid #CFD5D9;*/
-  /*padding: 15px 0;*/
-/*}*/
+.vchess-game-links {
+  margin: 15px 2px;
+}
 
-/*.login_content form input[type="submit"], #content form .submit {*/
-  /*float: left;*/
-  /*margin-left: 38px;*/
-/*}*/
+/** Dashboard buttons */
+.button
+{
+  color: #FFF;
+  padding: 10px 10px;
+  margin: 15px 3px;
+  /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
 
-/*.button a {*/
-  /*background: url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) 0 -112px no-repeat;*/
-  /*color: #7E7E7E;*/
-  /*font-size: 17px;*/
-  /*padding: 2px 0 2px 40px;*/
-  /*text-decoration: none;*/
-  /*transition: all 0.3s ease;*/
-/*}*/
+.button a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
 
-/*.button a:hover {*/
-  /*background-position: 0 -135px;*/
-  /*color: #00aeef;*/
-/*}*/
+.button a:hover {
+  color: #FFF;
+}
+
+/* Button DEFAULT */
+
+.button.create-challenge
+{
+  background: #ecf0f1;
+  box-shadow: 0 2px #bdc3c7;
+  color: #999;
+}
+
+.button.create-challenge:hover
+{
+  background: #bdc3c7;
+}
+
+/* Button PRIMARY */
+
+.button.create-random-game
+{
+  background: #00bfff;
+  box-shadow: 0 2px #0085c6;
+}
+
+.button.create-random-game:hover
+{
+  background: #0085c6;
+}
+
+/* Button WARNING */
+
+.button.create-opponent-game
+{
+  background: #f1c40f;
+  box-shadow: 0 2px #f39c12;
+}
+
+.button.create-opponent-game:hover
+{
+  background: #f39c12;
+}
 
 header {
   width: 100%;
