@@ -96,7 +96,7 @@ function chess9ja_theme_suggestions_page_alter(array &$suggestions, array $varia
     foreach (\Drupal::service('menu.link_tree')
                ->load($menu_name, new MenuTreeParameters()) as $route_name => $menu_element) {
       $link_url = $menu_element->link->getUrlObject()->toString();
-      if (strpos($current_url, $link_url) === 0) {
+      if (!empty($link_url) && strpos($current_url, $link_url) === 0) {
         $suggestions[] = 'page__dashboard';
         return;
       }
