@@ -83,7 +83,7 @@ table.board-main > tbody > tr > td {
 }
 
 .block-vchess-captured-pieces .x_content .board-captured {
-    height: 80px;
+    height: 120px;
     vertical-align: middle;
 }
 
