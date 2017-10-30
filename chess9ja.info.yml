@@ -11,7 +11,7 @@ libraries-extend:
 regions:
   site_brand: 'Site brand'
   header: Header
-  nagivation: Nagivation
+  navigation: Navigation
   banner: Banner
   content: Content
   main: Main

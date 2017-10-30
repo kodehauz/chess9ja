@@ -141,7 +141,7 @@ body
 
 .bg-pomegranate
 {
-    background-color: #673713  !important;
+    background-color: #442308 !important;
 }
 
 .bg-finn
@@ -1107,13 +1107,13 @@ p .btn
 
 .btn.btn-primary
 {
-    background: #1abc9c;
-    box-shadow: 0 2px #16a085;
+    background: #442308;
+    /*box-shadow: 0 2px #16a085;*/
 }
 
 .btn.btn-primary:hover
 {
-    background: #16a085;
+    background: #594346;
 }
 
 /* Button WARNING */
@@ -1965,8 +1965,11 @@ fieldset[disabled] .form-control
     background-color: #ffffff;
 }
 .blog_body {
-    margin-top: 10px;
     text-align: justify;
+    color: silver;
+    font-size: 14px;
+    margin-top: 30px;
+
 }
 
 
@@ -2015,4 +2018,20 @@ fieldset[disabled] .form-control
     min-height: 1px;
     padding-right: 10px;
     padding-left: 10px;
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+}
+
+#wrapper  {
+    padding: 3em 0 5em;
 }

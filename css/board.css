@@ -65,11 +65,12 @@ table.board-main > tbody > tr > td {
 }
 
 .board-main {
-    background: #561e18;
+    background: #522f23;
     border-radius: 10px;
     margin: 1.5rem auto !important;
     border: 13px ridge #542f23;
 }
+
 
 .block-vchess-moves-list .x_content {
     height: 250px;
@@ -257,10 +258,19 @@ table.board-main > tbody > tr > td {
     border: none;
 }
 
-.block-vchess h2 {
-    color: coral;
-}
+/*.block-vchess h2 {*/
+    /*color: coral;*/
+/*}*/
 
 .table > tbody > tr > td {
     border-top: none;
+}
+.chess-player-label > span.label {
+    color: inherit;
+    font-size: 1em;
+    display: none;
+}
+.chess-player-label {
+    width: 510px;
+    margin: 0 auto;
 }

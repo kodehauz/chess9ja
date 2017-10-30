@@ -1,5 +1,6 @@
 <?php
 
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Menu\MenuTreeParameters;
 use Drupal\Core\Url;
 use Drupal\system\Entity\Menu;
@@ -170,4 +171,16 @@ function chess9ja_preprocess_menu(&$variables) {
   }
 }
 
+/**
+ * Implements hook_form_alter for vchess game play form.
+ *
+ * @param array $form
+ * @param \Drupal\Core\Form\FormStateInterface $form_state
+ */
+function chess9ja_form_vchess_game_form_alter(array &$form, FormStateInterface $form_state) {
+  $form['refresh_button']['#attributes']['class'][] ='btn btn-default';
+  $form['move_button']['#attributes']['class'][] = 'btn btn-primary';
+  $form['resign_button']['#attributes']['class'][] = 'btn btn-danger';
+  $form['flip_board_button']['#attributes']['class'][] = 'btn btn-primary';
+}
 

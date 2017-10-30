@@ -1,24 +1,46 @@
 
 {% include directory ~ '/templates/header.html.twig' %}
+{#
 <section id="content-3-3" class="content-block-nopad content-3-3">
   <div class="overlay overlay-blue">
     <div class="container text-center">
           {{ page.banner }}
-      {#<h2></h2>#}
-      {#<h1>Welcome to Chess9ja</h1>#}
-      {#<p class="text">Africa's largest online chess platform. Welcome to a world of strategic thinking.</p>#}
-      {#<p class="text1">Chess9ja is essentially an online community of chess players who are either playing for fun or for cash.</p>#}
-
-      {#<div class="col-md-6 col-md-offset-3 text-center">#}
-        {#<div class="col-md-6">#}
-          {#<a href="#" class="btn btn-block btn-outline btn-outline-lg outline-light">Learn More</a>#}
-        {#</div>#}
-        {#<div class="col-md-6">#}
-          {#<a href="#" class="btn btn-block btn-outline btn-outline-lg outline-light">Play a Game</a>#}
-        {#</div>#}
-      {#</div>#}
     </div>
-    <!-- /.container -->
+  </div>
+</section>#}
+<section id="content-3-3" class="content-block-nopad content-3-3">
+  <div class="overlay overlay-blue">
+    <div class="container text-center">
+        <div id="block-calltoaction" class="">
+          <div class="content dashboard_content">
+
+            <div>
+              <h1>Welcome to Chess9ja</h1>
+              <p style="margin-top: 0px; margin-bottom: 0px; font-size: 17px; line-height: normal; font-family: '.SF UI Text'; color: rgb(240, 231,231);"><span style="font-family:'.SFUIText';font-size:17pt">Africa's largest online chess platform. Welcome to a world of strategic thinking.</span>
+              </p>
+
+              <p style="margin-top: 0px; margin-bottom: 0px; font-size: 17px; line-height: normal; font-family: '.SF UI Text'; color: rgb(240, 231,231);"><span style="font-family:'.SFUIText';font-size:17pt">Chess9ja is essentially an online community of chess players who are either playing for fun or for cash.</span>
+              </p>
+
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="col-md-6"><a class="btn btn-block btn-outline btn-outline-lg outline-light" href="/about">Learn More</a></div>
+				{#
+                <div class="col-md-6"><a class="btn btn-block btn-outline btn-outline-lg outline-light" href="/user/login/">Play a Game</a></div>
+				#}
+				{% if logged_in %}
+                <div class="col-md-6"><a href="/dashboard" class="btn btn-block btn-outline btn-outline-lg outline-light">{{ 'Play a Game'|t }}</a></div>
+              {% else %}
+                <div class="col-md-6"><a href="{{ path('user.login') }}" class="btn btn-block btn-outline btn-outline-lg outline-light">{{ 'Play a Game'|t }}</a></div>
+              {% endif %}
+			  
+			  
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+    </div>
   </div>
 
 </section>
