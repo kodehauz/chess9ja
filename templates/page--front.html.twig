@@ -28,7 +28,7 @@
                 <div class="col-md-6"><a class="btn btn-block btn-outline btn-outline-lg outline-light" href="/user/login/">Play a Game</a></div>
 				#}
 				{% if logged_in %}
-                <div class="col-md-6"><a href="/dashboard" class="btn btn-block btn-outline btn-outline-lg outline-light">{{ 'Play a Game'|t }}</a></div>
+                <div class="col-md-6"><a href="/main" class="btn btn-block btn-outline btn-outline-lg outline-light">{{ 'Play a Game'|t }}</a></div>
               {% else %}
                 <div class="col-md-6"><a href="{{ path('user.login') }}" class="btn btn-block btn-outline btn-outline-lg outline-light">{{ 'Play a Game'|t }}</a></div>
               {% endif %}
