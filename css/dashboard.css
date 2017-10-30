@@ -4172,7 +4172,7 @@ a.hiddenanchor {
 /** Dashboard buttons */
 .button
 {
-  color: #FFF;
+  /* color: #FFF; */
   padding: 10px 10px;
   margin: 15px 3px;
   /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
