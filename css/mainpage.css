@@ -176,3 +176,7 @@ ul a {
   border: groove saddlebrown;
   max-height: 100%;
 }
+
+.col-md-8.align-right {
+  float: right;
+}
