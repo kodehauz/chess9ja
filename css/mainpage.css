@@ -180,3 +180,7 @@ ul a {
 .col-md-8.align-right {
   float: right;
 }
+.path-frontpage .js-pager__items {
+  display: inline-flex;
+  margin-left: 20px;
+}
