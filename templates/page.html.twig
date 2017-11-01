@@ -1,7 +1,5 @@
 
 {% include directory ~ '/templates/header.html.twig' %}
-
-
 {% if page.featured_top %}
 <section id="content-3-3" class="content-block-nopad content-3-3">
   <div class="overlay overlay-blue">
@@ -21,9 +19,9 @@
 </section>
 {% endif %}
 
-<div id="wrapper">
+  <div id="wrapper">
 
-  {% if page.messages %}
+    {% if page.messages %}
     <div class="vc_row wpb_row  in_container ">
       <div class="wpb_column vc_column_container vc_col-sm-12">
         <div class="vc_column-inner ">
@@ -33,10 +31,10 @@
         </div>
       </div>
     </div>
-  {% endif %}
+     {% endif %}
 
   <!-- container -->
-  <div class="container">
+    <div class="container">
 
     <span class="heading-t"></span>
     {{ page.content_title }}
@@ -61,9 +59,6 @@
             </aside>
           </aside>
         {% endif %}
-
-
-
         <div{{ content_attributes.addClass(content_classes) }}>
           {{ page.content }}
 
@@ -74,6 +69,8 @@
             <div class="alignright"></div>
           </div>
 
+        <div{{ content_attributes.addClass(content_classes) }}>
+          {{ page.content }}
         </div>
 
         {% if page.sidebar_second %}
@@ -86,7 +83,7 @@
 
       </div>
     </div>
-
+    </div>
+  </div>
 {% include directory ~ '/templates/footer.html.twig' %}
 
-</div>
