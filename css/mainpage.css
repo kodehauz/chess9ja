@@ -218,3 +218,24 @@ ul a {
   margin-left: 20px;
   float: right;
 }
+#edit-name--description, #edit-pass--description {
+  display: none;
+}
+
+.path-user,input:hover {
+  border: 1px solid #15bc9c;
+}
+.user-branding .col-md-5 {
+  margin-top: 5em;
+}
+
+
+.path-frontpage .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #4A4E52;
+  color: #efeeeb;
+
+}

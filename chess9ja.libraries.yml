@@ -6,6 +6,7 @@ global:
       css/font-awesome/font-awesome.css: {}
       css/style-library-1.css: {}
       css/blocks.css: {}
+#      css/dashboard.css: {}
       css/custom.css: {}
       css/mainpage.css: {}
   js:
