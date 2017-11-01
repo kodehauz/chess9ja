@@ -7,14 +7,16 @@ libraries:
   - chess9ja/global
 libraries-extend:
   vchess/board:
-   - chess9ja/board
+    - chess9ja/board
 regions:
   site_brand: 'Site brand'
   header: Header
-  nagivation: Nagivation
+  navigation: Navigation
   banner: Banner
   content: Content
   main: Main
+  main_sidebar_first: 'Main sidebar first'
+  main_sidebar_second: 'Main sidebar second'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
 

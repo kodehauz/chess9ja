@@ -43,21 +43,18 @@
     <span class="heading-b"></span>
 
 
-    {# set content_classes = ['col-md-9'] #}
     {%
     set content_classes = [
     page.sidebar_first and page.sidebar_second ? 'col-sm-6',
     page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
     page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
-    page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-2'
+    page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-9 col-sm-offset-1'
     ]
     %}
 
-    <div class="boxed">
+  
 
-      <div id="twocolumns" class="content__wrapper">
-
-        {% if page.sidebar_left %}
+        {% if page.sidebar_first %}
           <aside id="sidebar" class="content__side widget-area">
             <aside class="widget"><span class="heading-t3"></span>
               {{ page.sidebar_first }}
@@ -66,15 +63,11 @@
         {% endif %}
 
 
-        <div{{ content_attributes.addClass(content_classes) }} class="col-lg-9 align-center" id="content">
+        <div{{ content_attributes.addClass(content_classes) }}>
           {{ page.content }}
-          <div class="pages clear">
-            <div class="alignleft"></div>
-            <div class="alignright"></div>
-          </div>
         </div>
 
-        {% if page.sidebar_rignt %}
+        {% if page.sidebar_second %}
           <aside id="sidebar" class="content__side widget-area">
             <aside class="widget"><span class="heading-t3"></span>
               {{ page.sidebar_second }}
@@ -84,8 +77,6 @@
 
       </div>
     </div>
-  </div>
-</div>
 
 {% include directory ~ '/templates/footer.html.twig' %}
 
