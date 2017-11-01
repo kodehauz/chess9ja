@@ -274,6 +274,7 @@ table.board-main > tbody > tr > td {
     width: 510px;
     margin: 0 auto;
 }
+
 .js-pager__items {
     display: inline-flex;
 }
