@@ -15,6 +15,8 @@ regions:
   banner: Banner
   content: Content
   main: Main
+  main_sidebar_first: 'Main sidebar first'
+  main_sidebar_second: 'Main sidebar second'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
 
