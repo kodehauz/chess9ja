@@ -16,8 +16,23 @@
     <!-- /.container -->
   </div>
 
-</section>
+  </section>
+  {% endif %}
+
+  {% if page.breadcrumb %}
+    <div class="clearfix banner region--dark-typography region--gray-background region--no-block-paddings region--no-paddings">
+      <div class="container-fluid">
+        <div class="clearfix breadcrumb__container animated fadeIn" data-animate-effect="fadeIn">
+          <div class="row">
+            <div class="col-md-12 breadcrumb">
+              {{ page.breadcrumb }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 {% endif %}
+
 
   <div id="wrapper">
 
@@ -35,11 +50,9 @@
 
   <!-- container -->
     <div class="container">
-
-    <span class="heading-t"></span>
-    {{ page.content_title }}
-    <span class="heading-b"></span>
-
+    {#<span class="heading-t"></span>#}
+    {#{{ page.content_title }}#}
+    {#<span class="heading-b"></span>#}
 
     {%
     set content_classes = [
@@ -62,16 +75,7 @@
         <div{{ content_attributes.addClass(content_classes) }}>
           {{ page.content }}
 
-        <div{{ content_attributes.addClass(content_classes) }} class="col-lg-9 align-center" id="content">
-          {{ page.content }}
-          <div class="pages clear">
-            <div class="alignleft"></div>
-            <div class="alignright"></div>
-          </div>
 
-        <div{{ content_attributes.addClass(content_classes) }}>
-          {{ page.content }}
-        </div>
 
         {% if page.sidebar_second %}
           <aside id="sidebar" class="content__side widget-area">
@@ -81,7 +85,6 @@
           </aside>
         {% endif %}
 
-      </div>
     </div>
     </div>
   </div>

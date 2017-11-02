@@ -2,11 +2,11 @@ global:
   version: VERSION
   css:
     base:
-      css/bootstrap.min.css: {}
+      css/bootstrap.css: {}
       css/font-awesome/font-awesome.css: {}
       css/style-library-1.css: {}
       css/blocks.css: {}
-#      css/dashboard.css: {}
+      css/breadcrumb.css: {}
       css/custom.css: {}
       css/mainpage.css: {}
   js:

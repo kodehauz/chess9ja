@@ -13,6 +13,7 @@ regions:
   header: Header
   navigation: Navigation
   banner: Banner
+  breadcrumb: 'Breadcrumb'
   content: Content
   main: Main
   main_sidebar_first: 'Main sidebar first'

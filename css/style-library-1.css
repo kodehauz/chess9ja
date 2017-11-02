@@ -141,7 +141,7 @@ body
 
 .bg-pomegranate
 {
-    background-color: #442308 !important;
+    background-color: #555 !important;
 }
 
 .bg-finn
@@ -949,6 +949,10 @@ em
 }
 
 /* LINKS */
+/*a {*/
+    /*color: #fff;*/
+    /*font-weight: bold;*/
+/*}*/
 
 a { color: #1abc9c; }
 
@@ -1964,23 +1968,6 @@ fieldset[disabled] .form-control
     position: relative;
     background-color: #ffffff;
 }
-.blog_body {
-    text-align: justify;
-    color: silver;
-    font-size: 14px;
-    margin-top: 30px;
-
-}
-
-
-
-
-
-
-
-
-
-
 
 
 /*	PATTERN LIBRARY MEDIA QUERIES
@@ -2016,7 +2003,16 @@ fieldset[disabled] .form-control
 
 .top_player {
     margin: 15px auto;
+    width: 100%;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #004a9e;
+    font-style: italic;
+    /*padding-top: 24px;*/
+    border-bottom: 2px solid #e8e8e8;
 }
+
 @media (min-width: 560px){
     .body {
         font-size: 1.2em;
