@@ -5,6 +5,43 @@ use Drupal\Core\Menu\MenuTreeParameters;
 use Drupal\Core\Url;
 use Drupal\system\Entity\Menu;
 
+
+function chess9ja_preprocess_breadcrumb(&$variables)
+{
+  if ($variables['breadcrumb']) {
+    $request = \Drupal::request();
+    $route_match = \Drupal::routeMatch();
+    $page_title = \Drupal::service('title_resolver')->getTitle($request, $route_match->getRouteObject());
+    if (!empty($page_title)) {
+      $variables['breadcrumb'][] = array(
+        'text' => $page_title
+      );
+      // Add cache context based on url.
+      $variables['#cache']['contexts'][] = 'url';
+    }
+  }
+}
+
+function chess9ja_preprocess_page_title(&$variables)
+{
+  // Since the title and the shortcut link are both block level elements,
+  // positioning them next to each other is much simpler with a wrapper div.
+  if (!empty($variables['title_suffix']['add_or_remove_shortcut']) && $variables['title']) {
+    // Add a wrapper div using the title_prefix and title_suffix render
+    // elements.
+    $variables['title_prefix']['shortcut_wrapper'] = array(
+      '#markup' => '<div class="shortcut-wrapper clearfix">',
+      '#weight' => 100,
+    );
+    $variables['title_suffix']['shortcut_wrapper'] = array(
+      '#markup' => '</div>',
+      '#weight' => -99,
+    );
+    // Make sure the shortcut link is the first item in title_suffix.
+    $variables['title_suffix']['add_or_remove_shortcut']['#weight'] = -100;
+  }
+}
+
 function chess9ja_form_system_theme_settings_alter(array &$form, \Drupal\Core\Form\FormStateInterface $form_state) {
   $form['chess9ja'] = [
     '#type' => 'details',
@@ -188,3 +225,4 @@ function chess9ja_form_vchess_game_form_alter(array &$form, FormStateInterface $
   $form['resign_button']['#attributes']['class'][] = 'btn btn-danger';
   $form['flip_board_button']['#attributes']['class'][] = 'btn btn-primary';
 }
+

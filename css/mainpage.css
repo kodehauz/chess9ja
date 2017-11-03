@@ -52,11 +52,11 @@
 
 .path-frontpage .col-md-12 .text-center {
   color: white;
-  box-sizing: border-box;
-  background-color: #212023;
-  box-shadow: 1px 1px 60px;
-  font-family: fa;
-  border-top: 1px solid;
+  /*box-sizing: border-box;*/
+  /*background-color: #212023;*/
+  /*box-shadow: 1px 1px 60px;*/
+  font-family: fa, monospace;
+  /*border-top: 1px solid;*/
 }
 
 .path-frontpage .col-sm-4.col-xs-12.text-center a {
@@ -231,7 +231,7 @@ ul a {
   display: none;
 }
 
-.path-user,input:hover {
+.path-user input:hover {
   border: 1px solid #15bc9c;
 }
 .user-branding .col-md-5 {
@@ -279,13 +279,28 @@ ul a {
   color: #d79035;
 }
 .user-login-form #edit-submit {
-  background-color: #2baf6b;
+  background-color: #59afe4;;
   color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
 }
 
 .super-login-register {
-  color: #fff;
+  color: #978f61;
+  font-weight: 700;
+  font-size: 1.8em;
 }
-.forgot-password a {
-  color: #fff;
+.forgot-password a{
+  color: #978f61;
+  font-weight: 700;
+  font-size: 1.6em;
+}
+
+.logintitle{
+  color: #978f61;
+  font-weight: 700;
+  margin-bottom: 8%;
+}
+#edit-pass {
+  margin-top: 5%;
 }
