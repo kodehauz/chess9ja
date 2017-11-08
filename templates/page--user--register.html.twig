@@ -1,0 +1,22 @@
+
+{% include directory ~ '/templates/header.html.twig' %}
+<div class="container-fluid">
+  <div class="row">
+    <section id="promo-1" class="content-block promo-1 min-height-600px bg-offwhite">
+      <div class="row">
+        <div class="row main-content user-branding">
+          {{ page.site_brand }}
+
+          <div class="container">
+            <div class="col-md-5">
+
+              <h2 class="logintitle">Register to Chess9ja!</h2>
+              {{ page.content }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+{% include directory ~ '/templates/footer.html.twig' %}

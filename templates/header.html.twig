@@ -3,7 +3,6 @@
 
         <header id="header-1" class="soft-scroll header-1">
 
-
           <!-- Navbar -->
           <div class="row">
             <nav class="main-nav">
@@ -18,13 +17,14 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                {{ page.header }}
               </div>
-              <div class="col-md-8 align-right">
-                {{ page.navigation }}
-            </div>
               </div>
+          <div class="col-md-4 align-left">
+            {{ page.header }}
+          </div>
+          {#<div class="col-md-8 align-right">#}
+            {{ page.navigation }}
+          {#</div>#}
           </nav>
           </div>
-
         </header>

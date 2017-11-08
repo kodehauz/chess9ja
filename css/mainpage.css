@@ -66,7 +66,7 @@
   display: inline;
 }
 .path-frontpage a {
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: #e3933b;
 }
 
@@ -211,7 +211,7 @@ ul a {
 }
 
 .image-round img {
-  margin: 0;
+  margin-top: 5%;
   padding: 0;
   vertical-align: baseline;
   display: flex;
@@ -232,7 +232,7 @@ ul a {
 }
 
 .path-user input:hover {
-  border: 1px solid #15bc9c;
+  border: 2px solid #59afe4;
 }
 .user-branding .col-md-5 {
   margin-top: 5em;
@@ -256,10 +256,8 @@ ul a {
 
 }
 .blog-date {
-  float: left;
   color: #e3933b;
-  font-weight: bold;
-  margin-left: 3em;
+  padding-left: 25%;
   text-align: center;
 }
 .col-md-8.align-right {
@@ -279,7 +277,7 @@ ul a {
   color: #d79035;
 }
 .user-login-form #edit-submit {
-  background-color: #59afe4;;
+  background-color: #59afe4;
   color: #fff;
   font-size: 1.3em;
   font-weight: 700;
@@ -303,4 +301,48 @@ ul a {
 }
 #edit-pass {
   margin-top: 5%;
+}
+/*.user-register-form #edit-user-picture-0-upload--description {*/
+  /*display: none;*/
+/*}*/
+
+/*.user-register-form #edit-user-picture-wrapper {*/
+  /*margin-top: 10%;*/
+/*}*/
+/*.user-register-form #edit-user-picture-0-upload {*/
+  /*margin-top: 10%;*/
+/*}*/
+
+
+.form-inline {
+  display: block;
+  /*!*width: 100%;*!*/
+  height: 40px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+#edit-field-first-name-0-value {
+  float: inline-start;
+  margin-right: 15%;
+}
+
+.path-register .form-submit {
+  width: 92%;
+  background-color: #59afe4;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+  border: none;
 }

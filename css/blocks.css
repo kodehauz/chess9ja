@@ -16,17 +16,17 @@ Version: 1.0
 #header-1
 {
     width: 100%;
-    background: none;
+    background: #6c6c6c;
     height: 80px;
 }
 
-#header-1 .main-nav
-{
-    background-color: #212023;
-    border: 0;
-    height: 80px;
-    opacity: .8;
-}
+/*#header-1 .main-nav*/
+/*{*/
+    /*background-color: #212023;*/
+    /*border: 0;*/
+    /*height: 80px;*/
+    /*opacity: .8;*/
+/*}*/
 
 #header-1 .main-nav .navbar-toggle
 {
@@ -57,10 +57,11 @@ Version: 1.0
 #header-1 .main-nav .nav
 {
     margin-top: 12px;
+    margin-right: 5%;
 }
 
 #header-1 .main-nav .navbar-nav > li a {
-	font-family: Lato;
+	/*font-family: Lato;*/
 	/*font-weight: 700;*/
 	text-transform: uppercase;
 	font-size: 1.3em;
@@ -190,6 +191,7 @@ Version: 1.0
         float: none;
         margin: 0 auto;
         text-align: center;
+        margin-left: 20%;
     }
     #header-1 .navbar-fixed-top
     {
@@ -204,7 +206,8 @@ Version: 1.0
         width: 100%;
         top: 80px;
         position: absolute;
-        background: #193441;
+        background: #6c6c6c;
+        opacity: .8;
         z-index: 999;
     }
     #header-1 .navbar-collapse .nav
@@ -4150,11 +4153,6 @@ Version: 1.0
 	margin: 0;
 }
 
-.blog-date{
-  float: left;
-  color: sienna;
-  font-weight: bold;
-}
 
 .ReadMore {
   float: left;
@@ -4206,3 +4204,8 @@ Version: 1.0
    color: #999;
    border-color: #ccc;
 }
+
+#menu-trigger {
+   margin-left: 10%;
+ }
+

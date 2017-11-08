@@ -12,4 +12,13 @@
 #}
 
 
-<input{{ attributes }} />{{ children }}
+{%
+set classes = [
+'form-inline',
+'form-group',
+]
+%}
+
+<input{{ attributes.addClass(classes) }}>
+
+{#<input{{ attributes }} />{{ children }}#}
