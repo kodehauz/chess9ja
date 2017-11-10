@@ -255,10 +255,15 @@ ul a {
   margin-left: 20px;
 
 }
+.ReadMore {
+  display: inline;
+  padding: 10%;
+}
 .blog-date {
   color: #e3933b;
-  padding-left: 25%;
   text-align: center;
+  display: inline;
+  padding-left: 10%;
 }
 .col-md-8.align-right {
   float: right;

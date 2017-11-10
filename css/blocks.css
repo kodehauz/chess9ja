@@ -4152,13 +4152,6 @@ Version: 1.0
 	font-weight: 700;
 	margin: 0;
 }
-
-
-.ReadMore {
-  float: left;
-  margin-left: 10%;
-}
-
  .button {
   display: inline-block;
   padding: 6px 12px;
