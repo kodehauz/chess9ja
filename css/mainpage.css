@@ -12,22 +12,6 @@
   text-transform: uppercase;
   border-color: #ad783e;
 }
-/*}*/
-/*.latest-news h2 {*/
-  /*border-bottom: solid;*/
-  /*color: #7a7a7a;*/
-  /*font-family: fa;*/
-  /*font-size: 34px;*/
-  /*border-bottom: 5px solid #ccc;*/
-  /*border-bottom-color: rgb(204, 204, 204);*/
-  /*border-bottom-color: rgb(204, 204, 204);*/
-  /*padding: .1em 0;*/
-  /*font-family: sommet;*/
-  /*font-size: 1.5em;*/
-  /*font-weight: 600;*/
-  /*text-transform: uppercase;*/
-  /*border-color: #b07542;*/
-/*}*/
 .latest-news h2 {
   border-bottom: solid;
   border-bottom: 5px solid #ccc;
@@ -342,7 +326,7 @@ ul a {
   margin-right: 15%;
 }
 
-.path-register .form-submit {
+.path-user  #edit-submit {
   width: 92%;
   background-color: #59afe4;
   color: #fff;
@@ -364,4 +348,16 @@ ul a {
 
 #edit-preview {
   margin-left: 10px;
+}
+
+.form-item.js-form-type-radio.form-item-color.js-form-item-color {
+  padding: 10px;
+  display: inline-flex;
+}
+#edit-color-w, #edit-color-b {
+  margin-left: 10px;
+}
+.vchess-opponent-game-form #edit-submit,#edit-submit {
+  background-color: #59afe4;
+  color: #fff;
 }

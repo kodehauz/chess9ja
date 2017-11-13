@@ -281,3 +281,12 @@ table.board-main > tbody > tr > td {
 .block-vchess h2 {
     color: coral;
 }
+
+
+.form-item.js-form-type-radio.form-item-color.js-form-item-color {
+    padding: 10px;
+    display: inline-flex;
+}
+#edit-color-w #edit-color-b {
+    margin-left: 10px;
+}

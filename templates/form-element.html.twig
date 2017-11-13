@@ -46,7 +46,6 @@
 #}
 {%
   set classes = [
-    'js-form-item',
     'form-item',
     'js-form-type-' ~ type|clean_class,
     'form-item-' ~ name|clean_class,
@@ -78,7 +77,7 @@
   {% if suffix is not empty %}
     <span class="field-suffix">{{ suffix }}</span>
   {% endif %}
-  {% if label_display == 'after' %}
+  {% if label_display == 'invisible' %}
     {{ label }}
   {% endif %}
   {% if errors %}
