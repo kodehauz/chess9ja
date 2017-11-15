@@ -853,25 +853,25 @@ Version: 1.0
 /* Small Devices, Tablets */
 
 @media only screen and (min-width : 768px){
-	
-		
+
+
 	
 }
 
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width : 992px){
-	
 
-	
+
+
 }
 
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
-	
-	
-	
+
+
+
 }
 
 /*	CONTENT BLOCK 1-2
@@ -1974,9 +1974,9 @@ Version: 1.0
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	
-	
-	
+
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -1985,14 +1985,14 @@ Version: 1.0
 	.content-3-2 {
 		min-height: 400px;
 	}
-	
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-	
-	
-	
+
+
+
 }
 
 
@@ -2020,8 +2020,33 @@ Version: 1.0
 }
 
 .content-3-3 h1 {
-	
+	font-size: 30px;
 }
+
+@media only screen and (min-width : 768px) {
+  .content-3-3 h1 {
+    font-size: 20px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+  .content-3-3 h1 {
+    font-size: 30px;
+  }
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .content-3-3 h1 {
+    font-size: 40px;
+  }
+
+
+}
+
 
 .content-3-3 h2 {
 	margin-top: 100px;
