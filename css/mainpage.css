@@ -360,3 +360,10 @@ ul a {
 div .col-xs-8 {
   margin-top: 20px;
 }
+
+.sidebar__section.sidebar-second.clearfix {
+  margin: 70px auto auto 10px;
+  border-left: 1px;
+  padding-left: 10px;
+  background: top;
+}

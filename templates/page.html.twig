@@ -1,23 +1,5 @@
 
 {% include directory ~ '/templates/header.html.twig' %}
-{% if page.featured_top %}
-<section id="content-3-3" class="content-block-nopad content-3-3">
-  <div class="overlay overlay-blue">
-    <div class="container text-center">
-      {{ page.featured_top }}
-      <div class="col-md-6 col-md-offset-3 text-center">
-          <div class="col-md-6">
-          </div>
-        <div class="col-md-6">
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-  </div>
-
-  </section>
-  {% endif %}
 
   {% if page.breadcrumb %}
     <div class="clearfix banner region--dark-typography region--gray-background region--no-block-paddings region--no-paddings">
@@ -49,44 +31,67 @@
      {% endif %}
 
   <!-- container -->
+
     <div class="container">
-    {#<span class="heading-t"></span>#}
-    {#{{ page.content_title }}#}
-    {#<span class="heading-b"></span>#}
+      <div class="clearfix main-content__container">
+        <div class="row">
+          {%
+          set content_classes = [
+          page.sidebar_first and page.sidebar_second ? 'col-sm-6',
+          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
+          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
+          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-2'
+          ]
+          %}
 
-    {%
-    set content_classes = [
-    page.sidebar_first and page.sidebar_second ? 'col-sm-6',
-    page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
-    page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
-    page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-9 col-sm-offset-1'
-    ]
-    %}
-
-  
-
-        {% if page.sidebar_first %}
-          <aside id="sidebar" class="content__side widget-area">
-            <aside class="widget"><span class="heading-t3"></span>
-              {{ page.sidebar_first }}
+          {% if page.sidebar_first %}
+            <aside class="col-sm-3">
+              <section class="sidebar__section sidebar-first clearfix">
+                {{ page.sidebar_first }}
+              </section>
             </aside>
-          </aside>
-        {% endif %}
-        <div{{ content_attributes.addClass(content_classes) }}>
-          {{ page.content }}
+          {% endif %}
 
+          <section{{ content_attributes.addClass(content_classes) }}>
+            <div class="clearfix main-content__section">
+              {% if page.content %}
+                {{ page.content }}
+              {% endif %}
+            </div>
+          </section>
 
-
-        {% if page.sidebar_second %}
-          <aside id="sidebar" class="content__side widget-area">
-            <aside class="widget"><span class="heading-t3"></span>
-              {{ page.sidebar_second }}
+          {% if page.sidebar_second %}
+            <aside class="col-sm-3">
+              <section class="sidebar__section sidebar-second clearfix">
+                {{ page.sidebar_second }}
+              </section>
             </aside>
-          </aside>
-        {% endif %}
+          {% endif %}
 
+        </div>
+      </div>
     </div>
-    </div>
+
+    {% if page.featured_top %}
+      <section id="content-3-3" class="content-block-nopad content-3-3">
+        <div class="overlay overlay-blue">
+          <div class="container text-center">
+            {{ page.featured_top }}
+            <div class="col-md-6 col-md-offset-3 text-center">
+              <div class="col-md-6">
+              </div>
+              <div class="col-md-6">
+              </div>
+            </div>
+
+          </div>
+          <!-- /.container -->
+        </div>
+
+      </section>
+    {% endif %}
+
   </div>
+
 {% include directory ~ '/templates/footer.html.twig' %}
 
