@@ -1992,9 +1992,10 @@ fieldset[disabled] .form-control
 
 
 }
-.top_player {
-    margin: 15px auto;
-}
+/*.top_player {*/
+    /*margin: 15px auto;*/
+/*}*/
+
 @media (min-width: 560px){
     .body {
         font-size: 1.2em;
@@ -2002,14 +2003,13 @@ fieldset[disabled] .form-control
 }
 
 .top_player {
-    margin: 15px auto;
+    margin: 2px;
     width: 100%;
     overflow: hidden;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     color: #004a9e;
     font-style: italic;
-    /*padding-top: 24px;*/
     border-bottom: 2px solid #e8e8e8;
 }
 
