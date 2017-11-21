@@ -417,13 +417,6 @@ ul {
   padding: 8px;
 }
 
-span.col-sm-4{
-  margin: 10%;
-  font-size: 1.8em;
-  color: #fff;
-  line-height: 2em;
-}
-
-strong {
-  color: #c53113;
+#edit-mail--description{
+  display: none;
 }

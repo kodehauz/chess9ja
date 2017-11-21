@@ -226,3 +226,37 @@ function chess9ja_form_vchess_game_form_alter(array &$form, FormStateInterface $
   $form['flip_board_button']['#attributes']['class'][] = 'btn btn-primary';
 }
 
+
+function chess9ja_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'user_login_form') {
+    foreach (Element::children($form) as $element) {
+      if (isset($form[$element]['#title'])) {
+        // Hide all the titles of elements in this register form, use placeholder.
+        $form[$element]['#title_display'] = 'invisible';
+        $form[$element]['#placeholder'] = $form[$element]['#title'];
+      }
+    }
+  }
+  else if ($form_id === 'user_register_form') {
+    foreach (Element::children($form['account']) as $element) {
+      if (isset($form['account'][$element]['#title'])) {
+        // Hide all the titles of elements in this register form, use placeholder.
+        $form['account'][$element]['#title_display'] = 'invisible';
+        $form['account'][$element]['#placeholder'] = $form['account'][$element]['#title'];
+      }
+    }
+    // Attached fields.
+    foreach (Element::children($form) as $element) {
+      if (isset($form[$element]['widget'])) {
+        foreach (Element::children($form[$element]['widget']) as $item) {
+          $form[$element]['widget'][$item]['value']['#title_display'] = 'invisible';
+        }
+      }
+    }
+  }
+  else if ($form_id === 'user_pass') {
+    // Hide the username textfield label and use a placeholder instead.
+    $form['name']['#title_display'] = 'invisible';
+    $form['name']['#placeholder'] = t('Username or email address');
+  }
+}
