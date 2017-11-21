@@ -215,6 +215,7 @@ ul a {
 }
 .user-branding .col-md-5 {
   margin-top: 5em;
+  float: right;
 }
 
 
@@ -260,16 +261,21 @@ ul a {
   color: #d79035;
 }
 .user-login-form #edit-submit {
-  background-color: #59afe4;
+  background-color: #66e196;
   color: #fff;
   font-size: 1.3em;
   font-weight: 700;
+  text-transform: inherit;
+  padding: 3px;
+  border:none;
 }
-
+.user-login-form #edit-submit:hover {
+  color: #00b0ff;
+}
 .super-login-register {
-  color: #978f61;
-  font-weight: 700;
-  font-size: 1.8em;
+  color: #fff;
+  /*font-weight: 700;*/
+  /*font-size: 1.8em;*/
 }
 .forgot-password a{
   color: #978f61;
@@ -286,17 +292,6 @@ ul a {
 #edit-pass {
   margin-top: 5%;
 }
-/*.user-register-form #edit-user-picture-0-upload--description {*/
-  /*display: none;*/
-/*}*/
-
-/*.user-register-form #edit-user-picture-wrapper {*/
-  /*margin-top: 10%;*/
-/*}*/
-/*.user-register-form #edit-user-picture-0-upload {*/
-  /*margin-top: 10%;*/
-/*}*/
-
 
 .form-inline {
   display: block;
@@ -381,15 +376,23 @@ ul {
   position: relative;
   padding-left: 0px;
 }
-.path-register a {
-  color: #e2e0cae6;
-  font-size: 15px;
-}
-a:hover,a:active, a:visited,a:focus{
+/*.path-register {*/
+  /*color: #e2e0cae6;*/
+  /*font-size: 15px;*/
+/*}*/
+.user-branding a:hover,a:active, a:visited,a:focus, a {
    color: #84c3ed;
   text-decoration: none;
  }
-
+.create-random-game a, .create-opponent-game a {
+  color: #fff;
+}
+.js-quickedit-page-title{
+  display: none;
+}
+.path-user ul li a {
+  font-size: 1.2em;
+}
 .login-title {
   color: #1a465b;
   font-weight: bold;
@@ -401,4 +404,26 @@ a:hover,a:active, a:visited,a:focus{
 .user-register-form, .form-action, .button--primary {
   width: 96%;
   border: none;
+}
+
+
+.actions-suffix {
+  background-color: #59afe4;
+  color: #fff;
+  /*font-weight: 700;*/
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+}
+
+span.col-sm-4{
+  margin: 10%;
+  font-size: 1.8em;
+  color: #fff;
+  line-height: 2em;
+}
+
+strong {
+  color: #c53113;
 }
