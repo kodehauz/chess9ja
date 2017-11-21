@@ -281,6 +281,7 @@ ul a {
   color: #978f61;
   font-weight: 700;
   margin-bottom: 8%;
+  font-size: 35px;
 }
 #edit-pass {
   margin-top: 5%;
@@ -321,14 +322,14 @@ ul a {
   margin-right: 15%;
 }
 
-.path-user  #edit-submit {
-  width: 92%;
-  background-color: #59afe4;
-  color: #fff;
-  font-size: 1.3em;
-  font-weight: 700;
-  border: none;
-}
+/*.path-user  #edit-submit {*/
+  /*width: 92%;*/
+  /*background-color: #59afe4;*/
+  /*color: #fff;*/
+  /*font-size: 1.3em;*/
+  /*font-weight: 700;*/
+  /*border: none;*/
+/*}*/
 
 .path-contact .js-form-submit {
   width: 20%;
@@ -366,4 +367,38 @@ div .col-xs-8 {
   border-left: 1px;
   padding-left: 10px;
   background: top;
+}
+h2 {
+  font-size: 25px;
+}
+
+.text-align-justify {
+  text-align: justify;
+  font-size: 18px;
+}
+ul {
+  list-style: none;
+  position: relative;
+  padding-left: 0px;
+}
+.path-register a {
+  color: #e2e0cae6;
+  font-size: 15px;
+}
+a:hover,a:active, a:visited,a:focus{
+   color: #84c3ed;
+  text-decoration: none;
+ }
+
+.login-title {
+  color: #1a465b;
+  font-weight: bold;
+}
+.user-pass {
+  margin-top: 10%;
+}
+
+.user-register-form, .form-action, .button--primary {
+  width: 96%;
+  border: none;
 }

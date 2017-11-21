@@ -2069,3 +2069,7 @@ fieldset[disabled] .form-control
     float: left;
     margin-top: 0px;
 }
+
+.messages.messages--error {
+    color: #ea1616;
+}
