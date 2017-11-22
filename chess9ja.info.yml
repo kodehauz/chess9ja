@@ -14,6 +14,7 @@ regions:
   navigation: Navigation
   banner: Banner
   breadcrumb: 'Breadcrumb'
+  status_message: Messages
   content: Content
   main: Main
   main_sidebar_first: 'Main sidebar first'
