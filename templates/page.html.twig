@@ -53,8 +53,8 @@
           {% endif %}
 
           <section{{ content_attributes.addClass(content_classes) }}>
+            {% if page.content %}
             <div class="clearfix main-content__section">
-              {% if page.content %}
                 {{ page.status_message }}
                 {{ page.content }}
               {% endif %}

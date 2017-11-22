@@ -419,3 +419,7 @@ ul {
 #edit-mail--description{
   display: none;
 }
+
+.actions-suffix a:hover,.user-login-form #edit-submit a:hover{
+  color: #fffff0;
+}
