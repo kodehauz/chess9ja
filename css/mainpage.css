@@ -96,12 +96,13 @@
 
 .option {
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 #edit-subject-0-value {
   padding: 7px;
   width: 50%;
-  margin: 2em 0 2em;
+  /*margin: 2em 0 2em;*/
 }
 
 .js-form-required.form-required {
@@ -445,4 +446,13 @@ ul {
 }
 .responsive-enabled th, .responsive-enabled td {
   padding-left: 10px;
+}
+
+.form-type-checkbox {
+  display: -moz-box;
+  margin-left: 10px;
+}
+.form-textarea {
+  width: 547px;
+  height: 101px;
 }
