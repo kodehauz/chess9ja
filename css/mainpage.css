@@ -440,6 +440,7 @@ ul {
 }
 .responsive-enabled thead {
   border-bottom: 1px solid #E6E9ED;
+  font-size: 1em;
 }
 .responsive-enabled th {
   padding: 10px;
