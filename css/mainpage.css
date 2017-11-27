@@ -457,3 +457,7 @@ ul {
   width: 547px;
   height: 101px;
 }
+.js-form-type-radio {
+  display: inline-flex;
+  padding: 10px;
+}
