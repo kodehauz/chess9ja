@@ -445,7 +445,7 @@ ul {
 .responsive-enabled th {
   padding: 10px;
 }
-.responsive-enabled th, .responsive-enabled td {
+ .responsive-enabled td {
   padding-left: 10px;
 }
 
@@ -460,4 +460,19 @@ ul {
 .js-form-type-radio {
   display: inline-flex;
   padding: 10px;
+}
+
+.game-rating {
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.rating {
+  margin-left: 20px;
+  color: #2b8bcf
+}
+.game-stat {
+  color: #2e1d1d;
+  font-weight: bold;
 }

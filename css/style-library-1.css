@@ -2008,9 +2008,12 @@ fieldset[disabled] .form-control
     overflow: hidden;
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
-    color: #004a9e;
+    color: #0f0d0be6;
     font-style: italic;
     border-bottom: 2px solid #e8e8e8;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #a9a9a966;
 }
 
 @media (min-width: 560px){
