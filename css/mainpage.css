@@ -344,6 +344,8 @@ ul a {
 
 .form-item.js-form-type-radio.form-item-color.js-form-item-color {
   display: inline-flex;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 #edit-color-w, #edit-color-b {
   margin-left: 10px;
@@ -459,6 +461,7 @@ ul {
 }
 .js-form-type-radio {
   display: inline-flex;
+  margin-top: -10px;
 }
 
 .game-rating {
