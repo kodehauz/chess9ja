@@ -470,6 +470,11 @@ ul {
   margin-top: 5px;
 }
 
+#edit-game-type--wrapper--description {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
 .rating {
   margin-left: 20px;
   color: #2b8bcf
