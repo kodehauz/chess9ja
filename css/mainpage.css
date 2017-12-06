@@ -465,19 +465,30 @@ ul {
 }
 
 .game-rating {
-  float: right;
+  /*float: right;*/
   margin-right: 20px;
   margin-top: 5px;
+  margin-left: 20px;
+}
+.user-picture img {
+  margin-top: 10px;
 }
 
 #edit-game-type--wrapper--description {
   margin-top: -10px;
   margin-bottom: 20px;
 }
-
+.user-name {
+  margin-left: 20px;
+}
 .rating {
   margin-left: 20px;
   color: #2b8bcf
+}
+
+.top_player .align-right {
+  margin-right: 90px;
+  border-left: 1px solid lightgrey;
 }
 .game-stat {
   color: #2e1d1d;
