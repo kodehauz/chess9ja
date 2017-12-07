@@ -488,10 +488,11 @@ ul {
 
 .top_player .align-right {
   margin-right: 90px;
-  border-left: 1px solid lightgrey;
+  border-left: 3px solid;
+  margin-top: 5%;
 }
 .game-stat {
-  color: #2e1d1d;
+  color: #1a622c;
   font-weight: bold;
 }
 
@@ -512,4 +513,10 @@ ul {
 #edit-colorfield {
   margin-top: 40px;
   margin-bottom: auto;
+}
+.won{
+  color: green;
+}
+.lost{
+  color: red;
 }
