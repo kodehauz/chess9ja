@@ -2003,7 +2003,7 @@ fieldset[disabled] .form-control
 }
 
 .top_player {
-    margin: 2px;
+    /*margin: 2px;*/
     width: 100%;
     overflow: hidden;
     -o-text-overflow: ellipsis;
