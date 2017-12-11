@@ -483,13 +483,15 @@ ul {
   margin-left: 20px;
 }
 .rating {
-  color: #2b8bcf
+  color: #2b8bcf;
+  margin-left: 65px;
+  margin-top: -40px;
 }
 
 .top_player .align-right {
   margin-right: 90px;
-  border-left: 3px solid;
-  margin-top: 5%;
+  border-left: 2px solid;
+  margin-top: -40px;
 }
 .game-stat {
   color: #1a622c;
@@ -519,4 +521,10 @@ ul {
 }
 .lost{
   color: red;
+}
+.footer-text p a {
+  color: #e3933b;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
 }
