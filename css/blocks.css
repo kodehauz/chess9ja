@@ -148,7 +148,13 @@ Version: 1.0
 #header-1 .brand-img
 {
     max-width: 150px;
-    padding: 20px 0;
+    /*padding: 20px 0;*/
+}
+
+#menu-trigger {
+  height: auto;
+  width: 18%;
+  margin-left: 10%;
 }
 
 .headroom
@@ -4224,7 +4230,8 @@ Version: 1.0
    border-color: #ccc;
 }
 
-#menu-trigger {
-   margin-left: 10%;
- }
+
+.quickedit-field img {
+  margin-top: 2%;
+}
 
