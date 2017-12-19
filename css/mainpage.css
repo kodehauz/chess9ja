@@ -355,8 +355,11 @@ ul a {
   color: #fff;
 }
 
-div .col-xs-8 {
+div .col-sm-8 {
   margin-top: 20px;
+}
+.date {
+  margin-bottom: -20px;
 }
 
 .sidebar__section.sidebar-second.clearfix {

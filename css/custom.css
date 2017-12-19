@@ -17,7 +17,8 @@
 .featured-news img,
 .latest-news img {
   max-width: 100%;
-  margin: 10px 0 10px 0;
+  height: 100%;
+  margin: 30px 0 10px 0;
   -webkit-border-radius: 5px;
   -webkit-background-clip: padding-box;
   -moz-border-radius: 5px;
