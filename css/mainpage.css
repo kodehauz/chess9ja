@@ -381,6 +381,7 @@ h2 {
 .text-align-justify {
   text-align: justify;
   font-size: 18px;
+  margin-top: 20px;
 }
 
 .path-frontpage .text-align-justify {
