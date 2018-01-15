@@ -24,6 +24,7 @@
         <div class="vc_column-inner ">
           <div class="wpb_wrapper">
             {{ page.messages }}
+            {{ page.status_message }}
           </div>
         </div>
       </div>
@@ -37,9 +38,9 @@
         <div class="row">
           {%
           set content_classes = [
-          page.sidebar_first and page.sidebar_second ? 'col-sm-6',
-          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
-          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
+          page.sidebar_first and page.sidebar_second ? 'col-sm-3',
+          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-8',
+          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-8',
           page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-1'
           ]
           %}
@@ -52,6 +53,14 @@
             </aside>
           {% endif %}
 
+          <section{{ content_attributes.addClass(content_classes) }}>
+            {% if page.content %}
+            <div class="clearfix main-content__section">
+                {{ page.content }}
+              {% endif %}
+            </div>
+          </section>
+
           {% if page.sidebar_second %}
             <aside class="col-sm-3">
               <section class="sidebar__section sidebar-second clearfix">
@@ -59,16 +68,6 @@
               </section>
             </aside>
           {% endif %}
-
-          <section{{ content_attributes.addClass(content_classes) }}>
-            {% if page.content %}
-            <div class="clearfix main-content__section">
-                {{ page.status_message }}
-                {{ page.content }}
-              {% endif %}
-            </div>
-          </section>
-
         </div>
       </div>
     </div>
