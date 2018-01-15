@@ -8,13 +8,13 @@
           <div class="row">
             <div class="col-md-12 breadcrumb">
               {{ page.breadcrumb }}
+              {{ page.status_message }}
             </div>
           </div>
         </div>
       </div>
     </div>
 {% endif %}
-
 
   <div id="wrapper">
 
@@ -24,7 +24,6 @@
         <div class="vc_column-inner ">
           <div class="wpb_wrapper">
             {{ page.messages }}
-            {{ page.status_message }}
           </div>
         </div>
       </div>
@@ -35,41 +34,63 @@
 
     <div class="container">
       <div class="clearfix main-content__container">
-        <div class="row">
-          {%
-          set content_classes = [
-          page.sidebar_first and page.sidebar_second ? 'col-sm-3',
-          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
-          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
-          page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-1'
-          ]
-          %}
-
-          {% if page.sidebar_first %}
-            <aside class="col-sm-3">
-              <section class="sidebar__section sidebar-first clearfix">
-                {{ page.sidebar_first }}
-              </section>
-            </aside>
-          {% endif %}
-
-          <section{{ content_attributes.addClass(content_classes) }}>
-            {% if page.content %}
-            <div class="col-sm-6">
-                {{ page.content }}
-            </div>
-              {% endif %}
+        <main id="content" class="column main-content" role="main">
+          <section class="section">
+            <a id="main-content" tabindex="-1"></a>
+            {{ page.content }}
           </section>
-
-          {% if page.sidebar_second %}
-            <aside class="col-sm-3">
-              <section class="sidebar__section sidebar-second clearfix">
-                {{ page.sidebar_second }}
-              </section>
+        </main>
+        {% if page.sidebar_first %}
+          <div id="sidebar-first" class="column sidebar">
+            <aside class="section" role="complementary">
+              {{ page.sidebar_first }}
             </aside>
-          {% endif %}
-        </div>
-      </div>
+          </div>
+        {% endif %}
+
+        {% if page.sidebar_second %}
+          <div id="sidebar-second" class="column sidebar">
+            <aside class="section" role="complementary">
+              {{ page.sidebar_second }}
+            </aside>
+          </div>
+        {% end if %}
+
+
+        {#<div class="row">#}
+          {#{%#}
+          {#set content_classes = [#}
+          {#page.sidebar_first and page.sidebar_second ? 'col-sm-6',#}
+          {#page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',#}
+          {#page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',#}
+          {#page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-1'#}
+          {#]#}
+          {#%}#}
+
+          {#{% if page.sidebar_first %}#}
+            {#<aside class="col-sm-3">#}
+              {#<section class="sidebar__section sidebar-first clearfix">#}
+                {#{{ page.sidebar_first }}#}
+              {#</section>#}
+            {#</aside>#}
+          {#{% endif %}#}
+          {##}
+          {#<section{{ content_attributes.addClass(content_classes) }}>#}
+            {#{% if page.content %}#}
+            {#<div class="clearfix main-content__section">#}
+                {#{{ page.content }}#}
+              {#{% endif %}#}
+            {#</div>#}
+          {#</section>#}
+          {#{% if page.sidebar_second %}#}
+            {#<aside class="col-sm-3">#}
+              {#<section class="sidebar__section sidebar-second clearfix">#}
+                {#{{ page.sidebar_second }}#}
+              {#</section>#}
+            {#</aside>#}
+          {#{% endif %}#}
+        {#</div>#}
+      {#</div>#}
     </div>
 
     {% if page.featured_top %}
