@@ -381,13 +381,18 @@ h2 {
 .text-align-justify {
   text-align: justify;
   font-size: 18px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .date-time {
   font-weight: bolder;
   color: #6495edb3;
   font-style: italic;
+}
+
+.align-left {
+  float: left;
+  padding-right: 20px;
 }
 
 .path-frontpage .text-align-justify {
