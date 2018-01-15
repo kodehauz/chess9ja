@@ -374,7 +374,7 @@ h2 {
 
 .path-news .text-align-justify {
   text-align: justify;
-  font-size: 18px;
+  font-size: 1.3em;
   margin-top: -10px;
 }
 
@@ -565,4 +565,13 @@ ul {
 
 .quickedit-field img {
   margin-top: 10px;
+}
+
+.layout.layout--onecol img {
+  float: left;
+  padding-right: 20px;
+  margin: 10px;
+}
+.img-resp img {
+  float: right;
 }
