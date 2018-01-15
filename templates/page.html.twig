@@ -39,8 +39,8 @@
           {%
           set content_classes = [
           page.sidebar_first and page.sidebar_second ? 'col-sm-3',
-          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-8',
-          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-8',
+          page.sidebar_first and page.sidebar_second is empty ? 'col-sm-9',
+          page.sidebar_second and page.sidebar_first is empty ? 'col-sm-9',
           page.sidebar_first is empty and page.sidebar_second is empty ? 'col-sm-8 col-sm-offset-1'
           ]
           %}
@@ -55,10 +55,10 @@
 
           <section{{ content_attributes.addClass(content_classes) }}>
             {% if page.content %}
-            <div class="clearfix main-content__section">
+            <div class="col-sm-6">
                 {{ page.content }}
-              {% endif %}
             </div>
+              {% endif %}
           </section>
 
           {% if page.sidebar_second %}
