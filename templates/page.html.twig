@@ -52,6 +52,14 @@
             </aside>
           {% endif %}
 
+          {% if page.sidebar_second %}
+            <aside class="col-sm-3">
+              <section class="sidebar__section sidebar-second clearfix">
+                {{ page.sidebar_second }}
+              </section>
+            </aside>
+          {% endif %}
+
           <section{{ content_attributes.addClass(content_classes) }}>
             {% if page.content %}
             <div class="clearfix main-content__section">
@@ -60,14 +68,6 @@
               {% endif %}
             </div>
           </section>
-
-          {% if page.sidebar_second %}
-            <aside class="col-sm-3">
-              <section class="sidebar__section sidebar-second clearfix">
-                {{ page.sidebar_second }}
-              </section>
-            </aside>
-          {% endif %}
 
         </div>
       </div>
