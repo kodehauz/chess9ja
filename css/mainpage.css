@@ -384,9 +384,16 @@ h2 {
   margin-top: 20px;
 }
 
+.date-time {
+  font-weight: bolder;
+  color: #6495edb3;
+  font-style: italic;
+}
+
 .path-frontpage .text-align-justify {
   text-align: justify;
-  margin-top: -10px;
+  margin-top: -15px;
+  font-size: 15px;
 }
 
 .align-justify {
