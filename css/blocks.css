@@ -234,10 +234,10 @@ Version: 1.0
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px){
-  
-	
-  
-  
+
+
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -4234,14 +4234,18 @@ Version: 1.0
 .quickedit-field img {
   margin-top: 2%;
 }
+@media (min-width: 768px){
+  .navbar-nav > li:last-child > a {
+    border: 2px solid;
+    border-radius: 5px;
+    height: auto !important;
+    /*padding: 7px 10px;*/
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
 
-.navbar-nav > li:last-child > a {
-  border: 2px solid;
-  border-radius: 5px;
-  height: auto !important;
-  /*padding: 7px 10px;*/
-  -moz-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+
 }
+
