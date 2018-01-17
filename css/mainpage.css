@@ -610,5 +610,12 @@ ul {
   float: right;
 }
 
+.layout.layout-onecol img {
+  float: left;
+  padding-right: 20px;
+  margin: 10px 0px 0px -15px;
+}
 
-
+/*.node_title {*/
+  /*margin-bottom: auto;*/
+/*}*/
