@@ -4235,3 +4235,13 @@ Version: 1.0
   margin-top: 2%;
 }
 
+.navbar-nav > li:last-child > a {
+  border: 2px solid;
+  border-radius: 5px;
+  height: auto !important;
+  /*padding: 7px 10px;*/
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
