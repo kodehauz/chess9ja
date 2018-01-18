@@ -665,3 +665,10 @@ ul {
   float: right;
 }
 
+.item-list a {
+  font-size: 16px;
+  display: table-cell;
+  white-space: pre-line;
+  text-decoration: underline;
+  padding: inherit;
+}
