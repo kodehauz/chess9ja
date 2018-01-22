@@ -388,10 +388,6 @@ ul a {
   color: #fff;
 }
 
-div .col-sm-8 {
-  margin-top: 20px;
-}
-
 .date {
   margin-bottom: -20px;
 }
@@ -600,15 +596,10 @@ ul {
   font-size: 15px;
 }
 
-.quickedit-field img {
-  margin-top: 10px;
+.col-sm-4.layout.layout-onecol {
+  margin-top: 20px;
 }
 
-.layout.layout--onecol img {
-  float: left;
-  padding-right: 20px;
-  margin-top: 10px;
-}
 
 @media (min-width : 768px){
   .layout.layout--onecol img {
@@ -619,25 +610,19 @@ ul {
 
 }
 
+.node-blog {
+  margin-left: 40px;
+}
+
 /* Medium Devices, Desktops */
 
 @media (min-width : 992px){
-  .layout.layout--onecol img {
-    float: left;
-    padding-right: 20px;
-    margin-top: 10px;
-  }
-
 }
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width : 1200px){
 
 }
-
-/*.node_title {*/
-  /*margin-bottom: auto;*/
-/*}*/
 
 .node1_title {
   font-size: 20px;
