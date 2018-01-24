@@ -600,9 +600,21 @@ ul {
   background-color: #777;
   border-radius: 10px;
 }
+.streak {
+  font-weight: 800;
+  margin-left: 0.3em;
+  font-size: 9px;
+}
 
+.name {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  font-weight: bolder;
+}
 
-
+.form-player {
+  border-bottom: 1px solid lightgray;
+}
 
 .won{
   display: inline-flex;
