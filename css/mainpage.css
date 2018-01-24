@@ -418,7 +418,7 @@ h2 {
   font-weight: bolder;
   color: #d78e38;
   font-style: italic;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
 }
 
 .align-left {
@@ -549,10 +549,13 @@ ul {
 .user-name {
   margin-left: 20px;
 }
-.rating {
-  color: #2b8bcf;
-  margin-left: 65px;
-  margin-top: -40px;
+.rating-1 {
+  margin-left: 50%;
+  font-weight: 800;
+  font-size: 0.7em;
+}
+.image-circle img {
+  border-radius: 20px;
 }
 
 .top_player .align-right {
@@ -583,12 +586,60 @@ ul {
   margin-top: 40px;
   margin-bottom: auto;
 }
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+
+
+
 .won{
-  color: green;
+  display: inline-flex;
+  font-size: 14px;
+  margin-left: 2%;
+  font-weight: bolder;
 }
+
+.drawn{
+  display: inline-flex;
+  font-size: 14px;
+  margin-left: 3%;
+  font-weight: bolder;
+}
+
 .lost{
-  color: red;
+  display: inline;
+  font-size: 14px;
+  margin-left: 2%;
+  font-weight: bolder;
 }
+
+.badge.badge-success {
+  margin-left: -4%;
+  background-color: #1fa318;
+  margin-right: 4%;
+}
+
+.badge.badge-danger {
+  margin-left: -20%;
+  background-color: red;
+}
+
+.badge.badge-info {
+  margin-left: -40%;
+}
+
 .footer-text p a {
   color: #e3933b;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -606,6 +657,8 @@ ul {
     float: left;
     padding-right: 20px;
     margin-top: 10px;
+    max-width: 100%;
+    max-height: 100%;
   }
 
 }
@@ -617,6 +670,10 @@ ul {
 /* Medium Devices, Desktops */
 
 @media (min-width : 992px){
+  .layout.layout--onecol img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 /* Large Devices, Wide Screens */
 
