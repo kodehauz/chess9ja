@@ -193,6 +193,17 @@ table.board-main > tbody > tr > td {
     
 }
 
+@media (max-width: 380px) {
+    .board-captured .board-piece,
+    .board-main .board-square .board-piece,
+    .board-main .board-square .empty-square {
+        width: 25px;
+        height: 25px;
+        -webkit-background-size: 25px 25px;
+        background-size: 25px 25px;
+    }
+}
+
 @media (max-width: 699px) {
 
     .board-main .board-coordinate {
@@ -200,14 +211,7 @@ table.board-main > tbody > tr > td {
         font-size: 1em;
     }
 
-    .board-captured .board-piece,
-    .board-main .board-square .board-piece,
-    .board-main .board-square .empty-square {
-        width: 40px;
-        height: 40px;
-        -webkit-background-size: 40px 40px;
-        background-size: 40px 40px;
-    }
+
 
     .board-captured {
         height: 40px;
