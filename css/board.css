@@ -163,21 +163,21 @@ table.board-main > tbody > tr > td {
 @media (min-width: 700px) {
 
     .board-main .board-coordinate {
-        height: 30px;
+        height: 53px;
         font-size: 1.1em;
     }
 
     .board-captured .board-piece,
     .board-main .board-square .board-piece,
     .board-main .board-square .empty-square {
-        width: 30px;
-        height: 30px;
-        -webkit-background-size: 30px 30px;
-        background-size: 30px 30px;
+        width: 53px;
+        height: 53px;
+        -webkit-background-size: 53px 53px;
+        background-size: 53px 53px;
     }
 
     .board-captured {
-        height: 30px;
+        height: 53px;
     }
 
     .file-letters {
@@ -185,10 +185,10 @@ table.board-main > tbody > tr > td {
     }
 
     .board-main .board-square {
-        width: 30px;
-        height: 30px;
-        -webkit-background-size: 30px 30px;
-        background-size: 30px 30px;
+        width: 53px;
+        height: 53px;
+        -webkit-background-size: 57px 57px;
+        background-size: 57px 57px;
     }
     
 }
@@ -207,9 +207,11 @@ table.board-main > tbody > tr > td {
 @media (max-width: 699px) {
 
     .board-main .board-coordinate {
-        height: 30px;
+        height: 40px;
         font-size: 1em;
     }
+
+
 
     .board-captured {
         height: 40px;
@@ -220,10 +222,10 @@ table.board-main > tbody > tr > td {
     }
 
     .board-main .board-square {
-        width: 30px;
-        height: 30px;
-        -webkit-background-size: 30px 30px;
-        background-size: 30px 30px;
+        width: 40px;
+        height: 40px;
+        -webkit-background-size: 44px 44px;
+        background-size: 44px 44px;
     }
 
 }
