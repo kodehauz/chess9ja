@@ -24,6 +24,14 @@ table.board-main > tbody > tr > td {
     border: none;
 }
 
+.board-main .board-square .board-piece {
+    width: 50px;
+    height: 50px;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+}
+
 .board-main .board-coordinate {
     color: #977059;
     vertical-align: middle;
@@ -42,12 +50,12 @@ table.board-main > tbody > tr > td {
     margin: 0 auto;
 }
 
-/*.board-captured {*/
-    /*padding: 2px;*/
-    /*max-width: 100%;*/
-    /*vertical-align: middle;*/
-    /*border: none;*/
-/*}*/
+.board-captured {
+    padding: 2px;
+    width: 100%;
+    vertical-align: middle;
+    border: none;
+}
 
 .board-frame {
     margin-left:auto;
@@ -89,7 +97,7 @@ table.board-main > tbody > tr > td {
 
 .board-captured {
     padding: 2px;
-    max-width: 100%;
+    width: 100%;
     vertical-align: middle;
     border: none;
 }
