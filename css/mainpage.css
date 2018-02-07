@@ -1,28 +1,22 @@
 
 
 .featured-news h2 {
-  border-bottom: solid;
-  border-bottom: 5px solid #ccc;
-  border-bottom-color: rgb(204, 204, 204);
-  border-bottom-color: rgb(204, 204, 204);
-  padding: .1em 0;
-  font-family: sommet;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-family: fantasy;
+  padding: 10px;
+  /*font-weight: 600;*/
+  font-size: 2em;
   text-transform: uppercase;
-  border-color: #ad783e;
+  margin-bottom: -10px;
+  text-decoration: underline overline;
+  color: dimgray;
 }
 .latest-news h2 {
-  border-bottom: solid;
-  border-bottom: 5px solid #ccc;
-  border-bottom-color: rgb(204, 204, 204);
-  border-bottom-color: rgb(204, 204, 204);
   padding: .1em 0;
-  font-family: sommet;
-  font-size: 1.5em;
-  font-weight: 600;
+  font-family: fantasy;
+  font-size: 2em;
   text-transform: uppercase;
-  border-color: #ad783e;
+  color: dimgray;
+  text-decoration: underline overline;
 }
 
 .featured-news .button.btn {
@@ -36,7 +30,7 @@
 .news-title {
   font-size: 16px;
   margin-bottom: 1%;
-  margin-top: 5%;
+  margin-top: 3%;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -433,7 +427,7 @@ h2 {
   font-weight: bolder;
   color: #d78e38;
   font-style: italic;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .align-left {
@@ -722,4 +716,23 @@ margin-left: 40px;
 
 .demo {
   margin-top: -10px;
+}
+
+.path-frontpage .col-lg-8.col-md-8.col-sm-9 {
+  box-shadow: 0 2px 4px 0 #9c9e9d;
+  background-color: white;
+  margin-top: 20px;
+  max-height: 100%;
+  padding-bottom: 10px;
+}
+
+.flippy {
+  margin-top: 10%;
+  margin-left: -20px;
+}
+
+.path-node input#edit-submit, input#edit-preview {
+  width: 20%;
+  display: inline;
+  float: left;
 }
