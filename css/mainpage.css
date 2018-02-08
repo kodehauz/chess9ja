@@ -542,7 +542,11 @@ ul {
   padding: 10px;
 }
  .responsive-enabled td {
-  padding-left: 10px;
+   padding-left: 10px;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: san, serif;
+   color: #5f5656;
 }
 
 .form-type-checkbox {
