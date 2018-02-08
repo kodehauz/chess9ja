@@ -31,7 +31,7 @@
 .news-title {
   font-size: 16px;
   margin-bottom: 1%;
-  margin-top: 3%;
+  margin-top: 2%;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -283,7 +283,7 @@ ul a {
 .path-frontpage .Readmore a {
   color: #fff;
 }
-.path-frontpage .Readmore:hover {
+.path-frontpage .Readmore a:hover {
   color: #73afff;
 }
 
@@ -296,7 +296,7 @@ ul a {
 .path-frontpage .Read a {
   color: #fff;
 }
-.path-frontpage .Read:hover {
+.path-frontpage .Read a:hover {
   color: #73afff;
 }
 
