@@ -17,6 +17,7 @@
   text-transform: uppercase;
   color: dimgray;
   text-decoration: underline overline;
+  margin-top: 10%;
 }
 
 .featured-news .button.btn {
@@ -279,17 +280,27 @@ ul a {
   padding: 10px;
 }
 
+.path-frontpage .Readmore a {
+  color: #fff;
+}
+.path-frontpage .Readmore:hover {
+  color: #73afff;
+}
+
 .button.btn.Read {
   background-color: #d68838;
   box-shadow: none;
   width: 50%;
   padding: 10px;
 }
-
-
-.path-frontpage .Readmore a {
+.path-frontpage .Read a {
   color: #fff;
 }
+.path-frontpage .Read:hover {
+  color: #73afff;
+}
+
+
 
 .blog-date {
   color: #e3933b;
@@ -730,7 +741,7 @@ margin-left: 40px;
 .path-frontpage .col-lg-8.col-md-8.col-sm-9 {
   box-shadow: 0 2px 4px 0 #9c9e9d;
   background-color: white;
-  margin-top: 3%;
+  margin-top: 2%;
   max-height: 100%;
   padding-bottom: 10px;
 }
