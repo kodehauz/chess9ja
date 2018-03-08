@@ -80,17 +80,17 @@ table.board-main > tbody > tr > td {
 }
 
 
-.block-vchess-moves-list .x_content {
+.vchess-moves-list {
     height: 250px;
     overflow-y: auto;
 }
 
-.block-vchess-captured-pieces .x_content {
+.vchess-captured-pieces {
     height: 250px;
     overflow-y: auto;
 }
 
-.block-vchess-captured-pieces .x_content .board-captured {
+.vchess-captured-pieces  .board-captured {
     height: 120px;
     vertical-align: middle;
 }
@@ -245,34 +245,25 @@ table.board-main > tbody > tr > td {
 .board-square.black.highlighted {
     background-image: url("../images/board/53x53/highlight-white.jpg");
 }
-/*.board-main {*/
-    /*background: #382c25;*/
-    /*border-radius: 10px;*/
-    /*margin: 1.5rem auto !important;*/
-    /*border: 13px ridge #542f23;*/
-/*}*/
 
-.block-vchess-moves-list .x_content {
+
+.vchess-moves-list {
     max-height: 250px;
     overflow-y: auto;
 }
 
-.block-vchess-captured-pieces .x_content {
+.vchess-captured-pieces {
     max-height: 250px;
     overflow-y: auto;
     display: inline-flex;
 }
-.x_content .board-captured {
+.board-captured {
     padding: 2px;
     width: 100%;
     height: 40px;
     vertical-align: middle;
     border: none;
 }
-
-/*.block-vchess h2 {*/
-    /*color: coral;*/
-/*}*/
 
 .table > tbody > tr > td {
     border-top: none;
@@ -293,7 +284,6 @@ table.board-main > tbody > tr > td {
 .block-vchess h2 {
     color: coral;
 }
-
 
 .form-item.js-form-type-radio.form-item-color.js-form-item-color {
     padding: 10px;
