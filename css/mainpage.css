@@ -149,27 +149,27 @@ ul a {
 
 
 /* Move styles */
-.block-vchess-moves-list .table .even{
+.vchess-moves-list .table .even{
   background: #ececec;
 }
 
 
-.block-vchess-moves-list .table {
+.vchess-moves-list .table {
   text-align: center;
 }
 
-.block-vchess-moves-list .table {
+.vchess-moves-list .table {
   text-align: center;
 }
 
-.block-vchess-moves-list th {
+.vchess-moves-list th {
   text-align: center;
 }
-.block-vchess-moves-list .table tbody > tr > td:nth-child(3) {
+.vchess-moves-list .table tbody > tr > td:nth-child(3) {
   background: #ccc;
   /*background: #2A3F54;*/
 }
-.block-vchess-moves-list .table tbody > tr > td:nth-child(3) a {
+.vchess-moves-list .table tbody > tr > td:nth-child(3) a {
   color: #fff;
 }
 
@@ -529,6 +529,9 @@ ul {
 .responsive-enabled {
   position: relative;
   width: 100%;
+}
+
+table {
   margin-bottom: 10px;
   padding: 10px 17px;
   display: inline-block;
