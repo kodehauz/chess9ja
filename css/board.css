@@ -37,7 +37,6 @@ table.board-main > tbody > tr > td {
     vertical-align: middle;
     width: 20px;
     border: none;
-    font-family: SansSerif Sans-Serif, serif;
     font-size: 1.1em;
 }
 
@@ -212,7 +211,7 @@ table.board-main > tbody > tr > td {
     }
 }
 
-@media (max-width: 699px) {
+fin@media (mafinx-width: 699px) {
 
     .board-main .board-coordinate {
         height: 40px;

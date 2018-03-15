@@ -529,9 +529,6 @@ ul {
 .responsive-enabled {
   position: relative;
   width: 100%;
-}
-
-table {
   margin-bottom: 10px;
   padding: 10px 17px;
   display: inline-block;
@@ -552,9 +549,6 @@ table {
 }
  .responsive-enabled td {
    padding-left: 10px;
-   font-size: 14px;
-   font-weight: bold;
-   font-family: san, serif;
    color: #5f5656;
 }
 
@@ -650,7 +644,6 @@ table {
 
 .name {
   text-transform: uppercase;
-  font-size: 0.6em;
   font-weight: bolder;
 }
 
