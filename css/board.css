@@ -211,7 +211,7 @@ table.board-main > tbody > tr > td {
     }
 }
 
-fin@media (mafinx-width: 699px) {
+@media (max-width: 699px) {
 
     .board-main .board-coordinate {
         height: 40px;
