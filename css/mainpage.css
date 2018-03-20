@@ -587,8 +587,8 @@ ul {
 }
 .rating-1 {
   margin-left: 50%;
-  font-weight: 800;
-  font-size: 0.7em;
+  /*font-weight: 800;*/
+  /*font-size: 0.7em;*/
 }
 .image-circle img {
   border-radius: 20px;
@@ -626,7 +626,7 @@ ul {
   display: inline-block;
   min-width: 10px;
   padding: 2px 4px;
-  font-size: 12px;
+  /*font-size: 12px;*/
   font-weight: bold;
   line-height: 1;
   color: #fff;
@@ -637,39 +637,42 @@ ul {
   border-radius: 10px;
 }
 .streak {
-  font-weight: 800;
+  /*font-weight: 800;*/
   margin-left: 0.3em;
-  font-size: 9px;
+  /*font-size: 9px;*/
 }
 
 .name {
-  text-transform: uppercase;
-  font-weight: bolder;
+  text-transform: capitalize;
+   margin-left: 20px;
+  /*font-weight: bolder;*/
 }
+@media (min-width : 768px) {
 
-.form-player {
-  border-bottom: 1px solid lightgray;
+  .form-player {
+    border-bottom: 1px solid lightgray;
+  }
 }
 
 .won{
   display: inline-flex;
-  font-size: 14px;
+  /*font-size: 14px;*/
   margin-left: 2%;
-  font-weight: bolder;
+  /*font-weight: bolder;*/
 }
 
 .drawn{
   display: inline-flex;
-  font-size: 14px;
+  /*font-size: 14px;*/
   margin-left: 3%;
-  font-weight: bolder;
+  /*font-weight: bolder;*/
 }
 
 .lost{
   display: inline;
-  font-size: 14px;
+  /*font-size: 14px;*/
   margin-left: 2%;
-  font-weight: bolder;
+  /*font-weight: bolder;*/
 }
 
 .badge.badge-success {
@@ -681,6 +684,9 @@ ul {
 .badge.badge-danger {
   margin-left: -20%;
   background-color: red;
+}
+.col-xs-1.image-circle {
+  padding: 5px;
 }
 
 .badge.badge-info {
@@ -766,4 +772,27 @@ margin-left: 40px;
 
 .rc_comment-box-container {
   margin-top: 5%;
+}
+
+
+@media screen and (max-device-width: 480px){
+  /* some CSS here */
+  .vchess-game-links{
+     width: 100%;
+  }
+  .create-opponent-game, .create-random-game, .create-challenge{
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-device-width: 480px){
+.form-inline {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+}
+
 }

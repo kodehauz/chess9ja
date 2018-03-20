@@ -4203,10 +4203,10 @@ a.hiddenanchor {
   background: #ecf0f1;
   box-shadow: 0 2px #bdc3c7;
   color: #999;
+  margin-bottom: 0px
 }
 
-.button.create-challenge:hover
-{
+.button.create-challenge:hover {
   background: #bdc3c7;
 }
 
@@ -4216,6 +4216,7 @@ a.hiddenanchor {
 {
   background: #00bfff;
   box-shadow: 0 2px #0085c6;
+  margin-bottom: 0px
 }
 
 .button.create-random-game:hover
@@ -4229,10 +4230,10 @@ a.hiddenanchor {
 {
   background: #f1c40f;
   box-shadow: 0 2px #f39c12;
+  margin-bottom: 0px;
 }
 
-.button.create-opponent-game:hover
-{
+.button.create-opponent-game:hover {
   background: #f39c12;
 }
 
