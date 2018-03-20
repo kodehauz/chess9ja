@@ -774,6 +774,9 @@ margin-left: 40px;
   margin-top: 5%;
 }
 
+.vchess-game-links div.button {
+  display: block;
+}
 
 @media screen and (max-device-width: 480px){
   /* some CSS here */
