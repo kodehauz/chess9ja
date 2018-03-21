@@ -787,14 +787,13 @@ margin-left: 40px;
 }
 
 .vchess-game-links div.button {
-  display: inline-block;
+  display:inline-block;
 }
 
 @media screen and (max-device-width: 480px){
 
   .vchess-game-links div.button {
     display: block;
-    width: 100%;
   }
 
 }
