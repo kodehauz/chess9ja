@@ -541,6 +541,8 @@ ul {
 @media screen and (max-device-width: 480px){
   .responsive-enabled {
     font-size: 11px;
+    display: inline-block;
+    overflow-y: scroll;
   }
 
 }
