@@ -538,12 +538,21 @@ ul {
 .actions-suffix a:hover,.user-login-form #edit-submit a:hover{
   color: #fffff0;
 }
+@media screen and (max-device-width: 480px){
+  .responsive-enabled {
+    font-size: 11px;
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+}
+
 .responsive-enabled {
   position: relative;
   width: 100%;
   margin-bottom: 10px;
   padding: 10px 17px;
-  display: inline-block;
+  display: inline-grid;
   background: #fff;
   border: 1px solid #E6E9ED;
   -webkit-column-break-inside: avoid;
@@ -551,7 +560,11 @@ ul {
   column-break-inside: avoid;
   opacity: 1;
   transition: all .2s ease;
+  font-size: 14px;
+  overflow-y: auto;
+  line-height: 2.0;
 }
+
 .responsive-enabled thead {
   border-bottom: 1px solid #E6E9ED;
   font-size: 1em;
@@ -559,8 +572,8 @@ ul {
 .responsive-enabled th {
   padding: 10px;
 }
- .responsive-enabled td {
-   /*padding-left: 10px;*/
+.responsive-enabled td {
+   padding-left: 10px;
    color: #5f5656;
 }
 
