@@ -582,6 +582,7 @@ ul {
   display: -webkit-inline-box;
   margin-left: 10px;
   margin-top: 10px;
+  color: rebeccapurple;
 }
 
 .form-textarea {
