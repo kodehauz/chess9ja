@@ -3,10 +3,10 @@ global:
   css:
     base:
       css/bootstrap.css: {}
-      css/font-awesome/font-awesome.css: {}
+      css/font-awesome.css: {}
       css/style-library-1.css: {}
       css/blocks.css: {}
-      css/game-timer: {}
+      css/game-timer.css: {}
       css/breadcrumb.css: {}
       css/messages.css: {}
       css/custom.css: {}
