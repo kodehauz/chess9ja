@@ -662,12 +662,46 @@ ul {
   background-color: #777;
   border-radius: 10px;
 }
+.badge.badge-success {
+  margin-left: -4%;
+  background-color: #1fa318;
+  margin-right: 4%;
+  padding: 5px 10px;
+  width: 50px;
+  text-align: right;
+}
+
+.badge.badge-danger {
+  margin-left: -20%;
+  background-color: red;
+  padding: 5px 10px;
+  width: 50px;
+  text-align: right;
+}
+
+.badge.badge-info {
+  margin-left: -40%;
+  padding: 5px 10px;
+  width: 50px;
+  text-align: right;
+}
+
+.col-xs-2.users {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.form-player .col-xs-2 {
+  padding: 15px;
+}
+
 
 .streak {
   font-weight: 800;
   margin-left: 33%;
-  font-size: 9px;
-  margin-top: -15px;
+  font-size: 12px;
+  margin-top: -10px;
 }
 
 .name {
@@ -696,25 +730,7 @@ ul {
   display: inline;
   margin-left: 2%;
 }
-
-.badge.badge-success {
-  margin-left: -4%;
-  background-color: #1fa318;
-  margin-right: 4%;
-  padding: 5px;
-}
-
-.badge.badge-danger {
-  margin-left: -20%;
-  background-color: red;
-  padding: 5px;
-}
 .col-xs-1.image-circle {
-  padding: 5px;
-}
-
-.badge.badge-info {
-  margin-left: -40%;
   padding: 5px;
 }
 
