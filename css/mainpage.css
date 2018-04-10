@@ -1,37 +1,3 @@
-<span class="badge badge-success">{{ won }}</span>
-
-<span class="badge badge-success">W</span>:<span  class="won"> {{ won }}  </span>
-
-<span class="badge badge-danger">L</span>:<span class="lost"> {{ lost }} </span>
-
-<span class="badge badge-danger">{{ lost }}</span>
-
-
-<div class="form-player">
-        <div class="col-xs-1 image-circle">
-           {{ user_picture }}
-        </div>
-        <div class="col-xs-2">
-            <small class="name">{{ name }} </small>
-        </div>
-        <div class="col-xs-2">
-            <small class="rating-1">{{ rating }}</small>
-        </div>
-        <div class="col-xs-2">
-            <span class="badge badge-success">{{ won }}</span>
-        </div>
-        <div class="col-xs-2">
-          <span class="badge badge-danger"> {{ lost }} </span>
-        </div>
-        <div class="col-xs-2">
-            <span class="badge badge-info"> {{ drawn }} </span>
-        </div>
-         <div class="streak">{{ game_streak }}</div> 
-    </div>
-
-
-
-
 
 .featured-news h2 {
   font-family: roboto;
@@ -696,6 +662,7 @@ ul {
   background-color: #777;
   border-radius: 10px;
 }
+
 .streak {
   font-weight: 800;
   margin-left: 33%;
@@ -716,23 +683,18 @@ ul {
 
 .won{
   display: inline-flex;
-  /*font-size: 14px;*/
   margin-left: 2%;
-  /*font-weight: bolder;*/
+
 }
 
 .drawn{
   display: inline-flex;
-  /*font-size: 14px;*/
   margin-left: 3%;
-  /*font-weight: bolder;*/
 }
 
 .lost{
   display: inline;
-  /*font-size: 14px;*/
   margin-left: 2%;
-  /*font-weight: bolder;*/
 }
 
 .badge.badge-success {
@@ -745,7 +707,7 @@ ul {
 .badge.badge-danger {
   margin-left: -20%;
   background-color: red;
-  padding:5px;
+  padding: 5px;
 }
 .col-xs-1.image-circle {
   padding: 5px;
