@@ -1,3 +1,36 @@
+<span class="badge badge-success">{{ won }}</span>
+
+<span class="badge badge-success">W</span>:<span  class="won"> {{ won }}  </span>
+
+<span class="badge badge-danger">L</span>:<span class="lost"> {{ lost }} </span>
+
+<span class="badge badge-danger">{{ lost }}</span>
+
+
+<div class="form-player">
+        <div class="col-xs-1 image-circle">
+           {{ user_picture }}
+        </div>
+        <div class="col-xs-2">
+            <small class="name">{{ name }} </small>
+        </div>
+        <div class="col-xs-2">
+            <small class="rating-1">{{ rating }}</small>
+        </div>
+        <div class="col-xs-2">
+            <span class="badge badge-success">{{ won }}</span>
+        </div>
+        <div class="col-xs-2">
+          <span class="badge badge-danger"> {{ lost }} </span>
+        </div>
+        <div class="col-xs-2">
+            <span class="badge badge-info"> {{ drawn }} </span>
+        </div>
+         <div class="streak">{{ game_streak }}</div> 
+    </div>
+
+
+
 
 
 .featured-news h2 {
@@ -664,15 +697,15 @@ ul {
   border-radius: 10px;
 }
 .streak {
-  /*font-weight: 800;*/
-  margin-left: 0.3em;
-  /*font-size: 9px;*/
+  font-weight: 800;
+  margin-left: 33%;
+  font-size: 9px;
+  margin-top: -15px;
 }
 
 .name {
   text-transform: capitalize;
-   margin-left: 10px;
-  /*font-weight: bolder;*/
+  font-weight: bolder;
 }
 @media (min-width : 768px) {
 
@@ -706,11 +739,13 @@ ul {
   margin-left: -4%;
   background-color: #1fa318;
   margin-right: 4%;
+  padding: 5px;
 }
 
 .badge.badge-danger {
   margin-left: -20%;
   background-color: red;
+  padding:5px;
 }
 .col-xs-1.image-circle {
   padding: 5px;
@@ -718,6 +753,7 @@ ul {
 
 .badge.badge-info {
   margin-left: -40%;
+  padding: 5px;
 }
 
 .footer-text p a {
