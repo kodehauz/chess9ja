@@ -828,10 +828,46 @@ margin-left: 40px;
   }
 
 }
-
 .table > tbody > tr > td{
   line-height: 1.42857143;
   vertical-align: top;
+}
+
+.form-select {
+  display: -webkit-box;
+  max-width: 20%;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+select#edit-game-time-unit {
+  float: left;
+  margin-top: -8%;
+  padding: 9px 5px;
+  border-radius: 5px;
+  margin-left: 15%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  select#edit-game-time-unit {
+    float: left;
+    margin-top: -9%;
+    padding: 9px 5px;
+    border-radius: 5px;
+    margin-left: 15%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  select#edit-game-time-unit {
+    margin-top: -10%;
+    padding: 9px 5px;
+    border-radius: 5px;
+    margin-left: 20%;
+    max-width: 100%;
+  }
 }
 
 
