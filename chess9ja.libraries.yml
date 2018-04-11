@@ -6,7 +6,7 @@ global:
       css/font-awesome/font-awesome.css: {}
       css/style-library-1.css: {}
       css/blocks.css: {}
-      css/game-timer.css: {}
+#      css/game-timer.css: {}
       css/breadcrumb.css: {}
       css/messages.css: {}
       css/custom.css: {}
