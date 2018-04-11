@@ -636,9 +636,6 @@ ul {
   margin-bottom: 20px;
 }
 
-#edit-position {
-  margin-left: 10px;
-}
 
 .js-form-item-opponent.form-item-opponent {
   margin-left: 10px;
@@ -870,4 +867,15 @@ select#edit-game-time-unit {
   }
 }
 
+.js-form-item-position {
+  margin-top: 20px;
+  margin-left: -2px;
+}
 
+.js-form-item-game-time-time-per-move {
+  margin-top: 20px;
+}
+
+.js-form-item-game-time-value {
+  margin-top: 10px;
+}
