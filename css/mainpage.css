@@ -606,7 +606,7 @@ ul {
 
 #edit-game-type--wrapper--description {
   margin-top: -10px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
 .user-name {
   margin-left: 20px;
