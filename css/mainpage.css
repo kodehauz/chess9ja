@@ -430,6 +430,11 @@ ul a {
 .vchess-opponent-game-form #edit-submit,#edit-submit {
   background-color: #59afe4;
   color: #fff;
+  width: 33%;
+}
+
+div#edit-amount--description {
+  display: none;
 }
 
 .date {
@@ -606,7 +611,7 @@ ul {
 
 #edit-game-type--wrapper--description {
   margin-top: -10px;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
 }
 .user-name {
   margin-left: 20px;
@@ -638,7 +643,7 @@ ul {
 
 
 .js-form-item-opponent.form-item-opponent {
-  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 #edit-colorfield {
@@ -833,8 +838,12 @@ margin-left: 40px;
 .form-select {
   display: -webkit-box;
   max-width: 20%;
-  padding: 5px 5px;
+  padding: 5px 5px 10px;
   border-radius: 5px;
+}
+
+select#edit-game-time-time-per-move {
+  width: 33%;
 }
 
 select#edit-game-time-unit {
@@ -843,7 +852,7 @@ select#edit-game-time-unit {
   padding: 9px 5px;
   border-radius: 5px;
   margin-left: 15%;
-  max-width: 100%;
+  width: 18%;
 }
 
 @media screen and (max-width: 992px) {

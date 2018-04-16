@@ -1383,12 +1383,13 @@ fieldset
     padding: 30px 50px;
 }
 
-fieldset legend
-{
+fieldset legend {
     color: #73879C;
     padding: 5px 10px;
-    border: 2px solid #c5dde3;
+    border: 1px solid #ccc;
     border-radius: 6px;
+    width: 33%;
+    background: white;
 }
 
 .form-control
