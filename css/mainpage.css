@@ -837,7 +837,6 @@ margin-left: 40px;
 
 .form-select {
   display: -webkit-box;
-  max-width: 20%;
   padding: 5px 5px 10px;
   border-radius: 5px;
 }
@@ -855,26 +854,33 @@ select#edit-game-time-unit {
   width: 18%;
 }
 
-@media screen and (max-width: 992px) {
-  select#edit-game-time-unit {
-    float: left;
-    margin-top: -9%;
-    padding: 9px 5px;
-    border-radius: 5px;
-    margin-left: 15%;
-    max-width: 100%;
-  }
-}
+/*@media screen and (max-width: 992px) {*/
+  /*select#edit-game-time-unit {*/
+    /*float: left;*/
+    /*margin-top: -13%;*/
+    /*padding: 9px 5px;*/
+    /*border-radius: 5px;*/
+    /*margin-left: 25%;*/
+    /*max-width: 33%;*/
+  /*}*/
+/*}*/
 
 @media screen and (max-width: 600px) {
   select#edit-game-time-unit {
-    margin-top: -10%;
+    margin-top: -13%;
     padding: 9px 5px;
     border-radius: 5px;
-    margin-left: 20%;
-    max-width: 100%;
+    margin-left: 25%;
+    max-width: 33%;
   }
 }
+
+@media screen and (max-width: 600px){
+  select#edit-game-time-time-per-move {
+    width: 57%;
+  }
+}
+
 
 .js-form-item-position {
   margin-top: 20px;

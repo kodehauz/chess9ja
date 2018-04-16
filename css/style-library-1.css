@@ -1384,12 +1384,7 @@ fieldset
 }
 
 fieldset legend {
-    color: #73879C;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    width: 33%;
-    background: white;
+    font-weight: bold;
 }
 
 .form-control
