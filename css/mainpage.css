@@ -148,9 +148,9 @@
   /*margin: 2em 0 2em;*/
 }
 
-.js-form-required.form-required {
-  margin-top: 20px;
-}
+/*.js-form-required.form-required {*/
+  /*margin-top: 20px;*/
+/*}*/
 
 
 ul a {
@@ -266,17 +266,8 @@ ul a {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  /*background: #4A4E52;*/
-  /*color: #efeeeb;*/
 
 }
-
-/*.blog_body {*/
-  /*font-size: 14px;*/
-  /*margin-top: 10px;*/
-  /*margin-left: 20px;*/
-
-/*}*/
 
 #content-2-2 {
   margin-top: 2%;
@@ -291,7 +282,6 @@ ul a {
 .button.btn.Readmore {
   background-color: #d68838;
   box-shadow: none;
-  /* width: 25%;*/
   padding: 10px;
 }
 
@@ -431,6 +421,7 @@ ul a {
   background-color: #59afe4;
   color: #fff;
   width: 33%;
+  margin-left: 0px;
 }
 
 div#edit-amount--description {
@@ -612,15 +603,17 @@ ul {
 #edit-game-type--wrapper--description {
   margin-top: -10px;
   margin-bottom: 20px;
+  display: none;
 }
+
+input#edit-opponent {
+  width: 33%;
+}
+
 .user-name {
   margin-left: 20px;
 }
-.rating-1 {
-  margin-left: 50%;
-  /*font-weight: 800;*/
-  /*font-size: 0.7em;*/
-}
+
 .image-circle img {
   border-radius: 20px;
 }
@@ -640,14 +633,12 @@ ul {
   margin-left: 20px;
   margin-bottom: 20px;
 }
-
-
 .js-form-item-opponent.form-item-opponent {
-  margin-bottom: 10px;
+  margin-bottom: -15px;
 }
 
 #edit-colorfield {
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: auto;
 }
 .badge {
@@ -665,7 +656,7 @@ ul {
   border-radius: 10px;
 }
 .badge.badge-success {
-  margin-left: -4%;
+  margin-left: -50%;
   background-color: #1fa318;
   margin-right: 4%;
   padding: 5px 10px;
@@ -674,7 +665,7 @@ ul {
 }
 
 .badge.badge-danger {
-  margin-left: -20%;
+  margin-left: -40%;
   background-color: red;
   padding: 5px 10px;
   width: 50px;
@@ -701,7 +692,7 @@ ul {
 
 .streak {
   font-weight: 800;
-  margin-left: 3%;
+  margin-left: -6%;
   font-size: 12px;
   white-space: nowrap;
   text-align: center;
@@ -841,6 +832,10 @@ margin-left: 40px;
   border-radius: 5px;
 }
 
+div#edit-description {
+  margin-top: 10px;
+}
+
 select#edit-game-time-time-per-move {
   width: 33%;
 }
@@ -854,16 +849,16 @@ select#edit-game-time-unit {
   width: 18%;
 }
 
-/*@media screen and (max-width: 992px) {*/
-  /*select#edit-game-time-unit {*/
-    /*float: left;*/
-    /*margin-top: -13%;*/
-    /*padding: 9px 5px;*/
-    /*border-radius: 5px;*/
-    /*margin-left: 25%;*/
-    /*max-width: 33%;*/
-  /*}*/
-/*}*/
+@media screen and (max-width: 720px) {
+select#edit-game-time-unit {
+  float: left;
+  margin-top: -10%;
+  padding: 9px 5px;
+  border-radius: 5px;
+  margin-left: 16%;
+  width: 18%;
+}
+}
 
 @media screen and (max-width: 600px) {
   select#edit-game-time-unit {
@@ -875,12 +870,29 @@ select#edit-game-time-unit {
   }
 }
 
+@media screen and (max-width: 360px){
+select#edit-game-time-unit {
+  margin-top: -14%;
+  padding: 9px 5px;
+  border-radius: 5px;
+  margin-left: 27%;
+  max-width: 33%;
+}
+}
+
+
 @media screen and (max-width: 600px){
   select#edit-game-time-time-per-move {
     width: 57%;
   }
 }
 
+div#edit-opponent--description {
+  display: none;
+}
+div#edit-game-type--wrapper--description {
+  display: none;
+}
 
 .js-form-item-position {
   margin-top: 20px;
@@ -893,4 +905,10 @@ select#edit-game-time-unit {
 
 .js-form-item-game-time-value {
   margin-top: 10px;
+}
+select#edit-position {
+  width: 33%;
+}
+div#edit-position--description {
+  display: none;
 }
