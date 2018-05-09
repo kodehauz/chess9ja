@@ -927,6 +927,8 @@ div#edit-position--description {
 
 .path-user input#edit-submit {
   width: 50%;
+  background-color: dodgerblue;
+  color: #fff;
 }
 
 
