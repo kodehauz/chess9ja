@@ -1173,7 +1173,7 @@ h2 {
 .x_panel {
   position: relative;
   width: 100%;
-  margin-bottom: 10px;
+  /*margin-bottom: 10px;*/
   padding: 5px 17px;
   display: inline-block;
   background: #ffffff;
@@ -1186,9 +1186,9 @@ h2 {
 }
 
 .x_title {
-  border-bottom: 2px solid #E6E9ED;
-  padding: 1px 5px 6px;
-  margin-bottom: 10px;
+  /*border-bottom: 2px solid #E6E9ED;*/
+  /*padding: 1px 5px 6px;*/
+  /*margin-bottom: 10px;*/
 }
 
 .x_title .filter {
@@ -1196,12 +1196,30 @@ h2 {
   float: right;
 }
 
-.x_title h2 {
-  margin: 5px 0 6px;
-  float: left;
+.x_title h2:before,.x_title h2:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 600px;
+  text-align: center;
   display: block;
   font-weight: bold;
+  border-bottom: 1px solid;
 }
+
+.x_title h2:before {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.x_title h2:after {
+  right: 100%;
+  margin-right: 15px;
+}
+
 @media (min-width: 560px){
   .x_title h2 {
     font-size: 1.3em;
@@ -1212,7 +1230,7 @@ h2 {
   margin-left: 10px;
 }
 
-.x_title span {
+.x_title span:before {
   color: #BDBDBD;
 }
 
@@ -4919,3 +4937,9 @@ ul.notifications {
 }
 
 /** /Dropzone.js **/
+.rating-1 {
+  margin-left: 7rem;
+}
+.float-right {
+  float: right;
+}

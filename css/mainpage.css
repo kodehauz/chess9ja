@@ -685,9 +685,9 @@ input#edit-opponent {
   min-width: 20%;
 }
 
-.form-player .col-xs-2 {
-  padding: 10px 10px;
-}
+/*.form-player .col-xs-2 {*/
+  /*padding: 10px 10px;*/
+/*}*/
 
 
 .streak {
