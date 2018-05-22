@@ -1196,30 +1196,12 @@ h2 {
   float: right;
 }
 
-.x_title h2:before,.x_title h2:after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
-  top: 0;
-  width: 600px;
+.x_title h2 {
+  margin: 5px 0 6px;
   text-align: center;
   display: block;
   font-weight: bold;
-  border-bottom: 1px solid;
 }
-
-.x_title h2:before {
-  left: 100%;
-  margin-left: 15px;
-}
-
-.x_title h2:after {
-  right: 100%;
-  margin-right: 15px;
-}
-
 @media (min-width: 560px){
   .x_title h2 {
     font-size: 1.3em;
@@ -1230,7 +1212,7 @@ h2 {
   margin-left: 10px;
 }
 
-.x_title span:before {
+.x_title span {
   color: #BDBDBD;
 }
 
@@ -4938,7 +4920,7 @@ ul.notifications {
 
 /** /Dropzone.js **/
 .rating-1 {
-  margin-left: 7rem;
+  margin-left: 15rem;
 }
 .float-right {
   float: right;
