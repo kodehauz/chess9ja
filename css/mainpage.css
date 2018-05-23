@@ -712,7 +712,7 @@ input#edit-opponent {
 
 .won{
   display: inline-flex;
-  margin-left: -20%;
+  margin-left: -4rem
 
 }
 
@@ -723,7 +723,7 @@ input#edit-opponent {
 
 .lost{
   display: inline;
-  margin-left: -20%;
+  margin-left: -4rem;
 }
 .col-xs-1.image-circle {
   padding: 5px;
@@ -926,9 +926,10 @@ div#edit-position--description {
 }
 
 input#edit-submit {
-  width: 50%;
-  background-color: dodgerblue;
+  background-color: #59afe4;
   color: #fff;
+  width: 33%;
+  margin-left: 0px;
 }
 
 
