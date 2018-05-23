@@ -681,7 +681,7 @@ input#edit-opponent {
 
 .col-xs-2.users {
   white-space: nowrap;
-  overflow: hidden;
+  /*overflow: hidden;*/
   min-width: 20%;
 }
 
@@ -712,7 +712,7 @@ input#edit-opponent {
 
 .won{
   display: inline-flex;
-  margin-left: 2%;
+  margin-left: -20%;
 
 }
 
@@ -723,7 +723,7 @@ input#edit-opponent {
 
 .lost{
   display: inline;
-  margin-left: 2%;
+  margin-left: -20%;
 }
 .col-xs-1.image-circle {
   padding: 5px;
