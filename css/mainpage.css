@@ -1,4 +1,12 @@
 
+
+
+body {
+  font-family: "Roboto Local",Arial,sans-serif;
+  font-size: 1rem;
+  color: #424242;
+  line-height: 1.5;
+}
 .featured-news h2 {
   padding: 10px;
   /*font-weight: 600;*/
@@ -28,10 +36,7 @@
 }
 .news-title {
   font-size: 18px;
-  margin-bottom: 1%;
-  /* margin-top: 2%; */
   text-transform: uppercase;
-  font-weight: bold;
 
 }
 
@@ -69,8 +74,9 @@
   padding: 40px;
 }
 .path-frontpage .col-md-12 .text-center {
-    color: #cdc5c5;
-    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+     margin-left: 3rem;
 }
 
 .path-frontpage .col-sm-4.col-xs-12.text-center .blog_title a {
@@ -90,7 +96,6 @@
 
 .path-frontpage .col-sm-3.latest-news a {
   color: #d68838;
-  font-weight: bold;
   text-transform: uppercase;
 }
 .container.text-center h2 {
@@ -224,7 +229,7 @@ ul a {
   font-size: 19px;
   text-transform: capitalize;
   color: #e3933b;
-  
+
 }
 
 .image-round img {
@@ -248,7 +253,7 @@ ul a {
   display: none;
 }
 
-.path-user input:hover {
+.path-user input {
   border: 1px solid #fff;
   background-color: transparent;
   color: #ffff;
@@ -272,8 +277,6 @@ ul a {
 
 .path-frontpage .blog-text .text-align-justify {
   text-align: center;
-  margin-top: 10px;
-  font-size: 15px;
 }
 
 .button.btn.Readmore {
@@ -466,7 +469,6 @@ h2 {
 .path-frontpage .page-content .text-align-justify {
     text-align: justify;
     margin-top: -15px;
-    font-size: 15px;
     color: hsl(0,0%,57%);
     line-height: 1.8em;
 }
@@ -929,7 +931,81 @@ input#edit-submit {
   box-shadow: none;
 }
 
+input::placeholder {
+  color: #fff;
+  font-size: 1.2em;
+  font-style: italic;
+}
 
+body {
+  background-color:#E9E9E9;
+  padding:2rem;
+}
+
+.grid {
+  display:grid;
+  width:100%;
+  max-width:1000px;
+  padding:0;
+  list-style-type:none;
+
+  grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap:2rem;
+}
+
+@media screen and (min-width: 768px){
+  .grid__item:first-child{
+    grid-column: span 2;
+  }
+}
+
+.card {
+  background-color: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition:transform .1s ease-in;
+
+  display:flex;
+  flex-direction:column;
+  min-height:100%;
+
+&:hover,
+&:focus {
+   box-shadow: 0 4px 10px 0 rgba(0,0,0,.16);
+   transform:scale(1.025);
+ }
+
+&__image {
+img {
+  width:100%;
+  height:250px;
+  object-fit:cover;
+}
+
+
+content {
+   padding:1rem;
+   display:flex;
+   flex-direction:column;
+   flex:1;
+ }
+
+title {
+   margin:0;
+ }
+
+&__body {
+   flex:1;
+ }
+
+&__footer {
+   text-transform:uppercase;
+   font-size:.75rem;
+   color:#666;
+   font-weight:600;
+ }
+}
 
 
 
