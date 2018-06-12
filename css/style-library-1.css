@@ -15,7 +15,6 @@ Version: 1.0
 
 body
 {
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
     color: #333333;
     background: #ffffff;
     overflow-x: hidden;
@@ -870,7 +869,7 @@ body
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
+
     line-height: 1.1;
 }
 
@@ -921,13 +920,7 @@ h6, .h6
     font-size: 16px;
 }
 
-/*p {*/
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
-    /*font-size: 14px;*/
-    /*line-height: 1.6;*/
-    /*margin: 15px 0;*/
-    /*color: #515157;*/
-/*}*/
+
 
 .lead
 {
@@ -983,7 +976,6 @@ ul
 ul li,
 ol li
 {
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     color: #515157;
     margin-bottom: 5px;
@@ -1045,7 +1037,6 @@ img
     color: #FFF;
     padding: 10px 20px;
     margin: 15px 0;
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -1193,7 +1184,6 @@ p .btn
     color: #FFF;
     padding: 12px 20px;
     margin: 15px 0;
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-weight: 600;
     font-size: 14px;
     text-align: center;
@@ -1391,7 +1381,6 @@ fieldset legend {
 {
     border: 2px solid #ecf0f1;
     color: #34495e;
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     line-height: 1.467;
     padding: 8px 12px;
@@ -1700,7 +1689,6 @@ fieldset[disabled] .form-control
 
 .panel-title
 {
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1851,7 +1839,6 @@ fieldset[disabled] .form-control
 
 .pagination li a
 {
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     color: #16A085;
     background: none;
@@ -1915,7 +1902,6 @@ fieldset[disabled] .form-control
     border: 1px solid #16A085;
     border-radius: 0;
     color: #16A085;
-    /*font-family: "Open Sans", Helvetica, Arial, sans-serif;*/
     font-size: 14px;
     min-width: 160px;
 }
@@ -2030,7 +2016,6 @@ fieldset[disabled] .form-control
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
     font-style: normal;
     font-weight: 400;
     line-height: 1;

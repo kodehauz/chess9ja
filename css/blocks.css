@@ -61,7 +61,6 @@ Version: 1.0
 }
 
 #header-1 .main-nav .navbar-nav > li a {
-	font-family: Lato;
 	font-weight: 700;
 	text-transform: uppercase;
 	font-size: 1.3em;
@@ -322,7 +321,6 @@ Version: 1.0
 
 #header-2 .main-nav .navbar-nav > li a
 {
-    font-family: 'Lato', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 15px;
@@ -720,7 +718,7 @@ Version: 1.0
 	display: block;
 	margin-top: 34px;
 	margin-bottom: -6px;
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+
 	font-weight: 300;
 	font-size: 120px;
 	color: #ffffff;
@@ -728,7 +726,6 @@ Version: 1.0
 
 .promo-2 .countDown .digits-label {
 	margin-bottom: 18px;
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #ffffff;
@@ -1453,7 +1450,7 @@ Version: 1.0
     font-size: 44px;
     font-weight: 300;
     margin-bottom: 20px;
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
+
     line-height: 1.1;
 }
 
@@ -1592,7 +1589,6 @@ Version: 1.0
 }
 
 .content-2-7 .counter, .content-2-7 .counter-text {
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	color: #f39c12;
 }
@@ -3088,7 +3084,6 @@ Version: 1.0
 .team-member .position
 {
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
     display: block;
 }
 
@@ -3520,7 +3515,6 @@ Version: 1.0
 }
 
 .pricing-table-2 .price-block .price * {
-	font-family: 'Lato', sans-serif;
 	line-height: 100%;
 }
 
@@ -4204,30 +4198,9 @@ Version: 1.0
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-
-  color: #FFF;
-  padding: 10px 20px;
-  margin: 15px 0;
-  margin-right: 0px;
-  margin-bottom: 15px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-shadow: none;
-  border: none;
-  text-transform: uppercase;
-  border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-
-  margin-bottom: 5px;
-  margin-right: 5px;
-
    background: #ecf0f1;
    box-shadow: 0 2px #bdc3c7;
    color: #999;
-   border-color: #ccc;
 }
 
 

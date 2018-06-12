@@ -1,6 +1,5 @@
 
 .featured-news h2 {
-  font-family: roboto;
   padding: 10px;
   /*font-weight: 600;*/
   font-size: 1.7em;
@@ -12,7 +11,6 @@
 }
 .latest-news h2 {
   padding: .1em 0;
-  font-family: roboto;
   font-size: 1.7em;
   text-transform: uppercase;
   color: dimgray;
@@ -34,7 +32,7 @@
   /* margin-top: 2%; */
   text-transform: uppercase;
   font-weight: bold;
-  font-family: roboto;
+
 }
 
 .image-responsive img {
@@ -72,7 +70,6 @@
 }
 .path-frontpage .col-md-12 .text-center {
     color: #cdc5c5;
-    font-family: roboto;
     text-transform: uppercase;
 }
 
@@ -102,7 +99,6 @@
 .body-content p {
   color: white;
   text-align: center;
-  font-family: '.SF UI Text';
   font-size: 1.6em;
 }
 .container.text-center {
@@ -118,7 +114,6 @@
   padding: 10px;
   color: #34495e;
   margin-bottom: 20px;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.467;
   height: 40px;
@@ -229,7 +224,7 @@ ul a {
   font-size: 19px;
   text-transform: capitalize;
   color: #e3933b;
-  /*font-family: "PT Serif',georgia,sans-serif";*/
+  
 }
 
 .image-round img {
@@ -254,7 +249,9 @@ ul a {
 }
 
 .path-user input:hover {
-  border: 2px solid #59afe4;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #ffff;
 }
 .user-branding .col-md-5 {
   margin-top: 5em;
@@ -731,7 +728,6 @@ input#edit-opponent {
 
 .footer-text p a {
   color: #e3933b;
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 15px;
 }
@@ -928,9 +924,11 @@ div#edit-position--description {
 input#edit-submit {
   background-color: #59afe4;
   color: #fff;
-  width: 33%;
+  width: 50%;
   margin-left: 0px;
+  box-shadow: none;
 }
+
 
 
 

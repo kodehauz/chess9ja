@@ -46,7 +46,6 @@ img.blog{
   margin-top: 0px;
   margin-bottom: 0px;
   line-height: normal;
-  font-family: '.SF UI Text';
   color: rgb(240, 231,231);
   font-size: 17pt;
 }
@@ -55,7 +54,6 @@ img.blog{
   margin-bottom: 0px;
   font-size: 17px;
   line-height: normal;
-  font-family: '.SF UI Text';
   color: rgb(240, 231,231);
 }
 p.forgot-password {
