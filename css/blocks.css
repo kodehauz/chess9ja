@@ -67,18 +67,13 @@ Version: 1.0
 	color: rgba(255, 255, 255, 0.8);
 }
 
-#header-1 .main-nav .navbar-nav > li.active a
-{
-    color: #3498DB;
-    background: none;
-}
 
 
-#header-1 .main-nav .navbar-nav > li a:hover
-{
-    color: #3498DB;
-    background: none;
-}
+/*#header-1 .main-nav .navbar-nav > li a:hover*/
+/*{*/
+    /*color: #db9f22;*/
+    /*background: none;*/
+/*}*/
 
 #header-1 .main-nav .navbar-nav > li a:focus
 {
@@ -333,10 +328,10 @@ Version: 1.0
 }
 
 
-#header-2 .main-nav .navbar-nav > li a:hover
-{
-    color: #3498DB;
-}
+/*#header-2 .main-nav .navbar-nav > li a:hover*/
+/*{*/
+    /*color: #3498DB;*/
+/*}*/
 
 #header-2 .main-nav .navbar-nav > li a:focus
 {
@@ -364,11 +359,11 @@ Version: 1.0
     opacity: 1;
 }
 
-#header-2 .main-nav .nav .dropdown-menu a:hover
-{
-    background: #3498DB;
-    color: #fff;
-}
+/*#header-2 .main-nav .nav .dropdown-menu a:hover*/
+/*{*/
+    /*background: #3498DB;*/
+    /*color: #fff;*/
+/*}*/
 
 /* Override bootstrap default */
 
@@ -1359,7 +1354,7 @@ Version: 1.0
 
 .content-2-2 .icon-outline:hover {
 	box-shadow: 0 0 0 14px rgba(255,255,255,0.4);
-	color: #fff;
+	color: #f7eeee;
 }
 
 .content-2-2 .icon-outline span {
@@ -1495,7 +1490,7 @@ Version: 1.0
 }
 
 .content-2-5-dark h2 a {
-	color: #f1c40f;
+	color: #d68838;
 }
 
 .content-2-5-dark h2 a:hover {
@@ -2042,7 +2037,7 @@ Version: 1.0
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
   .content-3-3 h1 {
-    font-size: 40px;
+    font-size: 3.4rem;
   }
 
 
