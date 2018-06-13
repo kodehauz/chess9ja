@@ -114,7 +114,7 @@ body, button {
   width: 100% !important;
   padding: 10px;
   color: #34495e;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.467;
   height: 40px;
@@ -224,15 +224,15 @@ ul a {
   margin-top: 5%;
   padding: 0;
   vertical-align: baseline;
-   display: inline-block;
   max-height: 100%;
   max-width: 100%;
   object-fit: cover;
-  border-radius: 20px;
+  /*border-radius: 20px;*/
   transition-duration: 3s;
   webkit-transition: width 2s, height 4s;
   transition: width 2s, height 4s;
-  border: groove #c18730
+  flex: 1;
+  display: flex;
 
 }
 
@@ -298,9 +298,13 @@ ul a {
   color: #fff;
 }
 .path-frontpage .Read a:hover {
-  color: #d68838;
+  color: #7b634b;
 }
 
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #422904;
+}
 
 
 .blog-date {
@@ -341,7 +345,7 @@ ul a {
 .forgot-password a{
   color: #fff;
   font-size: 1.6em;
-  margin-left: 3em;
+  padding: 18px;
 }
 
 .logintitle{
@@ -433,7 +437,7 @@ h2 {
 
 .text-align-justify {
   text-align: left;
-  font-size: 1.6em;
+  font-size: 1.3em;
   /* margin-top: 20px; */
   line-height: 1.4em;
 }
@@ -931,7 +935,7 @@ input::placeholder {
   transition: transform .1s ease-in;
   display: table-column-group;
   flex-direction: column;
-  padding: 30px;
+  padding: 15px;
   border-right: groove #9e8c8c;
   border-left: groove #9e8c8c;
 }
@@ -979,15 +983,11 @@ input::placeholder {
   margin-left: 20px;
   display: flex;
   text-align: inherit;
-  margin-bottom: -5rem;
+  margin-bottom: -1rem;
 }
 
-.contextual-region.js-view-dom-id-30d33d56ce6b41e78c80806c5a90bb4c367f6dd7cda49a882b31cecbc1c35f0d {
-  flex: 1;
-  /* flex-wrap: wrap; */
-  margin: 0px 0px 5px;
+.path-frontpage.contextual-region{
   display: flex;
-  max-height: 100%;
 }
 
 .views-field.views-field-title {
