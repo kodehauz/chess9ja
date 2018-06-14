@@ -79,6 +79,7 @@ body, button {
   text-transform: uppercase;
   color: #d68838;
   text-align: left;
+  font-weight: bold;
 }
 
 .path-frontpage .col-sm-4.col-xs-12.text-center .blog_title a {
@@ -307,12 +308,13 @@ ul a {
 
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  color: #e3933b;
+  color: #edac51;
+  background-color:#edac51 ;
 }
 
 
 .blog-date {
-  color: #e3933b;
+  color: #edac51;
   text-align: center;
   font-size: 1em;
 
@@ -332,7 +334,7 @@ ul a {
   margin-top: 2%;
 }
 .dashboard_content ul li {
-  color: #d79035;
+  color: #edac51;
 }
 .user-login-form #edit-submit {
   background-color: #66e196;
@@ -448,7 +450,7 @@ h2 {
 }
 
 .date-time {
-  color: #d78e38;
+  color: #edac51;
   font-style: italic;
   margin-bottom: 3%;
   padding-top: 0.1em;
@@ -527,6 +529,7 @@ ul {
 .actions-suffix a:hover,.user-login-form #edit-submit a:hover{
   color: #fffff0;
 }
+
 @media screen and (max-device-width: 480px){
   .responsive-enabled {
   }
@@ -723,7 +726,7 @@ input#edit-opponent {
 }
 
 .footer-text p a {
-  color: #e3933b;
+  color: #edac51;
   font-weight: bold;
   font-size: 15px;
 }
@@ -942,7 +945,6 @@ input::placeholder {
   flex-direction: column;
   padding: 15px;
   border-right: groove #9e8c8c;
-  border-left: groove #9e8c8c;
 }
 
 
@@ -980,7 +982,6 @@ input::placeholder {
 
 .row.views-row {
   width: calc(50% - 15px);
-  flex-wrap: wrap;
   padding: 5px;
   margin-left: 20px;
   margin-bottom: -1rem;
@@ -990,6 +991,7 @@ input::placeholder {
 .content-page {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .views-field.views-field-title {
