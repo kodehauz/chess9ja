@@ -979,19 +979,16 @@ input::placeholder {
 
 .row.views-row {
   width: calc(50% - 15px);
-  /* flex: 1; */
   flex-wrap: wrap;
-  flex-direction: row;
-  padding: 20px;
-  /* justify-content: center; */
+  padding: 5px;
   margin-left: 20px;
-  display: flex;
-  text-align: inherit;
   margin-bottom: -1rem;
+  margin-top: 3%
 }
 
-.js-view-dom-id-a8f57ef4f751762ba62f5ab3c9c4353c0919ea0dc9bc9ef277d0bd195af62d1e{
+.js-view-dom-id-a8f57ef4f751762ba62f5ab3c9c4353c0919ea0dc9bc9ef277d0bd195af62d1e {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .views-field.views-field-title {
@@ -1005,4 +1002,18 @@ input::placeholder {
 .views-field.views-field-field-date-time {
   margin-bottom: 10px;
   font-size: 1.2em;
+}
+
+
+@media (min-width: 330px){
+  .row.views-row {
+    padding: 15px;
+  }
+}
+
+
+@media screen and (min-width: 640px){
+  .row.views-row {
+    width: 100%;
+  }
 }
