@@ -1296,7 +1296,7 @@ Version: 1.0
 }
 
 .content-2-1 h2 {
-	color: #ffffff;
+	color: black;
 }
 
 
@@ -1354,7 +1354,7 @@ Version: 1.0
 
 .content-2-2 .icon-outline:hover {
 	box-shadow: 0 0 0 14px rgba(255,255,255,0.4);
-	color: #827a7a;
+	color: #f7eeee;
 }
 
 .content-2-2 .icon-outline span {
