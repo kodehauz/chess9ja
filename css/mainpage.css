@@ -441,9 +441,10 @@ h2 {
 
 .text-align-justify {
   text-align: left;
-  font-size: 1.3em;
+  font-size: 1.2em;
   /* margin-top: 20px; */
-  line-height: 1.4em;
+  /* line-height: 1.2em; */
+  color: #312e2b;
 }
 
 .date-time {
@@ -933,7 +934,7 @@ input::placeholder {
 }
 
 .col-sm-4.col-xs-12.text-center {
-  background-color: #6e675d;
+  background-color: #fff;
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   transition: transform .1s ease-in;
@@ -1005,15 +1006,5 @@ input::placeholder {
 }
 
 
-@media (min-width: 330px){
-  .row.views-row {
-    padding: 15px;
-  }
-}
 
 
-@media screen and (min-width: 640px){
-  .row.views-row {
-    width: 100%;
-  }
-}
