@@ -1331,7 +1331,7 @@ Version: 1.0
 /*----------------------------------------------------*/
 
 .content-2-2 h3 { font-weight: 300; }
-.content-2-2 h3, .content-2-2 p { color: #ffffff; }
+.content-2-2 h3, .content-2-2 p { color:black;; }
 
 .content-2-2 .icon-outline {
 	height: 150px;
