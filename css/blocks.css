@@ -13,10 +13,17 @@ Version: 1.0
 /*	HEADER 1
 /*----------------------------------------------------*/
 
+.dialog-off-canvas-main-canvas {
+  background-color: #312e2b;
+}
+
+
+
 #header-1
 {
     width: 100%;
-    background: #6c6c6c;
+    /*background: #6c6c6c;*/
+    background-color:  #312e2b;
     height: 80px;
 }
 
@@ -1331,7 +1338,7 @@ Version: 1.0
 /*----------------------------------------------------*/
 
 .content-2-2 h3 { font-weight: 300; }
-.content-2-2 h3, .content-2-2 p { color:black;; }
+.content-2-2 h3, .content-2-2 p { color:#ffff }
 
 .content-2-2 .icon-outline {
 	height: 150px;
