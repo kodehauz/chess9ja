@@ -46,9 +46,10 @@
 </section>
 
 <section>
-
+  <div class="content-wrapper">
   <div class="container-fluid">
     <div class="row">
+
       <!-- Featured News -->
       <div class="col-sm-9 featured-news">
         <div class="content">
@@ -60,28 +61,27 @@
       <!-- End Featured News -->
       <!-- Latest News -->
 
-      <div class="col-sm-3 latest-news">
-        {{ page.main_sidebar_first }}
-      </div>
-      <div class="col-sm-3 latest-news">
-        {{ page.main_sidebar_second }}
-      </div>
-    </div>
-</div>
-</section>
-
-<section id="content-2-2" class="content-block content-2-2 bg-pomegranate">
-  <div class="container">
-    <div class="row">
-      {{ page. featured }}
-        <div class="img-circle blog">
+          <div class="col-sm-3 latest-news">
+            {{ page.main_sidebar_first }}
+          </div>
+          <div class="col-sm-3 latest-news">
+            {{ page.main_sidebar_second }}
+          </div>
         </div>
-
     </div>
-    <!--// END Row -->
   </div>
-</section>
+    </section>
 
+    <section id="content-2-2" class="content-block content-2-2 bg-pomegranate">
+      <div class="container">
+        <div class="row">
+          {{ page. featured }}
+            <div class="img-circle blog">
+            </div>
+        </div>
+        </div>
+    </section>
+<!--// END Row -->
 {% include directory ~ '/templates/footer.html.twig' %}
 
 

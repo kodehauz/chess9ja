@@ -6,12 +6,15 @@ body, button {
   font-size: 1.4em;
 }
 
+.latest-news {
+  margin-bottom: 1.2em;
+}
 .featured-news h2 {
   padding: 10px;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #d68838;
-  margin-left: 10%;
+  margin-left: 2.3em;
   font-size: 1.4em;
   font-weight: bold;
 }
@@ -271,6 +274,7 @@ ul a {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #312e2b;
 
 }
 
@@ -1013,9 +1017,6 @@ input::placeholder {
   font-size: 1.2em;
 }
 
-.dialog-off-canvas-main-canvas {
-  background-color: #312e2b;
-}
 
 
 
