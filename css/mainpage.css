@@ -23,7 +23,7 @@ body, button {
   /*padding: 10px;*/
   text-transform: uppercase;
   color: #d68838;
-  /*margin-left: 2%;*/
+  margin-left: 5%;
   font-size: 1.4em;
   font-weight: bold;
 
@@ -448,11 +448,17 @@ h2 {
 }
 
 .text-align-justify {
-  text-align: left;
+  text-align: justify;
   font-size: 1.2em;
-  /* margin-top: 20px; */
-  /* line-height: 1.2em; */
+  line-height: 1.2em;
+  margin-top: 15px;
   color: #312e2b;
+}
+
+.path-frontpage .text-align-justify {
+ text-align: justify;
+ font-size: 1.2em;
+  line-height: 1.2em;
 }
 
 .date-time {
@@ -988,9 +994,9 @@ input::placeholder {
 
 
 .row.views-row {
-  width: calc(50% - 15px);
+  width: calc(50% - 10px);
   padding: 5px;
-  margin: 2px;
+  margin: 10px;
 }
 
 .content-page {
@@ -999,10 +1005,13 @@ input::placeholder {
   justify-content: center;
   background-color: #fff;
   border-radius: 0.4em;
-  margin-left: 4em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-
+.path-frontpage .dialog-off-canvas-main-canvas {
+  background-color: #312e2b;
+}
 
 .views-field.views-field-title {
 

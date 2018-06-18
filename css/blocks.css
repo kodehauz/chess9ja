@@ -4203,7 +4203,7 @@ Version: 1.0
 
 
 .quickedit-field img {
-  margin-top: 2%;
+  margin: 3% 10%;
 }
 @media (min-width: 768px){
   .navbar-nav > li:last-child > a {
