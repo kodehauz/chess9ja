@@ -312,12 +312,11 @@ ul a {
   color: #7b634b;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+ .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
   color: #edac51;
   background-color:#edac51 ;
 }
-
 
 .blog-date {
   color: #edac51;
@@ -364,9 +363,7 @@ ul a {
   color: #fff;
   font-size: 27px;
 }
-/*#edit-pass {*/
-  /*margin-top: 5%;*/
-/*}*/
+
 
 .form-inline {
   display: block;
@@ -421,6 +418,7 @@ ul a {
   color: #fff;
   width: 33%;
   margin-left: 0px;
+  margin: 10px 0px;
 }
 
 div#edit-amount--description {
@@ -849,7 +847,7 @@ select#edit-game-time-time-per-move {
 
 select#edit-game-time-unit {
   float: left;
-  margin-top: -8%;
+  margin-top: -10%;
   padding: 9px 5px;
   border-radius: 5px;
   margin-left: 15%;

@@ -4915,6 +4915,14 @@ body .container.body .right_col {
   }
 }
 
+ul.nav.navbar-nav.navbar-right {
+  margin-right: 15px;
+}
+.container.body {
+  width: 100%;
+  padding: 0;
+}
+
 
 /*.nav_menu { grid-area: header; }*/
 /*.left_col{ grid-area: menu; }*/
