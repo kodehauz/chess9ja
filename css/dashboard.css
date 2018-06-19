@@ -4916,22 +4916,22 @@ body .container.body .right_col {
 }
 
 
-.nav_menu { grid-area: header; }
-.left_col{ grid-area: menu; }
-.dashboard-content { grid-area: main; }
-.float-right { grid-area: right; }
-.pull-right { grid-area: footer; }
+/*.nav_menu { grid-area: header; }*/
+/*.left_col{ grid-area: menu; }*/
+/*.dashboard-content { grid-area: main; }*/
+/*.float-right { grid-area: right; }*/
+/*.pull-right { grid-area: footer; }*/
 
-.main_container {
-  display: grid;
-  grid-template-areas:
-    'menu header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-     grid-gap: 10px;
-  padding: 10px;
-}
-.main_container > div {
-  text-align: center;
-  padding: 20px 0;
-}
+/*.main_container {*/
+  /*display: grid;*/
+  /*grid-template-areas:*/
+    /*'menu header header header header header'*/
+    /*'menu main main main right right'*/
+    /*'menu footer footer footer footer footer';*/
+     /*grid-gap: 10px;*/
+  /*padding: 10px;*/
+/*}*/
+/*.main_container > div {*/
+  /*text-align: center;*/
+  /*padding: 20px 0;*/
+/*}*/
