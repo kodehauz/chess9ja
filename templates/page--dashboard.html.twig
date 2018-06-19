@@ -11,14 +11,20 @@
 
         <br />
 
+         <div class="menu-bar">
         {% include directory ~ '/templates/dashboard-nav.html.twig' %}
+         </div>
       </div>
     </div>
 
+    <div class="top-bar">
     {% include directory ~'/templates/top-nav.html.twig' %}
+    </div>
 
     <!-- page content -->
+    <div class="dashboard-content">
     {% include directory ~ '/templates/dashboard-content.html.twig' %}
+    </div>
     <!-- /page content -->
 
 
