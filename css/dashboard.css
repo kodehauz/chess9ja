@@ -13,6 +13,15 @@ body{
   color: #fff;
 }
 
+.path-challenge input#edit-submit {
+    background-color: #59afe4;
+    color: #fff;
+    width: 33%;
+    margin-left: 0px;
+    box-shadow: none;
+    margin-top: 10px;
+    box-shadow: none;
+}
 .daterangepicker .input-mini {
   background-color: #eee;
   border: 1px solid #ccc;
