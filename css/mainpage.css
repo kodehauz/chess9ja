@@ -394,14 +394,8 @@ ul a {
   line-height: 1.42857143;
   color: #555;
   background-color: #fff;
-  background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
-  /* -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s; */
 }
 
 #edit-field-first-name-0-value {
@@ -437,7 +431,6 @@ ul a {
   background-color: #59afe4;
   color: #fff;
   width: 33%;
-  margin-left: 0px;
   margin: 10px 0px;
 }
 
@@ -511,10 +504,7 @@ ul {
   position: relative;
   padding-left: 0px;
 }
-/*.path-register {*/
-  /*color: #e2e0cae6;*/
-  /*font-size: 15px;*/
-/*}*/
+
 .user-branding, a:active, a:visited,a:focus, a {
    color: #edac51;
   text-decoration: none;
@@ -565,9 +555,6 @@ ul {
   }
 
 }
-/*.all-players-table .responsive-enabled{*/
-/*display: flow-root;*/
-/*}*/
 
 
 .responsive-enabled {
@@ -882,10 +869,10 @@ select#edit-game-time-unit {
 @media screen and (max-width: 720px) {
 select#edit-game-time-unit {
   float: left;
-  margin-top: -10%;
+  margin-top: -9%;
   padding: 9px 5px;
   border-radius: 5px;
-  margin-left: 16%;
+  margin-left: 25%;
   width: 18%;
 }
 }

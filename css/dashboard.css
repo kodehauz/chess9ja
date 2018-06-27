@@ -4,7 +4,7 @@ body{
 }
 
 .x_panel {
-    margin: 2px 20px;
+    margin: 3px 3px;
     box-shadow: 0 4px 10px 0 rgba(245, 240, 240, 0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
     padding: 5px 15px 10px 15px;
     /* margin-top: 20px; */
@@ -421,13 +421,20 @@ body{
   }
 }
 
+.fieldset-legend.js-form-required.form-required {
+    color: #d47f28;
+}
+
+.path-challenge .col-md-8.col-sm-8.col-xs-12 {
+    background-color: #fff;
+}
 
 .menu_section ul li a {
     color: #fff;
 }
 
 #block-vchesscapturedpieces {
-    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    /*box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);*/
     padding: 10px;
     overflow-x: scroll;
     background-color: #fff;
@@ -4961,16 +4968,17 @@ body .container.body .right_col {
   }
 
   /** /Dropzone.js **/
-  .rating-1 {
-    margin-left: 15rem;
-  }
+  /*.rating-1 {*/
+    /*margin-left: 15rem;*/
+  /*}*/
+
 
   .float-right {
     float: right;
   }
 }
 
-ul.nav.navbar-nav.navbar-right {
+ ul.nav.navbar-nav.navbar-right {
   margin-right: 15px;
 }
 .container.body {
@@ -4978,23 +4986,3 @@ ul.nav.navbar-nav.navbar-right {
   padding: 0;
 }
 
-
-/*.nav_menu { grid-area: header; }*/
-/*.left_col{ grid-area: menu; }*/
-/*.dashboard-content { grid-area: main; }*/
-/*.float-right { grid-area: right; }*/
-/*.pull-right { grid-area: footer; }*/
-
-/*.main_container {*/
-  /*display: grid;*/
-  /*grid-template-areas:*/
-    /*'menu header header header header header'*/
-    /*'menu main main main right right'*/
-    /*'menu footer footer footer footer footer';*/
-     /*grid-gap: 10px;*/
-  /*padding: 10px;*/
-/*}*/
-/*.main_container > div {*/
-  /*text-align: center;*/
-  /*padding: 20px 0;*/
-/*}*/

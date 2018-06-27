@@ -221,7 +221,15 @@ table.board-main > tbody > tr > td {
         font-size: 1em;
     }
 
+    @media (min-width: 768px) {
+        .col-sm-6 {
+            width: 50%;
+            max-height: 20%;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
 
+    }
 
     .board-captured {
         height: 40px;
