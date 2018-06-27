@@ -428,6 +428,17 @@ body{
 .path-challenge .col-md-8.col-sm-8.col-xs-12 {
     background-color: #fff;
 }
+.path-random-game-form .col-md-8.col-sm-8.col-xs-12 {
+    background-color: #fff;
+}
+
+.path-opponent-game-form .col-md-8.col-sm-8.col-xs-12 {
+    background-color: #fff;
+}
+
+span.fieldset-legend{
+    color: #d47f28;
+}
 
 .menu_section ul li a {
     color: #fff;
@@ -1235,26 +1246,26 @@ body .container.body .right_col {
     background: #F2F5F7;
   }
 
-  .x_panel {
-    position: relative;
-    width: 100%;
-    /*margin-bottom: 10px;*/
-    padding: 5px 17px;
-    display: inline-block;
-    background: #ffffff;
-    border: 1px solid #E6E9ED;
-    -webkit-column-break-inside: avoid;
-    -moz-column-break-inside: avoid;
-    /*column-break-inside: avoid;*/
-    opacity: 1;
-    transition: all .2s ease;
-  }
+  /*.x_panel {*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*!*margin-bottom: 10px;*!*/
+    /*padding: 5px 17px;*/
+    /*display: inline-block;*/
+    /*background: #ffffff;*/
+    /*border: 1px solid #E6E9ED;*/
+    /*-webkit-column-break-inside: avoid;*/
+    /*-moz-column-break-inside: avoid;*/
+    /*!*column-break-inside: avoid;*!*/
+    /*opacity: 1;*/
+    /*transition: all .2s ease;*/
+  /*}*/
 
-  .x_title {
-    /*border-bottom: 2px solid #E6E9ED;*/
-    /*padding: 1px 5px 6px;*/
-    /*margin-bottom: 10px;*/
-  }
+  /*.x_title {*/
+    /*!*border-bottom: 2px solid #E6E9ED;*!*/
+    /*!*padding: 1px 5px 6px;*!*/
+    /*!*margin-bottom: 10px;*!*/
+  /*}*/
 
   .x_title .filter {
     width: 40%;
