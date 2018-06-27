@@ -65,6 +65,10 @@ table.board-main > tbody > tr > td {
     vertical-align: middle;
     border: none;
 }
+#board {
+    padding: 0px;
+    margin-bottom: -20px;
+}
 
 .board-square.enabled {
     cursor: pointer;
@@ -280,7 +284,11 @@ table.board-main > tbody > tr > td {
   display: inline-flex;
 }
 .block-vchess h2 {
-    color: coral;
+    color: #f1a128cc;
+    font-family: robotic;
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+}
 }
 
 .form-item.js-form-type-radio.form-item-color.js-form-item-color {

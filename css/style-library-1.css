@@ -1088,9 +1088,9 @@ p .btn
 
 .btn.btn-default
 {
-    background: #ecf0f1;
-    box-shadow: 0 2px #bdc3c7;
-    color: #999;
+    background: #84160b;
+    /* box-shadow: 0 2px #bdc3c7; */
+    color: #fff;
 }
 
 .btn.btn-default:hover
@@ -2039,8 +2039,8 @@ fieldset[disabled] .form-control
     background: #ecf0f1;
     box-shadow: 0 2px #bdc3c7;
     color: #999;
-    float: left;
-    margin-top: 0px;
+    /* float: left;
+    margin-top: 0px; */
 }
 
 #edit-move-button{
