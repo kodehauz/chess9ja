@@ -11,6 +11,7 @@ body, button {
      font-size: 3em;
     /* padding: 5px; */
     font-family: LCD;
+    border:none
     /* border: 2px grey solid; */
     /* margin-top: 10px; */
 }

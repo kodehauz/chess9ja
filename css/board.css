@@ -284,12 +284,11 @@ table.board-main > tbody > tr > td {
   display: inline-flex;
 }
 .block-vchess h2 {
-    color: #f1a128cc;
-    font-family: robotic;
-    border-bottom: solid 1px;
-    border-top: solid 1px;
+    color: rgba(98, 94, 91, 0.8);
+    font-family: fantasy;
+
 }
-}
+
 
 .form-item.js-form-type-radio.form-item-color.js-form-item-color {
     padding: 10px;

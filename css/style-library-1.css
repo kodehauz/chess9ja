@@ -1104,11 +1104,17 @@ p .btn
 {
     background: #442308;
     /*box-shadow: 0 2px #16a085;*/
+    border: none;
 }
 
 .btn.btn-primary:hover
 {
     background: #594346;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #594346;
 }
 
 /* Button WARNING */
