@@ -4997,3 +4997,12 @@ body .container.body .right_col {
   padding: 0;
 }
 
+path-random-game-form input#edit-submit {
+    background-color: #59afe4;
+    color: #fff;
+    width: 223px;
+    margin-left: 0px;
+    box-shadow: none;
+    margin: 10px 0px 10px 0px;
+}
+
