@@ -38,7 +38,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+$(document).ready(function() {
 var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
     $BODY = $('body'),
     $MENU_TOGGLE = $('#menu_toggle'),
@@ -50,7 +50,6 @@ var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
     $FOOTER = $('footer');
 
 // Sidebar
-$(document).ready(function() {
     // TODO: This is some kind of easy fix, maybe we can improve this
     var setContentHeight = function () {
         // reset height
