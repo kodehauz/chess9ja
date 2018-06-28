@@ -39,6 +39,7 @@
  * and open the template in the editor.
  */
 jQuery(document).ready(function($){
+
 var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
     $BODY = $('body'),
     $MENU_TOGGLE = $('#menu_toggle'),
@@ -132,7 +133,7 @@ var CURRENT_URL = window.location.href.split('#')[0].split('?')[0],
 // /Sidebar
 
 // Panel toolbox
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     $('.collapse-link').on('click', function() {
         var $BOX_PANEL = $(this).closest('.x_panel'),
             $ICON = $(this).find('i'),
@@ -160,7 +161,7 @@ $(document).ready(function() {
 // /Panel toolbox
 
 // Tooltip
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     $('[data-toggle="tooltip"]').tooltip({
         container: 'body'
     });
@@ -174,7 +175,7 @@ if ($(".progress .progress-bar")[0]) {
 // /Progressbar
 
 // Switchery
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     if ($(".js-switch")[0]) {
         var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
         elems.forEach(function (html) {
@@ -187,7 +188,7 @@ $(document).ready(function() {
 // /Switchery
 
 // iCheck
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     if ($("input.flat")[0]) {
         $(document).ready(function () {
             $('input.flat').iCheck({
@@ -253,7 +254,7 @@ function countChecked() {
 }
 
 // Accordion
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     $(".expand").on("click", function () {
         $(this).next().slideToggle(200);
         $expand = $(this).find(">:first-child");
