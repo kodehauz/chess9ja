@@ -478,7 +478,7 @@ body .container.body .right_col {
 .nav_title {
   width: 230px;
   float: left;
-  /*background: #594346;*/
+  background: #594346;
   border-radius: 0;
   height: 57px;
 }
@@ -1297,7 +1297,7 @@ body .container.body .right_col {
     padding: 0 5px 6px;
     position: relative;
     width: 100%;
-    float: left;
+    /*float: left;*/
     clear: both;
     margin-top: 5px;
   }
