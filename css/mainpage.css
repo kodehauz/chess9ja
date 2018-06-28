@@ -621,6 +621,7 @@ ul {
 
 input#edit-opponent {
   width: 33%;
+  margin-top: 2em;
 }
 
 .user-name {
@@ -1015,7 +1016,13 @@ input::placeholder {
   margin-bottom: 10px;
   font-size: 1.2em;
 }
-
+.path-node .text-align-justify {
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 15px;
+  color: #312e2b;
+}
 
 
 
