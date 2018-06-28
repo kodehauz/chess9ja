@@ -2037,16 +2037,17 @@ fieldset[disabled] .form-control
 #edit-flip-board-button {
     display: table-row-group;
     float: left;
-    margin-left: 20px;
-    margin-top: 0px;
+    margin-left: -20px;
+    /*margin-top: 0px;*/
 }
 
 .btn.btn-default {
     background: #ecf0f1;
-    box-shadow: 0 2px #bdc3c7;
+    margin-left: 1em;
     color: #999;
+    /*box-shadow: 0 2px #bdc3c7;*/
     /* float: left;
-    margin-top: 0px; */
+     margin-top: 0px; */
 }
 
 #edit-move-button{

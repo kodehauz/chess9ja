@@ -715,6 +715,7 @@ input#edit-opponent {
 }
 .x_title {
     font-family: fantasy;
+    margin: -10px 0px;
 }
 .name {
   text-transform: capitalize;
