@@ -21,7 +21,7 @@ dashboard:
     base:
       css/dashboard.css: {}
   js:
-    js/custom.min.js: {}
+    dashboard/js/custom.js: {}
   dependencies:
     - core/jquery
     - core/jquery.ui.progressbar
