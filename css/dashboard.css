@@ -416,6 +416,10 @@ body{
   position: relative;
 }
 
+.nav_menu ul li a:hover{
+  background: #594346;
+}
+
 @media (min-width: 480px) {
   .nav_menu {
     position: static;
