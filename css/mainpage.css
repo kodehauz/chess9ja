@@ -1003,6 +1003,12 @@ input::placeholder {
   margin: -10px 0px 15px;
 }
 
+.inst {
+  font-size: 1.3em;
+  display: inline-grid;
+
+}
+
 .user-pass p {
   visibility: hidden;
 }
