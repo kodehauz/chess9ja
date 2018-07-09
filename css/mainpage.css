@@ -973,6 +973,7 @@ input::placeholder {
 .user-login-form {
   display: grid;
   grid-template-areas:
+    "message message"
     "top top"
     "mid mid"
     "action action"
@@ -999,6 +1000,10 @@ input::placeholder {
 
 .actions-suffix {
   grid-area: bott-left;
+}
+
+.messages--status{
+  grid-area: message;
 }
 
 
