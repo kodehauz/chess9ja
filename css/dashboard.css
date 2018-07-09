@@ -428,6 +428,7 @@ body{
 
 .path-challenge .col-md-8.col-sm-8.col-xs-12 {
     background-color: #fff;
+    height: 690px;
 }
 .path-random-game-form .col-md-8.col-sm-8.col-xs-12 {
     background-color: #fff;
@@ -446,6 +447,10 @@ span.fieldset-legend{
 /*.menu_section ul li a {*/
     /*color: #fff;*/
 /*}*/
+
+a {
+  color: grey;
+}
 
 #block-vchesscapturedpieces {
     background-color: #fff;
@@ -473,7 +478,7 @@ body .container.body .right_col {
 .nav-md .container.body .right_col {
   padding: 10px 20px 0;
   margin-left: 230px;
-  background-color: #1f1d1c;
+  /*background-color: #1f1d1c;*/
 }
 
 .nav_title {
@@ -484,10 +489,18 @@ body .container.body .right_col {
   height: 57px;
 }
 
+.nav-md .nav > li > a {
+  position: relative;
+  display: block;
+  /* padding: 10px 15px; */
+}
+
+
 .side-menu a {
   color: #ffff;
   text-decoration: none;
 }
+
 
 @media (max-width: 991px) {
   .nav-md .container.body .right_col, .nav-md .container.body .top_nav {

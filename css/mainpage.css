@@ -384,6 +384,14 @@ ul a {
   font-size: 27px;
 }
 
+.resetTitle{
+  color: #fff;
+  font-size: 27px;
+  margin-bottom: -20px;
+  padding: 0px;
+}
+
+
 
 .form-inline {
   /* display: block; */
@@ -530,6 +538,7 @@ ul {
 .login-title {
   color: #1a465b;
   font-weight: bold;
+  visibility: hidden;
 }
 .user-pass {
   margin-top: 10%;
