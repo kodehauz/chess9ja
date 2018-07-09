@@ -507,8 +507,17 @@ ul {
 
 .user-branding, a:active, a:visited,a:focus, a {
    color: #edac51;
+   /*color: #fff;*/
   text-decoration: none;
  }
+
+
+.path-game .user-branding, a:active, a:visited, a:focus, a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
 .create-random-game a, .create-opponent-game a {
   color: #fff;
 }

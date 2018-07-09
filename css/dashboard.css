@@ -7,7 +7,7 @@ body{
     /*margin: 3px 3px;*/
     box-shadow: 0 4px 10px 0 rgba(245, 240, 240, 0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
     padding: 5px 15px 10px 15px;
-    margin: 0px 0px 15px 0px;
+    margin: 15px 0px 15px 0px;
     padding-bottom: 2em;
     border: solid #edac51;
     background-color: #fff;
@@ -482,6 +482,11 @@ body .container.body .right_col {
   background: #594346;
   border-radius: 0;
   height: 57px;
+}
+
+.side-menu a {
+  color: #ffff;
+  text-decoration: none;
 }
 
 @media (max-width: 991px) {
