@@ -384,14 +384,10 @@ ul a {
   font-size: 27px;
 }
 
-.resetTitle{
+.resetTitle {
   color: #fff;
   font-size: 27px;
-  margin-bottom: -20px;
-  padding: 0px;
 }
-
-
 
 .form-inline {
   /* display: block; */
@@ -1004,8 +1000,12 @@ input::placeholder {
 
 .messages--status{
   grid-area: message;
+  margin: -10px 0px 15px;
 }
 
+.user-pass p {
+  visibility: hidden;
+}
 
 .path-frontpage .row.views-row {
   width: calc(50% - 10px);
