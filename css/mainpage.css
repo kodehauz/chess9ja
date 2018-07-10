@@ -280,7 +280,7 @@ ul a {
 }
 
 .path-user input {
-  border: 1px solid #fff;
+  /*border: 1px solid #fff;*/
   background-color: transparent;
   color: #ffff;
 }
@@ -382,6 +382,7 @@ ul a {
 .logintitle{
   color: #fff;
   font-size: 27px;
+  padding-bottom: 10px;
 }
 
 .resetTitle {
@@ -403,9 +404,14 @@ ul a {
 }
 
 #edit-field-first-name-0-value {
-  float: inline-start;
   margin-right: 15%;
 }
+
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #6f4d4d;
+}
+
 
 
 .path-contact .js-form-submit {
@@ -547,13 +553,10 @@ ul {
 
 
 .actions-suffix {
-  background-color: #212023;
   color: #fff;
-  /*font-weight: 700;*/
   border-radius: 8px;
   text-align: center;
-  font-size: 18px;
-  padding: 8px;
+  font-size: 1.6em;
 }
 
 #edit-mail--description{
@@ -936,11 +939,13 @@ div#edit-position--description {
 }
 
 input#edit-submit {
-  background-color: #ed9e35d9;
+  background-color: #edac51;
   color: #fff;
   width: 50%;
   margin-left: 0px;
   box-shadow: none;
+  border: none;
+  margin-top: -10px;
 }
 
 input::placeholder {

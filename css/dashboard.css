@@ -5042,4 +5042,9 @@ path-random-game-form input#edit-submit {
 
 .path-chessbet .col-md-8.col-sm-8.col-xs-12 {
   background-color: #fff;
+  min-height: 790px;
+}
+
+.path-chessbet #edit-email, #edit-amount {
+  width: 100%;
 }
