@@ -947,10 +947,10 @@ em
     /*font-weight: bold;*/
 /*}*/
 
-a { color: #1abc9c; }
+/*a { color: #1abc9c; }*/
 
 a:hover {
-    color: #5abff3;;
+    color: #edac51;;
     text-decoration: none;
     -moz-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
