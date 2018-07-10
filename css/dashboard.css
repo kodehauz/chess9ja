@@ -243,9 +243,11 @@ body{
 }
 
 .site_title i {
-  border: 1px solid #EAEAEA;
-  padding: 5px 6px;
-  border-radius: 50%;
+    border: 1px solid #EAEAEA;
+    /* padding: 5px 6px; */
+    border-radius: 50%;
+    margin-top: 0.3em;
+    margin-left: 1em;
 }
 
 .nav-sm .main_container .top_nav {
@@ -501,6 +503,7 @@ body .container.body .right_col {
 .nav-md .nav > li > a {
   position: relative;
   display: block;
+    padding: 5px;
   /* padding: 10px 15px; */
 }
 
@@ -5023,9 +5026,11 @@ body .container.body .right_col {
 }
 
  ul.nav.navbar-nav.navbar-right {
-  margin-right: 15px;
-   margin-top: -15px;
-}
+     margin-right: 15px;
+     margin-top: -2em;
+ }
+
+ 
 .container.body {
   width: 100%;
   padding: 0;
