@@ -7,6 +7,9 @@ body{
   padding: 10px;
 }
 
+a:hover {
+    color: #eca421;
+}
 
 .x_panel {
     /*margin: 3px 3px;*/
@@ -41,7 +44,7 @@ body{
 }
 
 .path-challenge input#edit-submit {
-    background-color: #59afe4;
+    background-color: #edac51;
     color: #fff;
     width: 33%;
     margin-left: 0px;
@@ -5030,7 +5033,7 @@ body .container.body .right_col {
      margin-top: -2em;
  }
 
- 
+
 .container.body {
   width: 100%;
   padding: 0;

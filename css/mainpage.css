@@ -280,12 +280,16 @@ ul a {
 }
 
 .path-user input {
-  /*border: 1px solid #fff;*/
+  border: 1px solid #fff;
   background-color: transparent;
   color: #ffff;
 }
 .user-branding .col-md-5 {
   margin-top: 5em;
+}
+
+.nav-md .child_menu {
+  padding-left: 3rem;
 }
 
 
