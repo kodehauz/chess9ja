@@ -511,10 +511,13 @@ body .container.body .right_col {
 .nav-md .nav > li > a {
   position: relative;
   display: block;
-    /*padding: 5px;*/
-   padding: 10px 15px;
+    padding: 5px;
+   /*padding: 10px 15px;*/
 }
 
+ul.nav.child_menu a {
+    padding-left: 4rem;
+}
 
 .side-menu a {
   color: #ffff;

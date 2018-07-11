@@ -943,11 +943,10 @@ div#edit-position--description {
 input#edit-submit {
   background-color: #edac51;
   color: #fff;
-  width: 50%;
+  width: 33%;
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: -10px;
 }
 
 input::placeholder {
