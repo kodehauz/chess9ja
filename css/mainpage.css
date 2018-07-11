@@ -947,6 +947,7 @@ input#edit-submit {
   margin-left: 0px;
   box-shadow: none;
   border: none;
+  margin-top: 15px;
 }
 
 input::placeholder {
