@@ -11,7 +11,10 @@ a:hover {
     color: #eca421;
 }
 
-
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+     background-color: #594346;
+}
 
 .x_panel {
     /*margin: 3px 3px;*/
@@ -970,6 +973,7 @@ body .container.body .right_col {
         background-color: #594346;
     }
 
+
     .nav-md .child_menu {
         padding-left: 3rem;
     }
@@ -977,7 +981,7 @@ body .container.body .right_col {
     ul.nav.child_menu a:hover {
         background-color:#594346;
     }
-    
+
     .nav li.current-page {
         background: rgba(255, 255, 255, 0.05);
     }
