@@ -416,7 +416,7 @@ ul a {
   background-color: #edac51;
 }
 
- .nav > child_menu > li > a:hover, .nav > li > a:focus {
+.side-menu .child_menu .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
   background-color: #6f4d4d;
 }
