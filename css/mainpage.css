@@ -413,10 +413,13 @@ ul a {
 
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #6f4d4d;
+  background-color: #edac51;
 }
 
-
+ .nav > child_menu > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #6f4d4d;
+}
 
 .path-contact .js-form-submit {
   width: 20%;
@@ -559,7 +562,7 @@ ul {
 .actions-suffix {
   color: #fff;
   border-radius: 8px;
-  text-align: center;
+  /*text-align: center;*/
   font-size: 1.6em;
 }
 
