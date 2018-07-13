@@ -445,6 +445,7 @@ a:hover{
 
 #edit-preview {
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 .form-item.js-form-type-radio.form-item-color.js-form-item-color {
@@ -1107,21 +1108,22 @@ input::placeholder {
   margin-bottom: -20px;
 }
 
-.path-node a {
-  color: #ef9d09;
-}
-
 .path-contact input#edit-submit {
   background-color: #edac51;
   color: #fff;
-  width: 33%;
-  margin-left: 0px;
+  width: 30%;
+  margin-left: -10px;
   box-shadow: none;
   border: none;
-  margin-top: 1.4em;
+  margin-top: 14px;
+  padding: 5px;
 }
 
 .path-contact input#edit-copy {
   float: left;
   margin: -5px;
+}
+
+.path-home a {
+  color: #ef9d09;
 }
