@@ -242,7 +242,7 @@ ul a {
 }
 
 .blog_title {
-  margin-top: 20px;
+  margin: 20px;
   font-size: 19px;
   text-transform: capitalize;
   color: #e3933b;
@@ -1135,6 +1135,7 @@ input::placeholder {
 .related_post {
     width: 350px;
     max-width: 100%;
+    min-height: 270px;
     /*margin-left: 10px;*/
     position: relative;
     display: -ms-flexbox;
@@ -1150,5 +1151,6 @@ input::placeholder {
     padding: 5px 0px 0px 0px;
     border-bottom: 10px solid #124361;
     margin-bottom: 15px;
+
 
  }
