@@ -629,8 +629,8 @@ ul {
 }
 
 .form-textarea {
-  max-width: inherit;
-  height: 101px;
+  width: 423px;
+  height: 105px;
   border-radius: 5px;
 }
 
@@ -1109,4 +1109,19 @@ input::placeholder {
 
 .path-node a {
   color: #ef9d09;
+}
+
+.path-contact input#edit-submit {
+  background-color: #edac51;
+  color: #fff;
+  width: 33%;
+  margin-left: 0px;
+  box-shadow: none;
+  border: none;
+  /* margin-top: 15px; */
+}
+
+.path-contact input#edit-copy {
+  float: left;
+  margin: -5px;
 }
