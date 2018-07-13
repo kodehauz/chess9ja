@@ -1118,7 +1118,7 @@ input::placeholder {
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  /* margin-top: 15px; */
+  margin-top: 1.4em;
 }
 
 .path-contact input#edit-copy {
