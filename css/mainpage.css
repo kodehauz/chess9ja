@@ -163,11 +163,11 @@ p.story-body-text.story-content.text-align-justify {
   padding-right: 20px;
 }
 
-#edit-subject-0-value {
-  padding: 7px;
-  width: 50%;
-  /*margin: 2em 0 2em;*/
-}
+/*#edit-subject-0-value {*/
+  /*padding: 7px;*/
+  /*width: 50%;*/
+  /*!*margin: 2em 0 2em;*!*/
+/*}*/
 
 
 
@@ -418,14 +418,30 @@ a:hover{
 
 .path-contact .js-form-submit {
   width: 20%;
-  background-color: #59afe4;
+  background-color: #6f6a64;
   color: #fff;
-  /*font-size: 1.3em;*/
-  font-weight: 700;
+  font-size: 1.3em;
+  /*font-weight: 700;*/
   border: none;
   margin-top: 3%;
   display: inline;
+  float: left;
 }
+
+.path-contact .contact-form label {
+  font-size: 1.3em;
+  display: inherit;
+}
+
+.path-contact#edit-submit {
+  background-color: #edac51;
+  color: #fff;
+  width: 32%;
+  margin-left: 0px;
+  box-shadow: none;
+  border: none;
+}
+
 
 #edit-preview {
   margin-left: 10px;
@@ -613,9 +629,11 @@ ul {
 }
 
 .form-textarea {
-  width: 547px;
+  max-width: inherit;
   height: 101px;
+  border-radius: 5px;
 }
+
 .js-form-type-radio {
   display: inline-flex;
   margin-top: -10px;
@@ -1062,6 +1080,33 @@ input::placeholder {
   color: #312e2b;
 }
 
+.node__content {
+  margin: -10px;
+}
 
+.node__meta span {
+  color: #ef9d09;
+  font-size: 1.1em;
+}
 
+.path-node img {
+  margin-bottom: 1rem;
+  float: left;
+  padding-left: 10px;
+  height: 100%;
+  margin-top: 5px;
+  margin-right: 2em;
+}
+.node__meta {
+  margin-top: 3em;
+}
 
+.path-node h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: -20px;
+}
+
+.path-node a {
+  color: #ef9d09;
+}
