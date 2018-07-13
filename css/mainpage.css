@@ -1086,7 +1086,7 @@ input::placeholder {
 }
 
 .node__meta span {
-  color: #ef9d09;
+  color: #edac51;
   font-size: 1.1em;
 }
 
@@ -1125,5 +1125,11 @@ input::placeholder {
 }
 
 .path-home a {
-  color: #ef9d09;
+  color: #edac51;
+}
+
+
+.soft-scroll .nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #edac51;
 }
