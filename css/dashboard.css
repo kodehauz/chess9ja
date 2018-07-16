@@ -5127,37 +5127,3 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 }
 
 
-.path-opponent-game-form {
-    display: grid;
-    grid-template-areas:
-            "top-left top-right"
-            "middle middle";
-    /*grid-gap: 10px;*/
-    grid-template-columns: 1fr 1fr;
-}
-
-
-.js-form-item-game-time-value {
-    grid-area: top-right;
-}
-
-.js-form-item-opponent.form-item-opponent{
-     grid-area: top-left;
-}
-
-
-.path-random-game-form{
-    display: grid;
-     grid-template-areas:
-     "top top"
-     "btn btn";
-    grid-template-columns: 1fr 1fr;
-}
-
-
-#edit-description{
-    grid-area: top;
-}
-.fieldset-wrapper{
-    grid-area: btn;
-}
