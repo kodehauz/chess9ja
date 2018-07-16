@@ -3,6 +3,13 @@ body{
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
 }
 
+
+.dashboard-content.col-md-8.col-sm-8.col-xs-12 {
+    background-color: #fff;
+    height: 790px;
+}
+
+
 .fa {
   padding: 10px;
 }
@@ -5104,8 +5111,4 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
     max-width: 100%;
 }
 
-dashboard-content.col-md-8.col-sm-8.col-xs-12 {
-    background-color: #fff;
-    height: 790px;
-}
 
