@@ -993,7 +993,7 @@ input::placeholder {
 .user-login-form {
   display: grid;
   grid-template-areas:
-    "message message"
+    "message message message messsage"
     "top top"
     "mid mid"
     "action action"
@@ -1073,8 +1073,8 @@ input::placeholder {
 }
 .path-node .text-align-justify {
   text-align: justify;
-  font-size: 1.5em;
-  line-height: 2em;
+  font-size: 1.2em;
+  line-height: 1.2em;
   margin-top: 15px;
   color: #312e2b;
 }
@@ -1093,7 +1093,7 @@ input::placeholder {
   max-height: 100%;
   margin-top: 5px;
   margin-right: 2em;
-  margin-bottom: -20px;
+  /*margin-bottom: 20px;*/
 
 }
 .node__meta {
@@ -1154,3 +1154,14 @@ input::placeholder {
 
 
  }
+
+
+.path-user input#edit-submit {
+  background-color: #edac51;
+  color: #fff;
+  width: 33%;
+  margin-left: 0px;
+  box-shadow: none;
+  border: none;
+  margin-top: -14px;
+}
