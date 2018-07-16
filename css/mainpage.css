@@ -993,7 +993,7 @@ input::placeholder {
 .user-login-form {
   display: grid;
   grid-template-areas:
-    "message message message messsage"
+    "message message"
     "top top"
     "mid mid"
     "action action"
@@ -1024,7 +1024,7 @@ input::placeholder {
 
 .messages--status{
   grid-area: message;
-  margin: -10px 0px 15px;
+  margin: 10px 0px 15px;
 }
 
 .inst {
