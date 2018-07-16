@@ -607,7 +607,7 @@ ul {
   font-size: 14px;
   overflow-y: auto;
   line-height: 2.0;
-  max-height: 750px
+  max-height: 550px
 }
 
 .responsive-enabled thead {
