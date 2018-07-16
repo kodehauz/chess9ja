@@ -5117,13 +5117,15 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 #edit-delete {
     background-color: #312e2b;
     padding: 10px;
-    /*margin: -15px 10px 0px;*/
+    margin: -15px 10px 0px;
     width: 25%;
     max-width: 100%;
 }
 
 #profile-payment-details-edit-form {
-    margin-top: 9rem;
+    margin-top: 3rem;
 }
 
-
+#edit-actions {
+    margin-top: 6%;
+}

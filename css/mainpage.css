@@ -607,7 +607,7 @@ ul {
   font-size: 14px;
   overflow-y: auto;
   line-height: 2.0;
-  max-height: 550px
+  max-height: 650px
 }
 
 .responsive-enabled thead {
@@ -625,6 +625,10 @@ ul {
 
 
 .path-chessbet .responsive-enabled thead tr th {
+  border: 1px solid #5f565661;
+}
+
+.path-players .responsive-enabled thead tr th {
   border: 1px solid #5f565661;
 }
 
@@ -972,7 +976,7 @@ input#edit-submit {
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: -1px;
+  margin-top: 2rem;
 }
 
 input::placeholder {
@@ -1162,15 +1166,6 @@ input::placeholder {
 
 
  }
-
-/*input#edit-submit {*/
-  /*background-color: #edac51;*/
-  /*color: #fff;*/
-  /*width: 33%;*/
-  /*margin-left: 0px;*/
-  /*box-shadow: none;*/
-  /*border: none;*/
-  /*margin-top: -1px;*/
 
 
 
