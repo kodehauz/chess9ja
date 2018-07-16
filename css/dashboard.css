@@ -5094,9 +5094,11 @@ path-random-game-form input#edit-submit {
 }
 
 .path-chessbet #edit-email, #edit-amount {
-    width: 100%;
+    width: 70%;
     display: inherit;
+    max-width: 100%;
 }
+
 .current-game a {
     color: darkgray;
 }
@@ -5108,6 +5110,15 @@ strong, a {
 input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 #edit-field-bank-name-0-value, #edit-field-secret-key-0-value {
     display: inherit;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+#edit-delete {
+    background-color: #312e2b;
+    padding: 10px;
+    margin: -15px 10px 0px;
+    width: 25%;
     max-width: 100%;
 }
 
