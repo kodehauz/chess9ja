@@ -86,5 +86,7 @@
   padding: 15px 20px 15px 35px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  background: #fff
+  background: #fff;
+  grid-area: message;
+  margin-bottom: 2rem;
 }
