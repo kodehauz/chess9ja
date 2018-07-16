@@ -5100,10 +5100,10 @@ path-random-game-form input#edit-submit {
 }
 
 .current-game a {
-    color: darkgray;
+    color: #797776;
 }
 strong, a {
-    color: darkgray;
+    color: #797776;
 }
 
 
@@ -5117,9 +5117,38 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 #edit-delete {
     background-color: #312e2b;
     padding: 10px;
-    margin: -15px 10px 0px;
+    /*margin: -15px 10px 0px;*/
     width: 25%;
     max-width: 100%;
 }
 
+#profile-payment-details-edit-form {
+    margin-top: 9rem;
+}
 
+
+.path-opponent-game-form {
+    display: grid;
+    grid-template-areas:
+            "top-left top-right";
+    /*grid-gap: 10px;*/
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.path-random-game-form{
+    display: grid;
+     grid-template-areas:
+     "top top"
+     "btn btn";
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#edit-description{
+    grid-area: top;
+}
+.fieldset-wrapper{
+    grid-area: btn;
+}

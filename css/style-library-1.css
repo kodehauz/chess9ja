@@ -1372,12 +1372,12 @@ button:hover
 
 /* FORM CONTROL */
 
-fieldset
-{
-    border: 2px solid #ecf0f1;
-    border-radius: 6px;
-    padding: 30px 50px;
-}
+/*fieldset*/
+/*{*/
+    /*border: 2px solid #ecf0f1;*/
+    /*border-radius: 6px;*/
+    /*padding: 30px 50px;*/
+/*}*/
 
 fieldset legend {
     font-weight: bold;

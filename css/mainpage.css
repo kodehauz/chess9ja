@@ -455,7 +455,7 @@ a:hover{
   margin-left: 10px;
 }
 .vchess-opponent-game-form #edit-submit {
-  background-color: #59afe4;
+  background-color: #edac51;
   color: #fff;
   width: 33%;
   margin: 10px 0px;
@@ -598,7 +598,7 @@ ul {
   padding: 10px 17px;
   display: inline-block;
   background: #fff;
-  border: 1px solid #E6E9ED;
+  /*border: 1px solid #E6E9ED;*/
   -webkit-column-break-inside: avoid;
   -moz-column-break-inside: avoid;
   column-break-inside: avoid;
@@ -607,6 +607,7 @@ ul {
   font-size: 14px;
   overflow-y: auto;
   line-height: 2.0;
+  max-height: 750px
 }
 
 .responsive-enabled thead {
@@ -619,7 +620,14 @@ ul {
 .responsive-enabled td {
    padding-left: 10px;
    color: #5f5656;
+  border: 1px solid #5f565661;
 }
+
+
+.path-chessbet .responsive-enabled thead tr th {
+  border: 1px solid #5f565661;
+}
+
 
 .form-type-checkbox {
   margin-left: 10px;
@@ -657,7 +665,7 @@ ul {
 
 input#edit-opponent {
   width: 33%;
-  margin-top: 2em;
+  display: inherit;
 }
 
 .user-name {
@@ -964,7 +972,7 @@ input#edit-submit {
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: 15px;
+  margin-top: -1px;
 }
 
 input::placeholder {
@@ -1154,6 +1162,16 @@ input::placeholder {
 
 
  }
+
+/*input#edit-submit {*/
+  /*background-color: #edac51;*/
+  /*color: #fff;*/
+  /*width: 33%;*/
+  /*margin-left: 0px;*/
+  /*box-shadow: none;*/
+  /*border: none;*/
+  /*margin-top: -1px;*/
+
 
 
 .path-user input#edit-submit {
