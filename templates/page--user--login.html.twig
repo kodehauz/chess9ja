@@ -1,13 +1,16 @@
 
 {% include directory ~ '/templates/header.html.twig' %}
+
 {{ attach_library('chess9ja/user--login') }}
 <div class="container-fluid">
-  <div class="row">
-    <section id="promo-1" class="content-block promo-1 min-height-600px bg-offwhite">
+  <div class="login-users">
+    <div class="row">
+      <section id="promo-1" class="content-block promo-1 min-height-600px bg-offwhite">
         <div class="row">
-      <div class="row main-content user-branding">
+          <div class="row main-content user-branding">
           {{ page.site_brand }}
-        <div class="container">
+          <div class="container">
+          
           <div class="col-md-5">
             <h2 class="logintitle">Login to Chess9ja!</h2>
               {{ page.status_message }}
@@ -18,6 +21,7 @@
       </div>
     </div>
     </section>
+  </div>
   </div>
 </div>
 {% include directory ~ '/templates/footer.html.twig' %}

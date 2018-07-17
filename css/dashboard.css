@@ -31,6 +31,7 @@ a:hover {
     padding-bottom: 2em;
     border: solid #edac51;
     background-color: #fff;
+    margin-top: inherit
 }
 
 .form-player {
@@ -56,12 +57,13 @@ a:hover {
 }
 
 .path-challenge input#edit-submit {
-    background-color: #edac51;
+    /* background-color: #edac51;  */
+    background-color: #504f52;
     color: #fff;
     width: 33%;
     margin-left: 0px;
     box-shadow: none;
-    margin-top: 10px;
+    margin-top: 2rem;
     box-shadow: none;
 }
 .daterangepicker .input-mini {
@@ -329,6 +331,7 @@ a:hover {
 
 .menu_section {
   margin-bottom: 35px;
+  font-size: 16px;
 }
 
 .menu_section h3 {
@@ -5090,14 +5093,22 @@ path-random-game-form input#edit-submit {
 
 .path-chessbet #edit-amount, #edit-secret-code {
     max-width: 100%;
-    display: inherit;
+    display: inherit; 
+    width: 70%;
 }
 
 .path-chessbet #edit-email, #edit-amount {
     width: 70%;
     display: inherit;
     max-width: 100%;
+  
+   
 }
+
+form#chessbet-claim-money-form,#chessbet-credit-purchase-form {
+  margin-top: 3rem;
+}
+
 
 .current-game a {
     color: #797776;
@@ -5106,20 +5117,29 @@ strong, a {
     color: #797776;
 }
 
+input#edit-date-from,#edit-date-to {
+  border: 1px solid gray;
+  display: inherit;
+  color: darkgray;
+  width: 33%;
+}
 
 input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 #edit-field-bank-name-0-value, #edit-field-secret-key-0-value {
     display: inherit;
     max-width: 100%;
-    border: 1px solid grey;
+    border: 1px solid #cac7c3;
+    color: darkgray;
+   
 }
 
 #edit-delete {
-    background-color: #312e2b;
-    padding: 10px;
-    margin: -15px 10px 0px;
-    width: 25%;
-    max-width: 100%;
+  background-color: #f31515b8;
+  padding: 10px;
+  margin: -15px 10px 0px;
+  width: 25%;
+  max-width: 100%;
+  color: #ffff;
 }
 
 #profile-payment-details-edit-form {
@@ -5128,4 +5148,41 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 
 #edit-actions {
     margin-top: 6%;
+}
+
+input#edit-game-time-value {
+  display: inherit;
+  margin-top: 1rem;
+}
+
+.register-users input#edit-submit {
+  background-color: #edac51;
+  color: #fff;
+  /* width: 33%; */
+  margin-left: 0px;
+  box-shadow: none;
+  border: none;
+  margin-top: 2rem;
+}
+
+.pass-users input#edit-submit {
+  background-color: #edac51;
+  color: #fff;
+  width: 50%;
+  margin-left: 0px;
+  box-shadow: none;
+  border: none;
+  margin-top: -1rem;
+}
+
+.path-random-game-form input#edit-submit {
+  margin-top: 2rem;
+}
+
+#profile-payment-details-edit-form input#edit-submit {
+  margin-top: -1rem;
+}
+
+.navbar.nav_title a, .navbar-right a {
+  color: #fff;
 }

@@ -455,10 +455,11 @@ a:hover{
   margin-left: 10px;
 }
 .vchess-opponent-game-form #edit-submit {
-  background-color: #edac51;
+  /* background-color: #edac51;  */
+  background-color: #504f52;
   color: #fff;
   width: 33%;
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 
 div#edit-amount--description {
@@ -551,9 +552,11 @@ ul {
 .js-quickedit-page-title{
   display: none;
 }
-.path-user ul li a {
-  font-size: 1.2em;
-}
+
+/* .path-user ul li {
+  font-size: 1em;
+} */
+
 .login-title {
   color: #1a465b;
   font-weight: bold;
@@ -568,6 +571,9 @@ ul {
   border: none;
 }
 
+form#balance-tracker-date-form {
+  margin-top: 4rem;
+}
 
 .actions-suffix {
   color: #fff;
@@ -914,7 +920,7 @@ select#edit-game-time-unit {
   margin-top: -9%;
   padding: 9px 5px;
   border-radius: 5px;
-  margin-left: 25%;
+  margin-left: 15%;
   width: 18%;
 }
 
@@ -924,6 +930,8 @@ select#edit-game-time-unit {
     padding: 9px 5px;
     border-radius: 5px;
     width: 18%;
+    margin-left: 25%;
+    margin-top: -12%;
   }
 }
 
@@ -970,13 +978,14 @@ div#edit-position--description {
 }
 
 input#edit-submit {
-  background-color: #edac51;
+  /* background-color: #edac51; */
+ background-color: #504f52;
   color: #fff;
   width: 33%;
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: 2rem;
+  /* margin-top: -2rem; */
 }
 
 input::placeholder {
@@ -1169,12 +1178,12 @@ input::placeholder {
 
 
 
-.path-user input#edit-submit {
+.login-users input#edit-submit {
   background-color: #edac51;
   color: #fff;
   width: 33%;
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: -14px;
+  margin-top: 14px;
 }
