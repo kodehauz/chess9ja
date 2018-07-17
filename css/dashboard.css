@@ -5143,7 +5143,7 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 }
 
 #profile-payment-details-edit-form {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 #edit-actions {
@@ -5185,4 +5185,22 @@ input#edit-game-time-value {
 
 .navbar.nav_title a, .navbar-right a {
   color: #fff;
+}
+
+#block-chess9ja-local-tasks {
+  margin-top: 5rem;
+}
+
+
+.user-logged-in {
+height: ;
+}
+
+input#edit-pass {
+  margin-top: 10px;
+}
+
+.path-game .dashboard-content.col-md-8.col-sm-8.col-xs-12 {
+  background-color: #fff;
+  min-height: 130rem;
 }

@@ -277,11 +277,22 @@ ul a {
   display: none;
 }
 
-.path-user input {
+.path-user .user-login-form input {
   border: 1px solid #fff;
   background-color: transparent;
   color: #ffff;
 }
+
+.pass-users input#edit-name {
+  background: transparent;
+  color: #fff;
+}
+
+.register-users input {
+  background: transparent;
+  color: #fff;
+}
+
 .user-branding .col-md-5 {
   margin-top: 5em;
 }
@@ -396,7 +407,7 @@ ul a {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  background-color: #fff;
+  /* background-color: #fff; */
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -937,13 +948,11 @@ select#edit-game-time-unit {
 
 
 
-
 @media screen and (max-width: 600px){
   select#edit-game-time-time-per-move {
     width: 57%;
   }
 }
-
 
 
 
@@ -977,7 +986,7 @@ div#edit-position--description {
   float: right;
 }
 
-input#edit-submit {
+.path-home input#edit-submit {
   /* background-color: #edac51; */
  background-color: #504f52;
   color: #fff;
@@ -985,7 +994,21 @@ input#edit-submit {
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  /* margin-top: -2rem; */
+  margin-top: -2rem;
+}
+
+.register-users input#edit-submit {
+  background: #edac51;
+  width: 50%;
+  margin-top: 1rem
+}
+
+.pass-users input#edit-submit {
+  width: 35%;
+  margin-top: -2rem;
+  background: #edac51;
+  color: #fff;
+  border: none;
 }
 
 input::placeholder {
@@ -1177,13 +1200,11 @@ input::placeholder {
  }
 
 
-
 .login-users input#edit-submit {
   background-color: #edac51;
   color: #fff;
-  width: 33%;
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: 14px;
+
 }
