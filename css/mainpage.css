@@ -1052,6 +1052,7 @@ input::placeholder {
 
 .form-item-pass {
   grid-area: mid;
+  margin-top: 1.3rem;
 }
 
 .form-actions {
@@ -1146,8 +1147,9 @@ input::placeholder {
 
 .path-node h1 {
   font-weight: bold;
-  font-size: 3rem;
-  /*margin-bottom: -20px;*/
+    font-size: 3rem;
+    margin-bottom: -10px;
+    margin-top: 4rem;
 }
 
 .path-contact input#edit-submit {
@@ -1195,10 +1197,7 @@ input::placeholder {
     padding: 5px 0px 0px 0px;
     border-bottom: 10px solid #124361;
     margin-bottom: 15px;
-
-
  }
-
 
 .login-users input#edit-submit {
   background-color: #edac51;
@@ -1207,4 +1206,9 @@ input::placeholder {
   box-shadow: none;
   border: none;
 
+}
+
+suggestions.description li {
+  color: black;
+  list-style: bengali;
 }

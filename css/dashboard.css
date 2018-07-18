@@ -5154,7 +5154,7 @@ input#edit-field-account-name-0-value, #edit-field-account-number-0-value,
 }
 
 #edit-actions {
-    margin-top: 6%;
+    margin-top: 2%;
 }
 
 input#edit-game-time-value {
@@ -5197,6 +5197,7 @@ input#edit-game-time-value {
 #block-chess9ja-local-tasks {
   margin-top: 5rem;
 }
+
 
 
 input#edit-pass {
