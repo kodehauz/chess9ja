@@ -84,7 +84,7 @@ table.board-main > tbody > tr > td {
 
 .vchess-moves-list {
     height: 250px;
-    overflow-y: auto;
+    overflow-y: overlay;
 }
 
 .vchess-captured-pieces {
@@ -257,11 +257,6 @@ table.board-main > tbody > tr > td {
 }
 
 
-.vchess-moves-list {
-    max-height: 250px;
-    overflow-y: auto;
-}
-
 .vchess-captured-pieces {
     max-height: 250px;
     overflow-y: auto;
@@ -273,6 +268,10 @@ table.board-main > tbody > tr > td {
     height: 40px;
     vertical-align: middle;
     border: none;
+}
+
+table.moves-list.responsive-enabled.table.table-striped {
+    display: inline-table;
 }
 
 .table > tbody > tr > td {
@@ -306,3 +305,89 @@ table.board-main > tbody > tr > td {
     margin-left: 10px;
 }
 
+
+.game-left-side {
+    width: calc(50% - 10px);
+    box-shadow: 0 4px 10px 0 rgba(245, 240, 240, 0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    /* border: solid #edac51; */
+    background-color: #fff;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 991px){
+.game-left-side .game-right-side {
+    padding: 0 5px 6px;
+    position: relative;
+    /* float: left; */
+    clear: both;
+    margin-top: 5px;
+}
+}
+
+
+.game-right-side {
+    width: calc(50% - 10px);
+    box-shadow: 0 4px 10px 0 rgba(245, 240, 240, 0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    /* border: solid #edac51; */
+    background-color: #fff;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+input#flip-board {
+    /* border: 6px solid; */
+    margin-left: 12em;
+    margin-bottom: 20px;
+}
+
+.board-frame .name {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.path-vchess label {
+    font-size: 17px;
+}
+
+
+/* .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  } */
+   
+  @media only screen and (min-width: 600px) {
+    .board-frame {
+        width: 100%;
+     }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .soft-scroll {
+        width: 100%;
+     }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .soft-scroll {
+        width: 100%;
+     }
+  }
+  
+
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+     .board-frame {
+        width: 100%;
+     }
+  }
+
+
+  

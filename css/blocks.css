@@ -152,6 +152,8 @@ Version: 1.0
   height: auto;
   width: 18%;
   margin-left: 10%;
+  border: 2px solid #fff;
+  border-radius: 50px;
 }
 
 .headroom

@@ -29,10 +29,17 @@ a:hover {
     padding: 5px 15px 10px 15px;
     margin: 15px 0px 15px 0px;
     padding-bottom: 2em;
-    border: solid #edac51;
+    /* border: solid #edac51; */
     background-color: #fff;
     margin-top: inherit
 }
+
+@media only screen and (min-width: 600px) {
+  .x_panel {
+      width: 100%;
+   }
+}
+
 
 .form-player {
     color: #fff;
@@ -5192,10 +5199,6 @@ input#edit-game-time-value {
 }
 
 
-.user-logged-in {
-height: ;
-}
-
 input#edit-pass {
   margin-top: 10px;
 }
@@ -5203,4 +5206,22 @@ input#edit-pass {
 .path-game .dashboard-content.col-md-8.col-sm-8.col-xs-12 {
   background-color: #fff;
   min-height: 130rem;
+}
+
+
+.password-parent {
+  display: table-caption;
+}
+
+input#edit-pass-pass2 {
+  display: inherit;
+  margin-bottom: 10px;
+}
+
+div#edit-pass {
+  margin-top: 5rem;
+}
+
+label.js-form-required.form-required {
+  margin-top: 15px;
 }

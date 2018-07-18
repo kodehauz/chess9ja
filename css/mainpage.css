@@ -613,7 +613,7 @@ form#balance-tracker-date-form {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px 17px;
-  display: inline-block;
+  display: inline-table;
   background: #fff;
   /*border: 1px solid #E6E9ED;*/
   -webkit-column-break-inside: avoid;
@@ -994,7 +994,7 @@ div#edit-position--description {
   margin-left: 0px;
   box-shadow: none;
   border: none;
-  margin-top: -2rem;
+  margin-top: 2rem;
 }
 
 .register-users input#edit-submit {
@@ -1166,14 +1166,14 @@ input::placeholder {
   margin: -5px;
 }
 
-.path-home a {
+.path-home a, a:hover {
   color: #edac51;
 }
 
 
 .soft-scroll .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #edac51;
+  /* background-color: #edac51; */
 }
 
 .related_post {
