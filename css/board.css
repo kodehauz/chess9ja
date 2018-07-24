@@ -84,7 +84,8 @@ table.board-main > tbody > tr > td {
 
 .vchess-moves-list {
     height: 250px;
-    overflow-y: overlay;
+    overflow-y: auto;
+    padding-top: 10px;
 }
 
 .vchess-captured-pieces {
@@ -309,13 +310,13 @@ table.moves-list.responsive-enabled.table.table-striped {
 .game-left-side {
     width: calc(50% - 10px);
     box-shadow: 0 4px 10px 0 rgba(245, 240, 240, 0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-    /* border: solid #edac51; */
-    background-color: #fff;
+    /* background-color: #131212c7; */
     display: flex;
-    padding: 5px;
     margin: 5px;
-    border-radius: 10px;
+    /* border-bottom: 10px solid #312e2b; */
+    border-top: 10px solid #312e2b;
 }
+
 
 @media (max-width: 991px){
 .game-left-side .game-right-side {
@@ -331,17 +332,15 @@ table.moves-list.responsive-enabled.table.table-striped {
 .game-right-side {
     width: calc(50% - 10px);
     box-shadow: 0 4px 10px 0 rgba(245, 240, 240, 0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
-    /* border: solid #edac51; */
-    background-color: #fff;
+    background-color: #312e2b;
     display: flex;
-    padding: 5px;
     margin: 5px;
-    border-radius: 10px;
+    /* border-bottom: 7px solid #fff; */
 }
 
 input#flip-board {
     /* border: 6px solid; */
-    margin-left: 12em;
+    margin-left: 5em;
     margin-bottom: 20px;
 }
 
@@ -389,5 +388,9 @@ input#flip-board {
      }
   }
 
+  .vchess-moves-list thead {
+    background: hsl(50, 2%, 26%);
+    color: #fff;
+}
 
   

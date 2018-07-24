@@ -1,18 +1,18 @@
   <div class="right_col" role="main">
     <div class="row">
-      <div class="dashboard-content col-md-8 col-sm-8 col-xs-12">
+      <div class="dashboard-content col-md-8 col-md-8 col-xs-12">
         {{ page.content }}
         {{ page.dasboard_content }}
 
         {% if page.dashboard_bottom_left or page.dashboard_bottom_right %}
         <div class="row">
           {% if page.dashboard_bottom_left %}
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-md-6 col-xs-12">
             {{ page.dashboard_bottom_left }}
           </div>
           {% endif %}
           {% if page.dashboard_bottom_right %}
-          <div class="col-sm-6 col-xs-12">
+          <div class="col-md-6 col-xs-12">
             {{ page.dashboard_bottom_right }}
           </div>
           {% endif %}
@@ -20,7 +20,7 @@
         {% endif %}
       </div>
 
-      <div class=" float-right col-md-4 col-sm-4 col-xs-12">
+      <div class=" float-right col-md-4 col-md-4 col-xs-12">
             {{ page.dashboard_right }}
       </div>
 

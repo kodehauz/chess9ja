@@ -7,24 +7,13 @@
       </div>
 
       <ul class="nav navbar-nav navbar-right">
-
-
-        <!-- Dashboard Header Menu icons begins here-->
-{% if logged_in %}
-  <li>
-    <a href="{{ url('user.logout') }}">
-      <i class="fa fa-sign-out"></i>
-      Logout
-    </a>
-  </li>
-        {% else %}
-        <li>
-          <a href="{{ url('user.login') }}">
-            <i class="fa fa-sign-in"></i>
-            Log in
-          </a>
-        </li>
-{% endif %}
+		{% if logged_in %}
+		  <li><a href="{{ url('user.logout') }}"><i class="fa fa-sign-out"></i>Logout</a></li>
+		  <li><a href="{{ url('user.page') }}"></a></li>
+		{% else %}
+		   <li><a href="{{ url('user.login') }}"><i class="fa fa-sign-in"></i>Log in</a></li>
+		   <li><a href="{{ url('user.register') }}"></a></li>
+		{% endif %}
       </ul>
     </nav>
     {{ page.top_nav }}

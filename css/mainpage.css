@@ -143,7 +143,7 @@ p.story-body-text.story-content.text-align-justify {
 .user-login-form input {
   width: 100% !important;
   padding: 10px;
-  color: #34495e;
+  color: #fff;
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 1.467;
@@ -365,7 +365,7 @@ ul a {
 .js-pager__items {
   display: flex;
   float: right;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 .dashboard_content ul li {
   color: #edac51;
@@ -782,7 +782,9 @@ input#edit-opponent {
 .x_title {
     font-family: fantasy;
     margin: -10px 0px;
+    color: #e0b04f;
 }
+
 .name {
   text-transform: capitalize;
     margin-left: 5px;
@@ -1118,8 +1120,8 @@ input::placeholder {
 }
 .path-node .text-align-justify {
   text-align: justify;
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1.5em;
+  line-height: 2em;
   margin-top: 15px;
   color: #312e2b;
 }

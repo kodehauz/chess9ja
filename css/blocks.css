@@ -4206,8 +4206,6 @@ Version: 1.0
 }
 @media (min-width: 768px){
   .navbar-nav > li:last-child > a {
-    border: 2px solid;
-    border-radius: 5px;
     height: auto !important;
     /*padding: 7px 10px;*/
     -moz-transition: all 0.5s;
