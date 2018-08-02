@@ -22,8 +22,8 @@ body, button {
 }
 
 
-p.story-body-text.story-content.text-align-justify {
-  color: #797776;
+path-frontpage .text-align-justify {
+    color: #797776;
 }
 
 .latest-news {
@@ -1213,4 +1213,16 @@ input::placeholder {
 suggestions.description li {
   color: black;
   list-style: bengali;
+}
+
+ul.logout {
+    float: right;
+    position: relative;
+    margin-bottom: -10px;
+    display: webkit-box;
+    position: relative;
+}
+
+.logout a {
+	font-size: 1.4em;
 }
