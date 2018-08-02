@@ -58,10 +58,13 @@ Version: 1.0
     background-color: #fff;
 }
 
-#header-1 .main-nav .nav
-{
-    margin-top: 12px;
+.path-node .main-nav .nav{
+    margin-top: -20px;
     margin-right: 5%;
+}
+
+.path-node .site-branding {
+    margin: -30px;
 }
 
 #header-1 .main-nav .navbar-nav > li a {
