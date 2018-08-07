@@ -1,7 +1,7 @@
 <div> 
  <ul class="logout">
 		{% if logged_in %}
-		  <li><a href="{{ url('user.logout') }}"><i class="fa fa-user">Logout</i></a></li>
+		  <li><a href="{{ url('user.logout') }}">Logout</a></li>
 		  <li><a href="{{ url('user.page') }}"></a></li>
 		{% else %}
 		   <li><a href="{{ url('user.login') }}">Log in</a></li>

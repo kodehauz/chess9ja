@@ -246,7 +246,9 @@ ul a {
   font-size: 19px;
   text-transform: capitalize;
   color: #e3933b;
-
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 
@@ -275,6 +277,10 @@ ul a {
 }
 #edit-name--description, #edit-pass--description {
   display: none;
+}
+
+.path-frontpage .current-game {
+  font-size: 1.3em;
 }
 
 .path-user .user-login-form input {
@@ -1225,4 +1231,9 @@ ul.logout {
 
 .logout a {
 	font-size: 1.4em;
+}
+
+
+.page-node-type-page ul#menu-main-menu {
+  margin: -25px 0px;
 }

@@ -59,12 +59,13 @@ Version: 1.0
 }
 
 .path-node .main-nav .nav{
-    margin-top: -20px;
-    margin-right: 5%;
+    margin-top: -3em;
+    margin-right: 5em
 }
 
 .path-node .site-branding {
-    margin: -30px;
+    padding: 20px;
+    margin-top: -6em;
 }
 
 #header-1 .main-nav .navbar-nav > li a {
@@ -158,6 +159,15 @@ Version: 1.0
   border: 2px solid #fff;
   border-radius: 50px;
 }
+
+
+.page-node-type-page #menu-trigger {
+    height: auto;
+    width: 18%;
+    margin: 25px 25px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+  }
 
 .headroom
 {
@@ -1340,7 +1350,7 @@ Version: 1.0
 /*----------------------------------------------------*/
 
 .content-2-2 h3 { font-weight: 300; }
-.content-2-2 h3, .content-2-2 p { color:#ffff }
+.content-2-2 h3, .content-2-2 p { color:rgb(41, 40, 40) }
 
 .content-2-2 .icon-outline {
 	height: 150px;
