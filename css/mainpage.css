@@ -1237,3 +1237,18 @@ ul.logout {
 .page-node-type-page ul#menu-main-menu {
   margin: -25px 0px;
 }
+
+.views-field-name a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+#block-views-block-who-s-new-block-1 {
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+#block-views-block-who-s-online-who-s-online-block {
+  background-color: #fff;
+  padding: 10px;
+}
