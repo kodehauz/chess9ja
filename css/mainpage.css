@@ -1223,10 +1223,7 @@ suggestions.description li {
 
 ul.logout {
     float: right;
-    position: relative;
-    margin-bottom: -10px;
-    display: webkit-box;
-    position: relative;
+    padding: 2em;
 }
 
 .logout a {

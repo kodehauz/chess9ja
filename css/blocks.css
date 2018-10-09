@@ -202,8 +202,7 @@ Version: 1.0
 
 /* Extra small devices (phones, less than 768px) */
 
-@media (max-width: 767px)
-{
+@media (max-width: 767px){
     #header-1 .brand-img
     {
         float: none;
@@ -215,8 +214,19 @@ Version: 1.0
     {
         position: relative;
     }
-    #header-1 .navbar-collapse
-    {
+    @media (max-width: 767px){
+    #header-1 .navbar-collapse {
+        border-top: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        width: 100%;
+        top: 80px;
+        z-index: 999;
+    }
+}
+
+    #header-1 .navbar-collapse{
         border-top: none;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -228,6 +238,7 @@ Version: 1.0
         opacity: .8;
         z-index: 999;
     }
+    
     #header-1 .navbar-collapse .nav
     {
         margin: 0;
