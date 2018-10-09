@@ -12,7 +12,7 @@ global:
       css/style-library-1.css: {}
       # css/game-timer.css: {}
   js:
-    js/custom.min.js: {}
+    js/custom.js: {}
     js/bootstrap.js: {}
   dependencies:
     - core/jquery
