@@ -233,8 +233,8 @@ Version: 1.0
         box-shadow: none;
         width: 100%;
         top: 80px;
-        position: absolute;
-        background: #6c6c6c;
+        /* position: absolute; */
+        /* background: #6c6c6c; */
         opacity: .8;
         z-index: 999;
     }
