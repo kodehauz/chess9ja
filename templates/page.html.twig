@@ -76,18 +76,6 @@
             <aside class="col-md-3">
               <section class="sidebar__section sidebar-second clearfix">
                {{ page.sidebar_second }}
-          <div> 
-            <ul class="logout">
-                {% if logged_in %}
-                  <li><a href="{{ url('user.logout') }}">Logout</a></li>
-                  <li><a href="{{ url('user.page') }}"></a></li>
-                {% else %}
-                  <li><a href="{{ url('user.login') }}">Log in</a></li>
-                  <li><a href="{{ url('user.register') }}"></a></li>
-                {% endif %}
-                  </ul>
-            </div>
-            
               </section>
             </aside>
           {% endif %}

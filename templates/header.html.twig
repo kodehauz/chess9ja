@@ -19,12 +19,27 @@
                 </button>
               </div>
               </div>
+
+        <div class="navbar-collapse">
           <div class="col-md-4 align-left">
             {{ page.header }}
           </div>
           {#<div class="col-md-8 align-right">#}
             {{ page.navigation }}
           {#</div>#}
+ 
+    <ul class="logout">
+        {% if logged_in %}
+          <li><a href="{{ url('user.logout') }}">Logout</a></li>
+          <li><a href="{{ url('user.page') }}"></a></li>
+          
+        {% else %}
+          <li><a href="{{ url('user.login') }}">Log in</a></li>
+          <li><a href="{{ url('user.register') }}"></a></li>
+        {% endif %}
+      </ul>
+
           </nav>
+          </div>
           </div>
         </header>
