@@ -4,14 +4,15 @@ global:
     base:
       css/custom.css: {}
       css/mainpage.css: {}
+       css/bootstrap.css: {}
       css/font-awesome/font-awesome.css: {}
       css/blocks.css: {}
       css/breadcrumb.css: {}
       css/messages.css: {}
-      css/bootstrap.css: {}
       css/style-library-1.css: {}
       # css/game-timer.css: {}
   js:
+    js/custom.min.js: {}
     js/bootstrap.js: {}
   dependencies:
     - core/jquery
