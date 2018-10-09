@@ -1249,3 +1249,7 @@ ul.logout {
   background-color: #fff;
   padding: 10px;
 }
+
+.path-frontpage .featured-news {
+  margin-bottom: 1.4em;
+}
