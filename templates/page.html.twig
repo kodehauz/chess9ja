@@ -75,6 +75,7 @@
           {% if page.sidebar_second %}
             <aside class="col-md-3">
               <section class="sidebar__section sidebar-second clearfix">
+               {{ page.sidebar_second }}
           <div> 
             <ul class="logout">
                 {% if logged_in %}
@@ -86,7 +87,7 @@
                 {% endif %}
                   </ul>
             </div>
-                {{ page.sidebar_second }}
+               
               </section>
             </aside>
           {% endif %}

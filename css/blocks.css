@@ -58,15 +58,15 @@ Version: 1.0
     background-color: #fff;
 }
 
-.path-node .main-nav .nav{
+/* .path-node .main-nav .nav{
     margin-top: -3em;
     margin-right: 5em
-}
+} */
 
-.path-node .site-branding {
+/* .path-node .site-branding {
     padding: 20px;
     margin-top: -6em;
-}
+} */
 
 #header-1 .main-nav .navbar-nav > li a {
 	    /* text-transform: uppercase; */
